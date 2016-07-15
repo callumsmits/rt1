@@ -1,0 +1,630 @@
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<html> <!-- CCP4 HTML LOGFILE -->
+<hr>
+<!--SUMMARY_END--></FONT></B>
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+<pre>
+ 
+ ###############################################################
+ ###############################################################
+ ###############################################################
+ ### CCP4 6.4: PRODRG            version 2.5-AA0717 :         ##
+ ###############################################################
+ User: stocklab  Run date: 22/ 5/2014 Run time: 16:02:57 
+
+
+ Please reference: Collaborative Computational Project, Number 4. 1994.
+ "The CCP4 Suite: Programs for Protein Crystallography". Acta Cryst. D50, 760-763.
+ as well as any specific reference in the program write-up.
+
+<!--SUMMARY_END--></FONT></B>
+ Data line--- COORDS BOTH
+ Data line--- MINI FLAT
+ Data line--- END
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ 
+ $TEXT:Warning: $$ comment $$ 
+ WARNING: Can only show polar hydrogens with FLATTEN.
+ $$
+<!--SUMMARY_END--></FONT></B>
+PRODRG> Parameter set 'pd/gromos96' (fftype=2).
+
+FORMATTED      OLD     file opened on unit  31
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+Logical name: XYZIN, Filename: coot-ccp4/tmp-residue-for-prodrg.pdb
+<!--SUMMARY_END--></FONT></B>
+
+PRODRG> PDB mode detected.
+ DETERMINING HYBRIDISATION FROM PDB INPUT
+
+  PA   (4c): sp3,                              qual = 200.00 0
+  PB   (4c): sp3,                              qual = 200.00 0
+  PG   (4c): sp3,                              qual = 200.00 0
+  C4'  (3c): sp3, RMS(plane) = 0.227,          qual = 199.95 0
+  C3'  (3c): sp3, RMS(plane) = 0.228,          qual = 199.95 0
+  C2'  (3c): sp3, RMS(plane) = 0.227,          qual = 199.95 0
+  C1'  (3c): sp3, RMS(plane) = 0.223,          qual = 199.91 0
+  N9   (3c): sp2, RMS(plane) = 0.001,          qual =  59.62 0
+  C4   (3c): sp2, RMS(plane) = 0.000,          qual = 198.78 0
+  C5   (3c): sp2, RMS(plane) = 0.003,          qual = 198.46 0
+  C6   (3c): sp2, RMS(plane) = 0.001,          qual = 198.70 0
+  O3A  (2c): sp3, default for oxygen,          qual = 160.00 0
+  O3B  (2c): sp3, default for oxygen,          qual = 160.00 0
+  O5'  (2c): sp3, default for oxygen,          qual = 160.00 0
+  C5'  (2c): sp3 by angle = 109.5 ...         (qual = 198.01 0)
+  O4'  (2c): sp3, default for oxygen,          qual = 160.00 0
+  N7   (2c): sp3 by angle = 109.4 ...         (qual = 200.00 0)
+             sp2 after ring test, RMS = 0.001, qual =  53.08 0
+  C8   (2c): sp3 by angle = 110.0 ...         (qual = 200.00 0)
+             sp2 after ring test, RMS = 0.001, qual =  50.39 0
+  N3   (2c): sp2 by angle = 120.7 ...         (qual = 198.38 0)
+             sp2 after ring test, RMS = 0.002, qual = 198.38 0
+  C2   (2c): sp2 by angle = 122.4 ...         (qual = 199.95 0)
+             sp2 after ring test, RMS = 0.002, qual = 199.95 0
+  N1   (2c): sp2 by angle = 121.2 ...         (qual = 199.40 0)
+             sp2 after ring test, RMS = 0.002, qual = 199.40 0
+  O2A  (1c): sp2 by dist = 1.483,              qual = 200.00 0
+  O1A  (1c): sp2 by dist = 1.483,              qual = 200.00 0
+  O1B  (1c): sp2 by dist = 1.483,              qual = 200.00 0
+  O2B  (1c): sp2 by dist = 1.482,              qual = 200.00 0
+  O3G  (1c): sp2 by dist = 1.513,              qual = 200.00 0
+  O2G  (1c): sp2 by dist = 1.513,              qual = 200.00 0
+  O1G  (1c): sp2 by dist = 1.513,              qual = 200.00 0
+  O3'  (1c): sp3 by dist = 1.429,              qual = 200.00 0
+  O2'  (1c): sp3 by dist = 1.428,              qual = 200.00 0
+  N6   (1c): sp2 by dist = 1.383,              qual =  91.97 0
+
+
+PRODRG> WARNING: deleted hydrogen(s) from your input.
+PRODRG> Molecule complexity index: 2.13.
+PRODRG>  12 hydrogen(s) added.
+ 
+    1  O3G  ,        2    1    2
+    2  PG   -        3    4    1    3    4    5
+    3  O2G  ,        2    1    2
+    4  O1G  ,        2    1    2
+    5  O3B  ,        3    2    2    6
+    6  PB   -        3    4    5    7    8    9
+    7  O1B  ,        2    1    6
+    8  O2B  ,        2    1    6
+    9  O3A  ,        3    2    6   10
+   10  PA   -        3    4    9   11   12   13
+   11  O2A  ,        2    1   10
+   12  O1A  ,        2    1   10
+   13  O5'  ,        3    2   10   14
+   14  C5'  +        3    4   13   15   16   17
+   15  H5'  ,        0    1   14
+   16  H5S  ,        0    1   14
+   17  C4'  -        3    4   14   18   19   20
+   18  H4'  ,        0    1   17
+   19  O4'  ,        3    2   17   28
+   20  C3'  -        3    4   17   21   22   24
+   21  H3'  ,        0    1   20
+   22  O3'  ,        3    2   20   23
+   23  H8L  ,        0    1   22
+   24  C2'  -        3    4   20   25   26   28
+   25  H2'  ,        0    1   24
+   26  O2'  ,        3    2   24   27
+   27  H8M  ,        0    1   26
+   28  C1'  -        3    4   19   24   29   30
+   29  H1'  ,        0    1   28
+   30  N9   +        2    3   28   31   35
+   31  C8   ,        2    3   30   32   33
+   32  H8   ,        0    1   31
+   33  N7   ,        2    2   31   34
+   34  C5   +        2    3   33   35   40
+   35  C4   -        2    3   30   34   36
+   36  N3   ,        2    2   35   37
+   37  C2   ,        2    3   36   38   39
+   38  H2   ,        0    1   37
+   39  N1   ,        2    2   37   40
+   40  C6   +        2    3   34   39   41
+   41  N6   -        2    3   40   42   43
+   42  H62  ,        0    1   41
+   43  H61  ,        0    1   41
+PRODRG> WARNING: fragmented charge group is ignored.
+
+
+PRODRG> Using a single charge group.
+PRODRG> Net charge on molecule:   0.000
+<!--SUMMARY_BEGIN-->
+Found  33 partial charges   ,   0 ambiguous
+<!--SUMMARY_END-->
+
+
+ASSIGNED ATOM TYPES / CONNECTIVITY
+
+ N  NAME     FFTYPE GC    PDTYPE PC DESCRIPTION                    SP 5 6 NCON  CONNECTIONS
+  1 O3G          OM  2        OM  2 CARBOXYL OXYGEN (CO-)           2 F F  1    2
+  2 PG            P 25         P 25 PHOSPHOR                        3 F F  4    1   3   4   5
+  3 O2G          OM  2        OM  2 CARBOXYL OXYGEN (CO-)           2 F F  1    2
+  4 O1G          OM  2        OM  2 CARBOXYL OXYGEN (CO-)           2 F F  1    2
+  5 O3B          OA  3        OA  3 HYDROXYL OXYGEN                 3 F F  2    2   6
+  6 PB            P 25         P 25 PHOSPHOR                        3 F F  4    5   7   8   9
+  7 O1B          OM  2        OM  2 CARBOXYL OXYGEN (CO-)           2 F F  1    6
+  8 O2B          OM  2        OM  2 CARBOXYL OXYGEN (CO-)           2 F F  1    6
+  9 O3A          OA  3        OA  3 HYDROXYL OXYGEN                 3 F F  2    6  10
+ 10 PA            P 25         P 25 PHOSPHOR                        3 F F  4    9  11  12  13
+ 11 O2A          OM  2        OM  2 CARBOXYL OXYGEN (CO-)           2 F F  1   10
+ 12 O1A          OM  2        OM  2 CARBOXYL OXYGEN (CO-)           2 F F  1   10
+ 13 O5'          OA  3        OA  3 HYDROXYL OXYGEN                 3 F F  2   10  14
+ 14 C5'         CH2 13       CH2 13 ALIPHATIC CH2-GROUP             3 F F  4   13  15  16  17
+ 15 H5'          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1   14
+ 16 H5S          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1   14
+ 17 C4'         CH1 12        CS 54 SUGAR CARBON                    3 T F  4   14  18  19  20
+ 18 H4'          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1   17
+ 19 O4'          OA  3        OS 53 SUGAR/ESTER OXYGEN              3 T F  2   17  28
+ 20 C3'         CH1 12        CS 54 SUGAR CARBON                    3 T F  4   17  21  22  24
+ 21 H3'          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1   20
+ 22 O3'          OA  3        OA  3 HYDROXYL OXYGEN                 3 F F  2   20  23
+ 23 H8L           H 17         H 17 HYDROGEN NOT BOUND TO CARBON    0 F F  1   22
+ 24 C2'         CH1 12        CS 54 SUGAR CARBON                    3 T F  4   20  25  26  28
+ 25 H2'          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1   24
+ 26 O2'          OA  3        OA  3 HYDROXYL OXYGEN                 3 F F  2   24  27
+ 27 H8M           H 17         H 17 HYDROGEN NOT BOUND TO CARBON    0 F F  1   26
+ 28 C1'         CH1 12        CS 54 SUGAR CARBON                    3 T F  4   19  24  29  30
+ 29 H1'          HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1   28
+ 30 N9           NR  8       NR5 57 NITROGEN (5-RING)               2 T F  3   28  31  35
+ 31 C8          CR1 15      CR51 56 CH-GROUP (5-RING)               2 T F  3   30  32  33
+ 32 H8           HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1   31
+ 33 N7           NR  8       NR5 57 NITROGEN (5-RING)               2 T F  2   31  34
+ 34 C5            C 11      CR50 55 BARE CARBON (5-RING)            2 T T  3   33  35  40
+ 35 C4            C 11      CR50 55 BARE CARBON (5-RING)            2 T T  3   30  34  36
+ 36 N3           NR  8        NR  8 AROMATIC NITROGEN               2 F T  2   35  37
+ 37 C2          CR1 15       CR1 15 AROMATIC CH-GROUP               2 F T  3   36  38  39
+ 38 H2           HC 16        HC 16 HYDROGEN BOUND TO CARBON        0 F F  1   37
+ 39 N1           NR  8        NR  8 AROMATIC NITROGEN               2 F T  2   37  40
+ 40 C6            C 11       CR0 60 BARE AROMATIC CARBON            2 F T  3   34  39  41
+ 41 N6           NT  6        NT  6 TERMINAL NITROGEN (NH2)         2 F F  3   40  42  43
+ 42 H62           H 17         H 17 HYDROGEN NOT BOUND TO CARBON    0 F F  1   41
+ 43 H61           H 17         H 17 HYDROGEN NOT BOUND TO CARBON    0 F F  1   41
+
+
+MOLECULE INFO
+
+  MOL. FORMULA:  C10 H12 N5 O13 P3
+  MOL. MASS   :  503.15 U
+
+
+TOPOLOGY WOES
+
+
+  - Undetermined bond  O3G  PG  [       OM-        P],
+    finding best match:
+        16         O-        P     5
+    Picked type  16 ( 1.48 A) with score  5.
+
+  - Undetermined bond  PG   O2G [        P-       OM],
+    finding best match:
+        16         O-        P     5
+    Picked type  16 ( 1.48 A) with score  5.
+
+  - Undetermined bond  PG   O1G [        P-       OM],
+    finding best match:
+        16         O-        P     5
+    Picked type  16 ( 1.48 A) with score  5.
+
+  - Undetermined bond  PB   O1B [        P-       OM],
+    finding best match:
+        16         O-        P     5
+    Picked type  16 ( 1.48 A) with score  5.
+
+  - Undetermined bond  PB   O2B [        P-       OM],
+    finding best match:
+        16         O-        P     5
+    Picked type  16 ( 1.48 A) with score  5.
+
+  - Undetermined bond  PA   O2A [        P-       OM],
+    finding best match:
+        16         O-        P     5
+    Picked type  16 ( 1.48 A) with score  5.
+
+  - Undetermined bond  PA   O1A [        P-       OM],
+    finding best match:
+        16         O-        P     5
+    Picked type  16 ( 1.48 A) with score  5.
+
+  - Undetermined bond  C5'  C4' [      CH2-       CS],
+    finding best match:
+        18        CS-       CS     5
+        19        Cx-       Cx     6
+    Picked type  19 ( 1.53 A) with score  6.
+
+  - Undetermined bond  C1'  N9  [       CS-      NR5],
+    finding best match:
+        10         C-      N2x     1
+        11         C-      N1x     2
+        23       NR5-     CR50     3
+        25       NR5-      CHx     6
+    Picked type  25 ( 1.48 A) with score  6.
+
+  - Undetermined bond  C8   H8  [     CR51-       HC],
+    finding best match:
+         5        HC-        C     5
+    Picked type   5 ( 1.09 A) with score  5.
+
+  - Undetermined bond  C5   C6  [     CR50-      CR0],
+    finding best match:
+        18        CS-       CS     1
+        19        Cx-       Cx     3
+        20      CR50-     CR50     5
+    Picked type  20 ( 1.33 A) with score  5.
+
+  - Undetermined bond  C4   N3  [     CR50-       NR],
+    finding best match:
+        10         C-      N2x     4
+        23       NR5-     CR50     5
+        27         C-       NR     6
+    Picked type  27 ( 1.34 A) with score  6.
+
+  - Undetermined bond  C2   H2  [      CR1-       HC],
+    finding best match:
+         5        HC-        C     5
+    Picked type   5 ( 1.09 A) with score  5.
+
+  - Undetermined bond  N1   C6  [       NR-      CR0],
+    finding best match:
+        10         C-      N2x     4
+        27         C-       NR     6
+    Picked type  27 ( 1.34 A) with score  6.
+
+  - Undetermined bond  C6   N6  [      CR0-       NT],
+    finding best match:
+        10         C-      N2x     6
+    Picked type  10 ( 1.33 A) with score  6.
+<!--SUMMARY_BEGIN-->
+Found  45 bonds             ,  15 ambiguous
+<!--SUMMARY_END-->
+
+  - Undetermined angle  O5'  C5'  H5' [       OA-      CH2-       HC],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        15        Cx-      CHx-       OA     4
+        85        HC-      CHx-       Cx     6
+    Picked type  85 with score  6.
+
+  - Undetermined angle  O5'  C5'  H5S [       OA-      CH2-       HC],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        15        Cx-      CHx-       OA     4
+        85        HC-      CHx-       Cx     6
+    Picked type  85 with score  6.
+
+  - Angle type fallback for O5'  C5'  C4'  .
+
+  - Undetermined angle  H5'  C5'  H5S [       HC-      CH2-       HC],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        85        HC-      CHx-       Cx     4
+    Picked type  85 with score  4.
+
+  - Angle type fallback for H5'  C5'  C4'  .
+
+  - Angle type fallback for H5S  C5'  C4'  .
+
+  - Angle type fallback for C5'  C4'  H4'  .
+
+  - Angle type fallback for C5'  C4'  C3'  .
+
+  - Undetermined angle  H4'  C4'  O4' [       HC-       CS-       OS],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        11       CH2-       CS-       OS     4
+        12        OS-       CS-       OS     6
+    Picked type  12 with score  6.
+
+  - Angle type fallback for H4'  C4'  C3'  .
+
+  - Angle type fallback for C4'  C3'  H3'  .
+
+  - Angle type fallback for C4'  C3'  O3'  .
+
+  - Undetermined angle  H3'  C3'  O3' [       HC-       CS-       OA],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        11       CH2-       CS-       OS     2
+        12        OS-       CS-       OS     4
+    Picked type  12 with score  4.
+
+  - Angle type fallback for H3'  C3'  C2'  .
+
+  - Angle type fallback for O3'  C3'  C2'  .
+
+  - Undetermined angle  C3'  O3'  H8L [       CS-       OA-        H],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        60         H-       OA-      CH2     8
+    Picked type  60 with score  8.
+
+  - Angle type fallback for C3'  C2'  H2'  .
+
+  - Angle type fallback for C3'  C2'  O2'  .
+
+  - Undetermined angle  H2'  C2'  O2' [       HC-       CS-       OA],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        11       CH2-       CS-       OS     2
+        12        OS-       CS-       OS     4
+    Picked type  12 with score  4.
+
+  - Angle type fallback for H2'  C2'  C1'  .
+
+  - Angle type fallback for O2'  C2'  C1'  .
+
+  - Undetermined angle  C2'  O2'  H8M [       CS-       OA-        H],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        60         H-       OA-      CH2     8
+    Picked type  60 with score  8.
+
+  - Undetermined angle  O4'  C1'  H1' [       OS-       CS-       HC],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        11       CH2-       CS-       OS     4
+        12        OS-       CS-       OS     6
+    Picked type  12 with score  6.
+
+  - Undetermined angle  O4'  C1'  N9  [       OS-       CS-      NR5],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+         2       CH2-       CS-       NR     5
+        12        OS-       CS-       OS     6
+        13        OS-       CS-       NR     8
+    Picked type  13 with score  8.
+
+  - Angle type fallback for C2'  C1'  H1'  .
+
+  - Angle type fallback for C2'  C1'  N9   .
+
+  - Undetermined angle  H1'  C1'  N9  [       HC-       CS-      NR5],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+         2       CH2-       CS-       NR     3
+    Picked type   2 with score  3.
+
+  - Undetermined angle  C1'  N9   C8  [       CS-      NR5-     CR51],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        58        FE-      NR5-     CR51     6
+    Picked type  58 with score  6.
+
+  - Undetermined angle  C1'  N9   C4  [       CS-      NR5-     CR50],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        58        FE-      NR5-     CR51     4
+    Picked type  58 with score  4.
+
+  - Undetermined angle  C8   N9   C4  [     CR51-      NR5-     CR50],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        58        FE-      NR5-     CR51     4
+    Picked type  58 with score  4.
+
+  - Overriding angle C8   N9   C4   , I/T/U=(  125.0  108.0  108.0).
+
+  - Undetermined angle  N9   C8   N7  [      NR5-     CR51-      NR5],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        70        HC-     CR51-      NR5     4
+    Picked type  70 with score  4.
+
+  - Overriding angle N9   C8   N7   , I/T/U=(  126.0  108.0  108.0).
+
+  - Undetermined angle  C8   N7   C5  [     CR51-      NR5-     CR50],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        58        FE-      NR5-     CR51     4
+    Picked type  58 with score  4.
+
+  - Overriding angle C8   N7   C5   , I/T/U=(  125.0  108.0  108.0).
+
+  - Undetermined angle  N7   C5   C4  [      NR5-     CR50-     CR50],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Overriding angle N7   C5   C4   , I/T/U=(  120.0  108.0  108.0).
+
+  - Undetermined angle  N7   C5   C6  [      NR5-     CR50-      CR0],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Overriding angle N7   C5   C6   , I/T/U=(  120.0  132.0  132.0).
+
+  - Undetermined angle  C4   C5   C6  [     CR50-     CR50-      CR0],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Undetermined angle  N9   C4   C5  [      NR5-     CR50-     CR50],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Overriding angle N9   C4   C5   , I/T/U=(  120.0  108.0  108.0).
+
+  - Undetermined angle  N9   C4   N3  [      NR5-     CR50-       NR],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Overriding angle N9   C4   N3   , I/T/U=(  120.0  132.0  132.0).
+
+  - Undetermined angle  C5   C4   N3  [     CR50-     CR50-       NR],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Undetermined angle  C4   N3   C2  [     CR50-       NR-      CR1],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Undetermined angle  N3   C2   N1  [       NR-      CR1-       NR],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+        25        HC-      CR1-       NR     4
+    Picked type  25 with score  4.
+
+  - Undetermined angle  C2   N1   C6  [      CR1-       NR-      CR0],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Undetermined angle  C5   C6   N1  [     CR50-      CR0-       NR],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Angle type fallback for C5   C6   N6   .
+
+  - Undetermined angle  N1   C6   N6  [       NR-      CR0-       NT],
+    finding best match:
+         1       CH2-       CS-      CH2     0
+    No match, set to 120.0.
+
+  - Angle type fallback for C6   N6   H62  .
+
+  - Angle type fallback for C6   N6   H61  .
+<!--SUMMARY_BEGIN-->
+Found  78 bond angles       ,  27 ambiguous
+<!--SUMMARY_END-->
+<!--SUMMARY_BEGIN-->
+Found  26 improper dihedrals,   0 ambiguous
+<!--SUMMARY_END-->
+
+  - Undetermined dihedral  C4'  C3'  O3'  H8L [       CS-       CS-       OA-        H],
+    finding best match:
+         1     X-        C-        C-    Y     2
+         2     X-      CR0-       OA-    Y     7
+        16     X-      CH2-       OA-    Y     8
+    Picked type  16 with score  8.
+
+  - Undetermined dihedral  C3'  C2'  O2'  H8M [       CS-       CS-       OA-        H],
+    finding best match:
+         1     X-        C-        C-    Y     2
+         2     X-      CR0-       OA-    Y     7
+        16     X-      CH2-       OA-    Y     8
+    Picked type  16 with score  8.
+
+  - Undetermined dihedral  O4'  C1'  N9   C4  [       OS-       CS-      NR5-     CR50],
+    finding best match:
+         1     X-        C-        C-    Y     3
+         5     X-        C-        N-    Y     4
+         6     X-        C-       NT-    Y     5
+         9     X-        C-       NR-    Y     6
+        21     X-       CS-       NT-    Y     8
+    Picked type  21 with score  8.
+<!--SUMMARY_BEGIN-->
+Found  16 dihedrals         ,   3 ambiguous
+<!--SUMMARY_END-->
+
+$TEXT:Result: $$ $$
+Topology quality on 0-10 scale:  6.9
+
+GENDRG> Best structure was iteration 1411 with  14.02068615
+PRODRG> Spawning REFMAC version 5.8.0071...
+PRODRG> Incorrect improper PG   O3G  O1G  O2G  
+PRODRG> RMSD from GROMOS bond ideality (Angstrom) :   0.005
+PRODRG> RMSD from GROMOS angle ideality (degrees) :   2.664
+PRODRG> RMSD from GROMOS plane ideality (degrees) :   4.580
+PRODRG> Number of improper improper dihedrals     :       1
+PRODRG> Wrong geometry on structure. Restarting.
+GENDRG> Best structure was iteration 4921 with  12.77575874
+PRODRG> Spawning REFMAC version 5.8.0071...
+PRODRG> RMSD from GROMOS bond ideality (Angstrom) :   0.008
+PRODRG> RMSD from GROMOS angle ideality (degrees) :   3.063
+PRODRG> RMSD from GROMOS plane ideality (degrees) :   4.049
+PRODRG> Number of improper improper dihedrals     :       0
+PRODRG> RMSD from starting bonds (Angstrom)  :   0.033
+PRODRG> RMSD from starting angles (degrees)  :   5.976
+PRODRG> RMSD from starting planes (degrees)  :   4.284
+PRODRG> RMSD from starting coords (Angstrom) :   2.365
+GENDRG> Best structure was iteration  128 with   0.00000000
+$$
+
+
+FEATURE/AFLAG LIST
+
+     7  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F T T F T T T F
+ F F F F F F F  (           5           1           0  )
+     1  F F F F F F F F F F F F F F F F T F T T F F F T F F F T F F F F F F F F
+ F F F F F F F  (           5           0          -1  )
+     7  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F T T T
+ T F T T F F F  (           6           1           0  )
+   256  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F T T F T T T T
+ T F T T T F F  (           9          -1          -1  )
+     2  F F F F F F F F F F F F F F F F F F F F F F F F F F F T F T T T T T T T
+ T T T T T F F  (          13          -1          -1  )
+   240  F F F F F F T T F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F  (           2          -1          -1  )
+   224  T F T T F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F  (           3          -1          -1  )
+   240  F F F F F F F F F F T T F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F  (           2          -1          -1  )
+    10  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F T T T T  (           4          -1          -1  )
+   512  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F T F F  (           4          -1          -1  )
+    1f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F T F F F F F F
+ F F F F F F F
+    2f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F T F F
+    3f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+    4f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+    5f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+    6f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F T F F T
+ F F T F F F F
+    7f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F T F F F F F F
+ F F F F F F F
+    8f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F T F F
+    9f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+   10f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+   11f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+   12f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+   13f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+   14f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+   15f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+   16f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+   17f  F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F F
+ F F F F F F F
+   18f  T T T T T T T T T T T T T T F F T F T T F T F T F T F T F T T F T T T T
+ T F T T T F F
+ 
+
+FORMATTED      UNKNOWN file opened on unit  10
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+Logical name: LIBOUT, Filename: coot-ccp4/.coot-to-lbg-lib
+<!--SUMMARY_END--></FONT></B>
+
+
+FORMATTED      UNKNOWN file opened on unit  11
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+Logical name: XYZOUT, Filename: coot-ccp4/.coot-to-lbg-pdb
+<!--SUMMARY_END--></FONT></B>
+
+
+FORMATTED      UNKNOWN file opened on unit  10
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+Logical name: MOLOUT, Filename: coot-ccp4/.coot-to-lbg-mol
+<!--SUMMARY_END--></FONT></B>
+
+<B><FONT COLOR="#FF0000"><!--SUMMARY_BEGIN-->
+ PRODRG:  Normal termination
+Times: User:       5.9s System:    0.0s Elapsed:     0:09  
+</pre>
+</html>
+<!--SUMMARY_END--></FONT></B>

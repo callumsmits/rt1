@@ -1,0 +1,798 @@
+global_
+_lib_name         ?
+_lib_version      ?
+_lib_update       ?
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+DUM      DUM '.                                   ' .                 134  52 .
+# ------------------------------------------------------
+# ------------------------------------------------------
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_DUM
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ DUM           O6     O    OP        0.000      0.000    0.000    0.000
+ DUM           P      P    P         0.000      1.169    0.951    0.109
+ DUM           O5     O    OP       -1.000      2.008    0.865    1.363
+ DUM           O7     O    O2        0.000      2.053    0.710   -1.223
+ DUM           C22    C    CH2       0.000      3.252    1.455   -1.346
+ DUM           H38    H    H         0.000      3.896    1.222   -0.495
+ DUM           H39    H    H         0.000      3.006    2.518   -1.334
+ DUM           C23    C    CH2       0.000      3.970    1.117   -2.631
+ DUM           H40    H    H         0.000      3.271    1.198   -3.465
+ DUM           H41    H    H         0.000      4.349    0.094   -2.573
+ DUM           N      N    NT        1.000      5.091    2.044   -2.837
+ DUM           C26    C    CH3       0.000      4.679    3.452   -3.035
+ DUM           H50    H    H         0.000      4.055    3.524   -3.889
+ DUM           H49    H    H         0.000      4.148    3.791   -2.183
+ DUM           H48    H    H         0.000      5.538    4.057   -3.176
+ DUM           C25    C    CH3       0.000      6.060    1.933   -1.728
+ DUM           H47    H    H         0.000      5.581    2.169   -0.813
+ DUM           H46    H    H         0.000      6.436    0.943   -1.683
+ DUM           H45    H    H         0.000      6.862    2.606   -1.889
+ DUM           C24    C    CH3       0.000      5.785    1.635   -4.075
+ DUM           H44    H    H         0.000      6.141    0.642   -3.971
+ DUM           H43    H    H         0.000      5.111    1.682   -4.892
+ DUM           H42    H    H         0.000      6.602    2.285   -4.256
+ DUM           O4     O    O2        0.000      0.532    2.423    0.008
+ DUM           C21    C    CH2       0.000      1.195    3.660    0.256
+ DUM           H36    H    H         0.000      2.003    3.752   -0.473
+ DUM           H37    H    H         0.000      1.618    3.610    1.262
+ DUM           C2     C    CH1       0.000      0.266    4.880    0.150
+ DUM           H      H    H         0.000     -0.323    4.812   -0.775
+ DUM           C1     C    CH2       0.000     -0.654    4.815    1.336
+ DUM           H1     H    H         0.000     -0.066    4.824    2.256
+ DUM           H2     H    H         0.000     -1.245    3.898    1.292
+ DUM           O1     O    O2        0.000     -1.516    5.935    1.316
+ DUM           C      C    C         0.000     -2.496    6.229    2.332
+ DUM           C27    C    CH2       0.000     -2.653    5.250    3.458
+ DUM           H51    H    H         0.000     -1.720    5.175    4.020
+ DUM           H52    H    H         0.000     -2.920    4.267    3.065
+ DUM           C28    C    CH2       0.000     -3.748    5.745    4.365
+ DUM           H53    H    H         0.000     -4.693    5.816    3.822
+ DUM           H54    H    H         0.000     -3.493    6.723    4.778
+ DUM           C29    C    CH2       0.000     -3.885    4.735    5.495
+ DUM           H55    H    H         0.000     -2.943    4.663    6.043
+ DUM           H56    H    H         0.000     -4.143    3.756    5.088
+ DUM           C30    C    CH2       0.000     -4.983    5.201    6.433
+ DUM           H57    H    H         0.000     -5.920    5.276    5.876
+ DUM           H58    H    H         0.000     -4.719    6.183    6.831
+ DUM           C31    C    CH2       0.000     -5.150    4.214    7.579
+ DUM           H59    H    H         0.000     -4.210    4.141    8.131
+ DUM           H60    H    H         0.000     -5.410    3.234    7.175
+ DUM           C32    C    CH2       0.000     -6.255    4.690    8.516
+ DUM           H61    H    H         0.000     -7.189    4.765    7.955
+ DUM           H62    H    H         0.000     -5.989    5.672    8.911
+ DUM           C33    C    CH2       0.000     -6.430    3.706    9.670
+ DUM           H63    H    H         0.000     -5.490    3.634   10.220
+ DUM           H64    H    H         0.000     -6.690    2.727    9.264
+ DUM           C34    C    CH2       0.000     -7.536    4.178   10.611
+ DUM           H65    H    H         0.000     -8.470    4.253   10.050
+ DUM           H66    H    H         0.000     -7.270    5.161   11.005
+ DUM           C35    C    CH2       0.000     -7.712    3.195   11.765
+ DUM           H67    H    H         0.000     -6.771    3.122   12.315
+ DUM           H68    H    H         0.000     -7.971    2.214   11.359
+ DUM           C36    C    CH2       0.000     -8.817    3.667   12.703
+ DUM           H69    H    H         0.000     -9.751    3.742   12.142
+ DUM           H70    H    H         0.000     -8.551    4.650   13.098
+ DUM           C37    C    CH2       0.000     -8.994    2.686   13.856
+ DUM           H71    H    H         0.000     -8.057    2.612   14.411
+ DUM           H72    H    H         0.000     -9.256    1.704   13.454
+ DUM           C38    C    CH2       0.000    -10.102    3.168   14.787
+ DUM           H73    H    H         0.000    -11.040    3.241   14.232
+ DUM           H74    H    H         0.000     -9.841    4.148   15.190
+ DUM           C39    C    CH2       0.000    -10.262    2.176   15.927
+ DUM           H75    H    H         0.000     -9.314    2.107   16.464
+ DUM           H76    H    H         0.000    -10.513    1.200   15.507
+ DUM           C40    C    CH2       0.000    -11.354    2.612   16.882
+ DUM           H77    H    H         0.000    -12.291    2.686   16.326
+ DUM           H78    H    H         0.000    -11.092    3.593   17.282
+ DUM           C41    C    CH3       0.000    -11.517    1.626   18.021
+ DUM           H81    H    H         0.000    -11.771    0.674   17.632
+ DUM           H80    H    H         0.000    -10.608    1.555   18.560
+ DUM           H79    H    H         0.000    -12.286    1.958   18.669
+ DUM           O      O    O         0.000     -3.142    7.255    2.172
+ DUM           O2     O    O2        0.000      1.076    6.059    0.115
+ DUM           C3     C    C         0.000      0.340    7.307    0.010
+ DUM           O3     O    O         0.000     -0.827    7.255   -0.345
+ DUM           C4     C    CH2       0.000      1.063    8.634    0.097
+ DUM           H3     H    H         0.000      1.751    8.757   -0.743
+ DUM           H4     H    H         0.000      1.617    8.715    1.034
+ DUM           C5     C    CH2       0.000     -0.009    9.719    0.041
+ DUM           H5     H    H         0.000     -0.672    9.600    0.900
+ DUM           H6     H    H         0.000     -0.583    9.598   -0.880
+ DUM           C6     C    CH2       0.000      0.616   11.100    0.070
+ DUM           H7     H    H         0.000      1.286   11.204   -0.786
+ DUM           H8     H    H         0.000      1.188   11.211    0.994
+ DUM           C7     C    CH2       0.000     -0.462   12.174    0.007
+ DUM           H9     H    H         0.000     -1.133   12.070    0.862
+ DUM           H10    H    H         0.000     -1.033   12.065   -0.918
+ DUM           C8     C    CH2       0.000      0.197   13.548    0.040
+ DUM           H11    H    H         0.000      0.869   13.640   -0.816
+ DUM           H12    H    H         0.000      0.771   13.644    0.964
+ DUM           C9     C    CH2       0.000     -0.858   14.644   -0.020
+ DUM           H13    H    H         0.000     -1.527   14.534    0.836
+ DUM           H14    H    H         0.000     -1.430   14.530   -0.944
+ DUM           C10    C    CH2       0.000     -0.211   16.026    0.013
+ DUM           H15    H    H         0.000      0.458   16.138   -0.844
+ DUM           H16    H    H         0.000      0.360   16.141    0.936
+ DUM           C11    C    C1        0.000     -1.296   17.084   -0.049
+ DUM           H17    H    H         0.000     -2.332   16.792   -0.105
+ DUM           C12    C    C1        0.000     -0.966   18.381   -0.034
+ DUM           H18    H    H         0.000      0.069   18.673    0.022
+ DUM           C13    C    CH2       0.000     -2.052   19.439   -0.096
+ DUM           H19    H    H         0.000     -2.721   19.328    0.761
+ DUM           H20    H    H         0.000     -2.623   19.324   -1.019
+ DUM           C14    C    CH2       0.000     -1.406   20.821   -0.063
+ DUM           H21    H    H         0.000     -0.734   20.915   -0.919
+ DUM           H22    H    H         0.000     -0.832   20.919    0.861
+ DUM           C15    C    CH2       0.000     -2.463   21.916   -0.123
+ DUM           H23    H    H         0.000     -3.133   21.809    0.733
+ DUM           H24    H    H         0.000     -3.035   21.806   -1.047
+ DUM           C16    C    CH2       0.000     -1.810   23.291   -0.090
+ DUM           H25    H    H         0.000     -1.140   23.394   -0.946
+ DUM           H26    H    H         0.000     -1.238   23.398    0.834
+ DUM           C17    C    CH2       0.000     -2.886   24.369   -0.151
+ DUM           H27    H    H         0.000     -3.556   24.269    0.705
+ DUM           H28    H    H         0.000     -3.459   24.265   -1.075
+ DUM           C18    C    CH2       0.000     -2.219   25.733   -0.118
+ DUM           H29    H    H         0.000     -1.546   25.813   -0.974
+ DUM           H30    H    H         0.000     -1.643   25.817    0.806
+ DUM           C19    C    CH2       0.000     -3.247   26.842   -0.176
+ DUM           H31    H    H         0.000     -3.918   26.740    0.680
+ DUM           H32    H    H         0.000     -3.820   26.736   -1.100
+ DUM           C20    C    CH3       0.000     -2.587   28.206   -0.143
+ DUM           H35    H    H         0.000     -2.032   28.308    0.753
+ DUM           H34    H    H         0.000     -1.937   28.305   -0.974
+ DUM           H33    H    H         0.000     -3.330   28.960   -0.185
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ DUM      O6     n/a    P      START
+ DUM      P      O6     O4     .
+ DUM      O5     P      .      .
+ DUM      O7     P      C22    .
+ DUM      C22    O7     C23    .
+ DUM      H38    C22    .      .
+ DUM      H39    C22    .      .
+ DUM      C23    C22    N      .
+ DUM      H40    C23    .      .
+ DUM      H41    C23    .      .
+ DUM      N      C23    C24    .
+ DUM      C26    N      H48    .
+ DUM      H50    C26    .      .
+ DUM      H49    C26    .      .
+ DUM      H48    C26    .      .
+ DUM      C25    N      H45    .
+ DUM      H47    C25    .      .
+ DUM      H46    C25    .      .
+ DUM      H45    C25    .      .
+ DUM      C24    N      H42    .
+ DUM      H44    C24    .      .
+ DUM      H43    C24    .      .
+ DUM      H42    C24    .      .
+ DUM      O4     P      C21    .
+ DUM      C21    O4     C2     .
+ DUM      H36    C21    .      .
+ DUM      H37    C21    .      .
+ DUM      C2     C21    O2     .
+ DUM      H      C2     .      .
+ DUM      C1     C2     O1     .
+ DUM      H1     C1     .      .
+ DUM      H2     C1     .      .
+ DUM      O1     C1     C      .
+ DUM      C      O1     O      .
+ DUM      C27    C      C28    .
+ DUM      H51    C27    .      .
+ DUM      H52    C27    .      .
+ DUM      C28    C27    C29    .
+ DUM      H53    C28    .      .
+ DUM      H54    C28    .      .
+ DUM      C29    C28    C30    .
+ DUM      H55    C29    .      .
+ DUM      H56    C29    .      .
+ DUM      C30    C29    C31    .
+ DUM      H57    C30    .      .
+ DUM      H58    C30    .      .
+ DUM      C31    C30    C32    .
+ DUM      H59    C31    .      .
+ DUM      H60    C31    .      .
+ DUM      C32    C31    C33    .
+ DUM      H61    C32    .      .
+ DUM      H62    C32    .      .
+ DUM      C33    C32    C34    .
+ DUM      H63    C33    .      .
+ DUM      H64    C33    .      .
+ DUM      C34    C33    C35    .
+ DUM      H65    C34    .      .
+ DUM      H66    C34    .      .
+ DUM      C35    C34    C36    .
+ DUM      H67    C35    .      .
+ DUM      H68    C35    .      .
+ DUM      C36    C35    C37    .
+ DUM      H69    C36    .      .
+ DUM      H70    C36    .      .
+ DUM      C37    C36    C38    .
+ DUM      H71    C37    .      .
+ DUM      H72    C37    .      .
+ DUM      C38    C37    C39    .
+ DUM      H73    C38    .      .
+ DUM      H74    C38    .      .
+ DUM      C39    C38    C40    .
+ DUM      H75    C39    .      .
+ DUM      H76    C39    .      .
+ DUM      C40    C39    C41    .
+ DUM      H77    C40    .      .
+ DUM      H78    C40    .      .
+ DUM      C41    C40    H79    .
+ DUM      H81    C41    .      .
+ DUM      H80    C41    .      .
+ DUM      H79    C41    .      .
+ DUM      O      C      .      .
+ DUM      O2     C2     C3     .
+ DUM      C3     O2     C4     .
+ DUM      O3     C3     .      .
+ DUM      C4     C3     C5     .
+ DUM      H3     C4     .      .
+ DUM      H4     C4     .      .
+ DUM      C5     C4     C6     .
+ DUM      H5     C5     .      .
+ DUM      H6     C5     .      .
+ DUM      C6     C5     C7     .
+ DUM      H7     C6     .      .
+ DUM      H8     C6     .      .
+ DUM      C7     C6     C8     .
+ DUM      H9     C7     .      .
+ DUM      H10    C7     .      .
+ DUM      C8     C7     C9     .
+ DUM      H11    C8     .      .
+ DUM      H12    C8     .      .
+ DUM      C9     C8     C10    .
+ DUM      H13    C9     .      .
+ DUM      H14    C9     .      .
+ DUM      C10    C9     C11    .
+ DUM      H15    C10    .      .
+ DUM      H16    C10    .      .
+ DUM      C11    C10    C12    .
+ DUM      H17    C11    .      .
+ DUM      C12    C11    C13    .
+ DUM      H18    C12    .      .
+ DUM      C13    C12    C14    .
+ DUM      H19    C13    .      .
+ DUM      H20    C13    .      .
+ DUM      C14    C13    C15    .
+ DUM      H21    C14    .      .
+ DUM      H22    C14    .      .
+ DUM      C15    C14    C16    .
+ DUM      H23    C15    .      .
+ DUM      H24    C15    .      .
+ DUM      C16    C15    C17    .
+ DUM      H25    C16    .      .
+ DUM      H26    C16    .      .
+ DUM      C17    C16    C18    .
+ DUM      H27    C17    .      .
+ DUM      H28    C17    .      .
+ DUM      C18    C17    C19    .
+ DUM      H29    C18    .      .
+ DUM      H30    C18    .      .
+ DUM      C19    C18    C20    .
+ DUM      H31    C19    .      .
+ DUM      H32    C19    .      .
+ DUM      C20    C19    H33    .
+ DUM      H35    C20    .      .
+ DUM      H34    C20    .      .
+ DUM      H33    C20    .      END
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ DUM      O      C         double      1.220    0.020
+ DUM      C      O1        single      1.454    0.020
+ DUM      O1     C1        single      1.426    0.020
+ DUM      C1     C2        single      1.524    0.020
+ DUM      H      C2        single      1.099    0.020
+ DUM      O2     C2        single      1.426    0.020
+ DUM      C3     O2        single      1.454    0.020
+ DUM      O3     C3        double      1.220    0.020
+ DUM      C4     C3        single      1.510    0.020
+ DUM      C5     C4        single      1.524    0.020
+ DUM      C6     C5        single      1.524    0.020
+ DUM      C7     C6        single      1.524    0.020
+ DUM      C8     C7        single      1.524    0.020
+ DUM      C9     C8        single      1.524    0.020
+ DUM      C10    C9        single      1.524    0.020
+ DUM      C11    C10       single      1.510    0.020
+ DUM      C12    C11       double      1.330    0.020
+ DUM      C13    C12       single      1.510    0.020
+ DUM      C14    C13       single      1.524    0.020
+ DUM      C15    C14       single      1.524    0.020
+ DUM      C16    C15       single      1.524    0.020
+ DUM      C17    C16       single      1.524    0.020
+ DUM      C18    C17       single      1.524    0.020
+ DUM      C19    C18       single      1.524    0.020
+ DUM      C20    C19       single      1.513    0.020
+ DUM      C2     C21       single      1.524    0.020
+ DUM      C21    O4        single      1.426    0.020
+ DUM      O4     P         single      1.610    0.020
+ DUM      O5     P         deloc       1.510    0.020
+ DUM      P      O6        deloc       1.510    0.020
+ DUM      O7     P         single      1.610    0.020
+ DUM      C22    O7        single      1.426    0.020
+ DUM      C23    C22       single      1.524    0.020
+ DUM      N      C23       single      1.469    0.020
+ DUM      C24    N         single      1.469    0.020
+ DUM      C25    N         single      1.469    0.020
+ DUM      C26    N         single      1.469    0.020
+ DUM      C27    C         single      1.510    0.020
+ DUM      C28    C27       single      1.524    0.020
+ DUM      C29    C28       single      1.524    0.020
+ DUM      C30    C29       single      1.524    0.020
+ DUM      C31    C30       single      1.524    0.020
+ DUM      C32    C31       single      1.524    0.020
+ DUM      C33    C32       single      1.524    0.020
+ DUM      C34    C33       single      1.524    0.020
+ DUM      C35    C34       single      1.524    0.020
+ DUM      C36    C35       single      1.524    0.020
+ DUM      C37    C36       single      1.524    0.020
+ DUM      C38    C37       single      1.524    0.020
+ DUM      C39    C38       single      1.524    0.020
+ DUM      C40    C39       single      1.524    0.020
+ DUM      C41    C40       single      1.513    0.020
+ DUM      H1     C1        single      1.092    0.020
+ DUM      H2     C1        single      1.092    0.020
+ DUM      H3     C4        single      1.092    0.020
+ DUM      H4     C4        single      1.092    0.020
+ DUM      H5     C5        single      1.092    0.020
+ DUM      H6     C5        single      1.092    0.020
+ DUM      H7     C6        single      1.092    0.020
+ DUM      H8     C6        single      1.092    0.020
+ DUM      H9     C7        single      1.092    0.020
+ DUM      H10    C7        single      1.092    0.020
+ DUM      H11    C8        single      1.092    0.020
+ DUM      H12    C8        single      1.092    0.020
+ DUM      H13    C9        single      1.092    0.020
+ DUM      H14    C9        single      1.092    0.020
+ DUM      H15    C10       single      1.092    0.020
+ DUM      H16    C10       single      1.092    0.020
+ DUM      H17    C11       single      1.077    0.020
+ DUM      H18    C12       single      1.077    0.020
+ DUM      H19    C13       single      1.092    0.020
+ DUM      H20    C13       single      1.092    0.020
+ DUM      H21    C14       single      1.092    0.020
+ DUM      H22    C14       single      1.092    0.020
+ DUM      H23    C15       single      1.092    0.020
+ DUM      H24    C15       single      1.092    0.020
+ DUM      H25    C16       single      1.092    0.020
+ DUM      H26    C16       single      1.092    0.020
+ DUM      H27    C17       single      1.092    0.020
+ DUM      H28    C17       single      1.092    0.020
+ DUM      H29    C18       single      1.092    0.020
+ DUM      H30    C18       single      1.092    0.020
+ DUM      H31    C19       single      1.092    0.020
+ DUM      H32    C19       single      1.092    0.020
+ DUM      H33    C20       single      1.059    0.020
+ DUM      H34    C20       single      1.059    0.020
+ DUM      H35    C20       single      1.059    0.020
+ DUM      H36    C21       single      1.092    0.020
+ DUM      H37    C21       single      1.092    0.020
+ DUM      H38    C22       single      1.092    0.020
+ DUM      H39    C22       single      1.092    0.020
+ DUM      H40    C23       single      1.092    0.020
+ DUM      H41    C23       single      1.092    0.020
+ DUM      H42    C24       single      1.059    0.020
+ DUM      H43    C24       single      1.059    0.020
+ DUM      H44    C24       single      1.059    0.020
+ DUM      H45    C25       single      1.059    0.020
+ DUM      H46    C25       single      1.059    0.020
+ DUM      H47    C25       single      1.059    0.020
+ DUM      H48    C26       single      1.059    0.020
+ DUM      H49    C26       single      1.059    0.020
+ DUM      H50    C26       single      1.059    0.020
+ DUM      H51    C27       single      1.092    0.020
+ DUM      H52    C27       single      1.092    0.020
+ DUM      H53    C28       single      1.092    0.020
+ DUM      H54    C28       single      1.092    0.020
+ DUM      H55    C29       single      1.092    0.020
+ DUM      H56    C29       single      1.092    0.020
+ DUM      H57    C30       single      1.092    0.020
+ DUM      H58    C30       single      1.092    0.020
+ DUM      H59    C31       single      1.092    0.020
+ DUM      H60    C31       single      1.092    0.020
+ DUM      H61    C32       single      1.092    0.020
+ DUM      H62    C32       single      1.092    0.020
+ DUM      H63    C33       single      1.092    0.020
+ DUM      H64    C33       single      1.092    0.020
+ DUM      H65    C34       single      1.092    0.020
+ DUM      H66    C34       single      1.092    0.020
+ DUM      H67    C35       single      1.092    0.020
+ DUM      H68    C35       single      1.092    0.020
+ DUM      H69    C36       single      1.092    0.020
+ DUM      H70    C36       single      1.092    0.020
+ DUM      H71    C37       single      1.092    0.020
+ DUM      H72    C37       single      1.092    0.020
+ DUM      H73    C38       single      1.092    0.020
+ DUM      H74    C38       single      1.092    0.020
+ DUM      H75    C39       single      1.092    0.020
+ DUM      H76    C39       single      1.092    0.020
+ DUM      H77    C40       single      1.092    0.020
+ DUM      H78    C40       single      1.092    0.020
+ DUM      H79    C41       single      1.059    0.020
+ DUM      H80    C41       single      1.059    0.020
+ DUM      H81    C41       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ DUM      O6     P      O5      119.900    3.000
+ DUM      O6     P      O7      108.200    3.000
+ DUM      O6     P      O4      108.200    3.000
+ DUM      O5     P      O7      108.200    3.000
+ DUM      O5     P      O4      108.200    3.000
+ DUM      O7     P      O4      102.600    3.000
+ DUM      P      O7     C22     120.500    3.000
+ DUM      O7     C22    H38     109.470    3.000
+ DUM      O7     C22    H39     109.470    3.000
+ DUM      O7     C22    C23     109.470    3.000
+ DUM      H38    C22    H39     107.900    3.000
+ DUM      H38    C22    C23     109.470    3.000
+ DUM      H39    C22    C23     109.470    3.000
+ DUM      C22    C23    H40     109.470    3.000
+ DUM      C22    C23    H41     109.470    3.000
+ DUM      C22    C23    N       109.470    3.000
+ DUM      H40    C23    H41     107.900    3.000
+ DUM      H40    C23    N       109.470    3.000
+ DUM      H41    C23    N       109.470    3.000
+ DUM      C23    N      C26     109.470    3.000
+ DUM      C23    N      C25     109.470    3.000
+ DUM      C23    N      C24     109.470    3.000
+ DUM      C26    N      C25     109.470    3.000
+ DUM      C26    N      C24     109.470    3.000
+ DUM      C25    N      C24     109.470    3.000
+ DUM      N      C26    H50     109.470    3.000
+ DUM      N      C26    H49     109.470    3.000
+ DUM      N      C26    H48     109.470    3.000
+ DUM      H50    C26    H49     109.470    3.000
+ DUM      H50    C26    H48     109.470    3.000
+ DUM      H49    C26    H48     109.470    3.000
+ DUM      N      C25    H47     109.470    3.000
+ DUM      N      C25    H46     109.470    3.000
+ DUM      N      C25    H45     109.470    3.000
+ DUM      H47    C25    H46     109.470    3.000
+ DUM      H47    C25    H45     109.470    3.000
+ DUM      H46    C25    H45     109.470    3.000
+ DUM      N      C24    H44     109.470    3.000
+ DUM      N      C24    H43     109.470    3.000
+ DUM      N      C24    H42     109.470    3.000
+ DUM      H44    C24    H43     109.470    3.000
+ DUM      H44    C24    H42     109.470    3.000
+ DUM      H43    C24    H42     109.470    3.000
+ DUM      P      O4     C21     120.500    3.000
+ DUM      O4     C21    H36     109.470    3.000
+ DUM      O4     C21    H37     109.470    3.000
+ DUM      O4     C21    C2      109.470    3.000
+ DUM      H36    C21    H37     107.900    3.000
+ DUM      H36    C21    C2      109.470    3.000
+ DUM      H37    C21    C2      109.470    3.000
+ DUM      C21    C2     H       108.340    3.000
+ DUM      C21    C2     C1      109.470    3.000
+ DUM      C21    C2     O2      109.470    3.000
+ DUM      H      C2     C1      108.340    3.000
+ DUM      H      C2     O2      109.470    3.000
+ DUM      C1     C2     O2      109.470    3.000
+ DUM      C2     C1     H1      109.470    3.000
+ DUM      C2     C1     H2      109.470    3.000
+ DUM      C2     C1     O1      109.470    3.000
+ DUM      H1     C1     H2      107.900    3.000
+ DUM      H1     C1     O1      109.470    3.000
+ DUM      H2     C1     O1      109.470    3.000
+ DUM      C1     O1     C       120.000    3.000
+ DUM      O1     C      C27     120.000    3.000
+ DUM      O1     C      O       119.000    3.000
+ DUM      C27    C      O       120.500    3.000
+ DUM      C      C27    H51     109.470    3.000
+ DUM      C      C27    H52     109.470    3.000
+ DUM      C      C27    C28     109.470    3.000
+ DUM      H51    C27    H52     107.900    3.000
+ DUM      H51    C27    C28     109.470    3.000
+ DUM      H52    C27    C28     109.470    3.000
+ DUM      C27    C28    H53     109.470    3.000
+ DUM      C27    C28    H54     109.470    3.000
+ DUM      C27    C28    C29     111.000    3.000
+ DUM      H53    C28    H54     107.900    3.000
+ DUM      H53    C28    C29     109.470    3.000
+ DUM      H54    C28    C29     109.470    3.000
+ DUM      C28    C29    H55     109.470    3.000
+ DUM      C28    C29    H56     109.470    3.000
+ DUM      C28    C29    C30     111.000    3.000
+ DUM      H55    C29    H56     107.900    3.000
+ DUM      H55    C29    C30     109.470    3.000
+ DUM      H56    C29    C30     109.470    3.000
+ DUM      C29    C30    H57     109.470    3.000
+ DUM      C29    C30    H58     109.470    3.000
+ DUM      C29    C30    C31     111.000    3.000
+ DUM      H57    C30    H58     107.900    3.000
+ DUM      H57    C30    C31     109.470    3.000
+ DUM      H58    C30    C31     109.470    3.000
+ DUM      C30    C31    H59     109.470    3.000
+ DUM      C30    C31    H60     109.470    3.000
+ DUM      C30    C31    C32     111.000    3.000
+ DUM      H59    C31    H60     107.900    3.000
+ DUM      H59    C31    C32     109.470    3.000
+ DUM      H60    C31    C32     109.470    3.000
+ DUM      C31    C32    H61     109.470    3.000
+ DUM      C31    C32    H62     109.470    3.000
+ DUM      C31    C32    C33     111.000    3.000
+ DUM      H61    C32    H62     107.900    3.000
+ DUM      H61    C32    C33     109.470    3.000
+ DUM      H62    C32    C33     109.470    3.000
+ DUM      C32    C33    H63     109.470    3.000
+ DUM      C32    C33    H64     109.470    3.000
+ DUM      C32    C33    C34     111.000    3.000
+ DUM      H63    C33    H64     107.900    3.000
+ DUM      H63    C33    C34     109.470    3.000
+ DUM      H64    C33    C34     109.470    3.000
+ DUM      C33    C34    H65     109.470    3.000
+ DUM      C33    C34    H66     109.470    3.000
+ DUM      C33    C34    C35     111.000    3.000
+ DUM      H65    C34    H66     107.900    3.000
+ DUM      H65    C34    C35     109.470    3.000
+ DUM      H66    C34    C35     109.470    3.000
+ DUM      C34    C35    H67     109.470    3.000
+ DUM      C34    C35    H68     109.470    3.000
+ DUM      C34    C35    C36     111.000    3.000
+ DUM      H67    C35    H68     107.900    3.000
+ DUM      H67    C35    C36     109.470    3.000
+ DUM      H68    C35    C36     109.470    3.000
+ DUM      C35    C36    H69     109.470    3.000
+ DUM      C35    C36    H70     109.470    3.000
+ DUM      C35    C36    C37     111.000    3.000
+ DUM      H69    C36    H70     107.900    3.000
+ DUM      H69    C36    C37     109.470    3.000
+ DUM      H70    C36    C37     109.470    3.000
+ DUM      C36    C37    H71     109.470    3.000
+ DUM      C36    C37    H72     109.470    3.000
+ DUM      C36    C37    C38     111.000    3.000
+ DUM      H71    C37    H72     107.900    3.000
+ DUM      H71    C37    C38     109.470    3.000
+ DUM      H72    C37    C38     109.470    3.000
+ DUM      C37    C38    H73     109.470    3.000
+ DUM      C37    C38    H74     109.470    3.000
+ DUM      C37    C38    C39     111.000    3.000
+ DUM      H73    C38    H74     107.900    3.000
+ DUM      H73    C38    C39     109.470    3.000
+ DUM      H74    C38    C39     109.470    3.000
+ DUM      C38    C39    H75     109.470    3.000
+ DUM      C38    C39    H76     109.470    3.000
+ DUM      C38    C39    C40     111.000    3.000
+ DUM      H75    C39    H76     107.900    3.000
+ DUM      H75    C39    C40     109.470    3.000
+ DUM      H76    C39    C40     109.470    3.000
+ DUM      C39    C40    H77     109.470    3.000
+ DUM      C39    C40    H78     109.470    3.000
+ DUM      C39    C40    C41     111.000    3.000
+ DUM      H77    C40    H78     107.900    3.000
+ DUM      H77    C40    C41     109.470    3.000
+ DUM      H78    C40    C41     109.470    3.000
+ DUM      C40    C41    H81     109.470    3.000
+ DUM      C40    C41    H80     109.470    3.000
+ DUM      C40    C41    H79     109.470    3.000
+ DUM      H81    C41    H80     109.470    3.000
+ DUM      H81    C41    H79     109.470    3.000
+ DUM      H80    C41    H79     109.470    3.000
+ DUM      C2     O2     C3      111.800    3.000
+ DUM      O2     C3     O3      119.000    3.000
+ DUM      O2     C3     C4      120.000    3.000
+ DUM      O3     C3     C4      120.500    3.000
+ DUM      C3     C4     H3      109.470    3.000
+ DUM      C3     C4     H4      109.470    3.000
+ DUM      C3     C4     C5      109.470    3.000
+ DUM      H3     C4     H4      107.900    3.000
+ DUM      H3     C4     C5      109.470    3.000
+ DUM      H4     C4     C5      109.470    3.000
+ DUM      C4     C5     H5      109.470    3.000
+ DUM      C4     C5     H6      109.470    3.000
+ DUM      C4     C5     C6      111.000    3.000
+ DUM      H5     C5     H6      107.900    3.000
+ DUM      H5     C5     C6      109.470    3.000
+ DUM      H6     C5     C6      109.470    3.000
+ DUM      C5     C6     H7      109.470    3.000
+ DUM      C5     C6     H8      109.470    3.000
+ DUM      C5     C6     C7      111.000    3.000
+ DUM      H7     C6     H8      107.900    3.000
+ DUM      H7     C6     C7      109.470    3.000
+ DUM      H8     C6     C7      109.470    3.000
+ DUM      C6     C7     H9      109.470    3.000
+ DUM      C6     C7     H10     109.470    3.000
+ DUM      C6     C7     C8      111.000    3.000
+ DUM      H9     C7     H10     107.900    3.000
+ DUM      H9     C7     C8      109.470    3.000
+ DUM      H10    C7     C8      109.470    3.000
+ DUM      C7     C8     H11     109.470    3.000
+ DUM      C7     C8     H12     109.470    3.000
+ DUM      C7     C8     C9      111.000    3.000
+ DUM      H11    C8     H12     107.900    3.000
+ DUM      H11    C8     C9      109.470    3.000
+ DUM      H12    C8     C9      109.470    3.000
+ DUM      C8     C9     H13     109.470    3.000
+ DUM      C8     C9     H14     109.470    3.000
+ DUM      C8     C9     C10     111.000    3.000
+ DUM      H13    C9     H14     107.900    3.000
+ DUM      H13    C9     C10     109.470    3.000
+ DUM      H14    C9     C10     109.470    3.000
+ DUM      C9     C10    H15     109.470    3.000
+ DUM      C9     C10    H16     109.470    3.000
+ DUM      C9     C10    C11     109.470    3.000
+ DUM      H15    C10    H16     107.900    3.000
+ DUM      H15    C10    C11     109.470    3.000
+ DUM      H16    C10    C11     109.470    3.000
+ DUM      C10    C11    H17     120.000    3.000
+ DUM      C10    C11    C12     120.000    3.000
+ DUM      H17    C11    C12     120.000    3.000
+ DUM      C11    C12    H18     120.000    3.000
+ DUM      C11    C12    C13     120.000    3.000
+ DUM      H18    C12    C13     120.000    3.000
+ DUM      C12    C13    H19     109.470    3.000
+ DUM      C12    C13    H20     109.470    3.000
+ DUM      C12    C13    C14     109.470    3.000
+ DUM      H19    C13    H20     107.900    3.000
+ DUM      H19    C13    C14     109.470    3.000
+ DUM      H20    C13    C14     109.470    3.000
+ DUM      C13    C14    H21     109.470    3.000
+ DUM      C13    C14    H22     109.470    3.000
+ DUM      C13    C14    C15     111.000    3.000
+ DUM      H21    C14    H22     107.900    3.000
+ DUM      H21    C14    C15     109.470    3.000
+ DUM      H22    C14    C15     109.470    3.000
+ DUM      C14    C15    H23     109.470    3.000
+ DUM      C14    C15    H24     109.470    3.000
+ DUM      C14    C15    C16     111.000    3.000
+ DUM      H23    C15    H24     107.900    3.000
+ DUM      H23    C15    C16     109.470    3.000
+ DUM      H24    C15    C16     109.470    3.000
+ DUM      C15    C16    H25     109.470    3.000
+ DUM      C15    C16    H26     109.470    3.000
+ DUM      C15    C16    C17     111.000    3.000
+ DUM      H25    C16    H26     107.900    3.000
+ DUM      H25    C16    C17     109.470    3.000
+ DUM      H26    C16    C17     109.470    3.000
+ DUM      C16    C17    H27     109.470    3.000
+ DUM      C16    C17    H28     109.470    3.000
+ DUM      C16    C17    C18     111.000    3.000
+ DUM      H27    C17    H28     107.900    3.000
+ DUM      H27    C17    C18     109.470    3.000
+ DUM      H28    C17    C18     109.470    3.000
+ DUM      C17    C18    H29     109.470    3.000
+ DUM      C17    C18    H30     109.470    3.000
+ DUM      C17    C18    C19     111.000    3.000
+ DUM      H29    C18    H30     107.900    3.000
+ DUM      H29    C18    C19     109.470    3.000
+ DUM      H30    C18    C19     109.470    3.000
+ DUM      C18    C19    H31     109.470    3.000
+ DUM      C18    C19    H32     109.470    3.000
+ DUM      C18    C19    C20     111.000    3.000
+ DUM      H31    C19    H32     107.900    3.000
+ DUM      H31    C19    C20     109.470    3.000
+ DUM      H32    C19    C20     109.470    3.000
+ DUM      C19    C20    H35     109.470    3.000
+ DUM      C19    C20    H34     109.470    3.000
+ DUM      C19    C20    H33     109.470    3.000
+ DUM      H35    C20    H34     109.470    3.000
+ DUM      H35    C20    H33     109.470    3.000
+ DUM      H34    C20    H33     109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ DUM      var_1            O6     P      O7     C22              180.000           20.000   3
+ DUM      var_2            P      O7     C22    C23              180.000           20.000   3
+ DUM      var_3            O7     C22    C23    N                180.000           20.000   3
+ DUM      var_4            C22    C23    N      C24              180.000           20.000   3
+ DUM      var_5            C23    N      C26    H48              180.000           20.000   3
+ DUM      var_6            C23    N      C25    H45              180.000           20.000   3
+ DUM      var_7            C23    N      C24    H42              180.000           20.000   3
+ DUM      var_8            O6     P      O4     C21              180.000           20.000   3
+ DUM      var_9            P      O4     C21    C2               180.000           20.000   3
+ DUM      var_10           O4     C21    C2     O2               180.000           20.000   3
+ DUM      var_11           C21    C2     C1     O1               180.000           20.000   3
+ DUM      var_12           C2     C1     O1     C                180.000           20.000   3
+ DUM      var_13           C1     O1     C      O                180.000           20.000   3
+ DUM      var_14           O1     C      C27    C28              180.000           20.000   3
+ DUM      var_15           C      C27    C28    C29              180.000           20.000   3
+ DUM      var_16           C27    C28    C29    C30              180.000           20.000   3
+ DUM      var_17           C28    C29    C30    C31              180.000           20.000   3
+ DUM      var_18           C29    C30    C31    C32              180.000           20.000   3
+ DUM      var_19           C30    C31    C32    C33              180.000           20.000   3
+ DUM      var_20           C31    C32    C33    C34              180.000           20.000   3
+ DUM      var_21           C32    C33    C34    C35              180.000           20.000   3
+ DUM      var_22           C33    C34    C35    C36              180.000           20.000   3
+ DUM      var_23           C34    C35    C36    C37              180.000           20.000   3
+ DUM      var_24           C35    C36    C37    C38              180.000           20.000   3
+ DUM      var_25           C36    C37    C38    C39              180.000           20.000   3
+ DUM      var_26           C37    C38    C39    C40              180.000           20.000   3
+ DUM      var_27           C38    C39    C40    C41              180.000           20.000   3
+ DUM      var_28           C39    C40    C41    H79              180.000           20.000   3
+ DUM      var_29           C21    C2     O2     C3               180.000           20.000   3
+ DUM      var_30           C2     O2     C3     C4               180.000           20.000   3
+ DUM      var_31           O2     C3     C4     C5               180.000           20.000   3
+ DUM      var_32           C3     C4     C5     C6               180.000           20.000   3
+ DUM      var_33           C4     C5     C6     C7               180.000           20.000   3
+ DUM      var_34           C5     C6     C7     C8               180.000           20.000   3
+ DUM      var_35           C6     C7     C8     C9               180.000           20.000   3
+ DUM      var_36           C7     C8     C9     C10              180.000           20.000   3
+ DUM      var_37           C8     C9     C10    C11              180.000           20.000   3
+ DUM      var_38           C9     C10    C11    C12              180.000           20.000   3
+ DUM      CONST_1          C10    C11    C12    C13              180.000            0.000   0
+ DUM      var_39           C11    C12    C13    C14              180.000           20.000   3
+ DUM      var_40           C12    C13    C14    C15              180.000           20.000   3
+ DUM      var_41           C13    C14    C15    C16              180.000           20.000   3
+ DUM      var_42           C14    C15    C16    C17              180.000           20.000   3
+ DUM      var_43           C15    C16    C17    C18              180.000           20.000   3
+ DUM      var_44           C16    C17    C18    C19              180.000           20.000   3
+ DUM      var_45           C17    C18    C19    C20              180.000           20.000   3
+ DUM      var_46           C18    C19    C20    H33              180.000           20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ DUM      chir_01          C2     C1     O2     C21       negativ
+ DUM      chir_02          N      C23    C24    C25       both
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ DUM      plan-1            C         0.020
+ DUM      plan-1            O         0.020
+ DUM      plan-1            O1        0.020
+ DUM      plan-1            C27       0.020
+ DUM      plan-2            C3        0.020
+ DUM      plan-2            O2        0.020
+ DUM      plan-2            O3        0.020
+ DUM      plan-2            C4        0.020
+ DUM      plan-3            C11       0.020
+ DUM      plan-3            C10       0.020
+ DUM      plan-3            C12       0.020
+ DUM      plan-3            H17       0.020
+ DUM      plan-3            C13       0.020
+ DUM      plan-3            H18       0.020
+# ------------------------------------------------------

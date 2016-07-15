@@ -1,0 +1,10624 @@
+%!PS-Adobe-3.0
+%%Creator: Procheck
+%%DocumentNeededResources: font Times-Roman Symbol Times-Bold
+%%BoundingBox: (atend)
+%%Pages:  5
+%%EndComments
+%%BeginProlog
+%%BeginResource: latin1_prolog
+ 
+% ReEncodeSmall from Adobe Postscript Tutorial and Cookbook
+/reencsmalldict 12 dict def
+/ReEncodeSmall
+ {reencsmalldict begin
+  /newcodesandnames exch def
+  /newfontname exch def
+  /basefontname exch def
+ 
+  /basefontdict basefontname findfont def
+  /newfont basefontdict maxlength dict def
+ 
+  basefontdict
+   {exch dup /FID ne
+     {dup /Encoding eq
+       {exch dup length array copy
+	 newfont 3 1 roll put}
+       {exch newfont 3 1 roll put}
+       ifelse
+     }
+     {pop pop}
+     ifelse
+   }forall
+ 
+  newfont /FontName newfontname put
+  newcodesandnames aload pop
+ 
+  newcodesandnames length 2 idiv
+   {newfont /Encoding get 3 1 roll put}
+   repeat
+ 
+  newfontname newfont definefont pop
+  end
+}def
+%%EndResource
+%%BeginResource: latin1_encoding
+/encode_vector [
+8#040  /space        8#041  /exclam       8#042  /quotedbl     
+8#043  /numbersign   8#044  /dollar       8#045  /percent      
+8#046  /ampersand    8#047  /quoteright   8#050  /parenleft    
+8#051  /parenright   8#052  /asterisk     8#053  /plus         
+8#054  /comma        8#055  /minus        8#056  /period       
+8#057  /slash        8#060  /zero         8#061  /one          
+8#062  /two          8#063  /three        8#064  /four         
+8#065  /five         8#066  /six          8#067  /seven        
+8#070  /eight        8#071  /nine         8#072  /colon        
+8#073  /semicolon    8#074  /less         8#075  /equal        
+8#076  /greater      8#077  /question     8#100  /at           
+8#101  /A            8#102  /B            8#103  /C            
+8#104  /D            8#105  /E            8#106  /F            
+8#107  /G            8#110  /H            8#111  /I            
+8#112  /J            8#113  /K            8#114  /L            
+8#115  /M            8#116  /N            8#117  /O            
+8#120  /P            8#121  /Q            8#122  /R            
+8#123  /S            8#124  /T            8#125  /U            
+8#126  /V            8#127  /W            8#130  /X            
+8#131  /Y            8#132  /Z            8#133  /bracketleft  
+8#134  /backslash    8#135  /bracketright 8#136  /asciicircum  
+8#137  /underscore   8#140  /quoteleft    8#141  /a            
+8#142  /b            8#143  /c            8#144  /d            
+8#145  /e            8#146  /f            8#147  /g            
+8#150  /h            8#151  /i            8#152  /j            
+8#153  /k            8#154  /l            8#155  /m            
+8#156  /n            8#157  /o            8#160  /p            
+8#161  /q            8#162  /r            8#163  /s            
+8#164  /t            8#165  /u            8#166  /v            
+8#167  /w            8#170  /x            8#171  /y            
+8#172  /z            8#173  /braceleft    8#174  /bar          
+8#175  /braceright   8#176  /tilde        8#240  /space        
+8#241  /exclamdown   8#242  /cent         8#243  /sterling     
+8#244  /currency     8#245  /yen          8#246  /brokenbar    
+8#247  /section      8#250  /dieresis     8#251  /copyright    
+8#252  /ordfeminine  8#253  /guillemotleft 8#254  /logicalnot  
+8#255  /hyphen       8#256  /registered   8#257  /macron       
+8#260  /degree       8#261  /plusminus    8#262  /twosuperior  
+8#263  /threesuperior 8#264  /acute       8#265  /mu           
+8#266  /paragraph    8#267  /bullet       8#270  /cedilla      
+8#271  /dotlessi    8#272  /ordmasculine 8#273  /guillemotright
+8#274  /onequarter   8#275  /onehalf      8#276  /threequarters
+8#277  /questiondown 8#300  /Agrave       8#301  /Aacute       
+8#302  /Acircumflex  8#303  /Atilde       8#304  /Adieresis    
+8#305  /Aring        8#306  /AE           8#307  /Ccedilla     
+8#310  /Egrave       8#311  /Eacute       8#312  /Ecircumflex  
+8#313  /Edieresis    8#314  /Igrave       8#315  /Iacute       
+8#316  /Icircumflex  8#317  /Idieresis    8#320  /Eth          
+8#321  /Ntilde       8#322  /Ograve       8#323  /Oacute       
+8#324  /Ocircumflex  8#325  /Otilde       8#326  /Odieresis    
+8#327  /multiply     8#330  /Oslash       8#331  /Ugrave       
+8#332  /Uacute       8#333  /Ucircumflex  8#334  /Udieresis    
+8#335  /Yacute       8#336  /Thorn        8#337  /germandbls   
+8#340  /agrave       8#341  /aacute       8#342  /acircumflex  
+8#343  /atilde       8#344  /adieresis    8#345  /aring        
+8#346  /ae           8#347  /ccedilla     8#350  /egrave       
+8#351  /eacute       8#352  /ecircumflex  8#353  /edieresis    
+8#354  /igrave       8#355  /iacute       8#356  /icircumflex  
+8#357  /idieresis    8#360  /eth          8#361  /ntilde       
+8#362  /ograve       8#363  /oacute       8#364  /ocircumflex  
+8#365  /otilde       8#366  /odieresis    8#367  /divide       
+8#370  /oslash       8#371  /ugrave       8#372  /uacute       
+8#373  /ucircumflex  8#374  /udieresis    8#375  /yacute       
+8#376  /thorn        8#377  /ydieresis    	
+] def
+%%EndResource
+/L { moveto lineto stroke } bind def
+/Col { setrgbcolor } bind def
+/Poly3 { moveto lineto lineto fill grestore } bind def
+/Pl3 { 6 copy Poly3 moveto moveto moveto closepath stroke } bind def
+/Pline3 { 6 copy Poly3 moveto lineto lineto closepath stroke } bind def
+/Poly4 { moveto lineto lineto lineto fill grestore } bind def
+/Pl4 { 8 copy Poly4 moveto moveto moveto moveto closepath stroke } bind def
+/Pline4 { 8 copy Poly4 moveto lineto lineto lineto closepath stroke } bind def
+/Circle { gsave newpath 0.0 setgray 3 copy 0 360 arc fill stroke grestore }
+bind def
+/Print { /Times-Roman-Extd findfont exch scalefont setfont show } bind def
+/Bprint { /Times-Bold findfont exch scalefont setfont show } bind def
+/Gprint { /Symbol findfont exch scalefont setfont show } bind def
+/Center {
+  dup /Times-Roman-Extd findfont exch scalefont setfont
+  exch stringwidth pop -2 div exch -3 div rmoveto
+ } bind def
+/CenterRot90 {
+  dup /Times-Roman-Extd findfont exch scalefont setfont
+  exch stringwidth pop -2 div exch 3 div exch rmoveto
+ } bind def
+/UncenterRot90 {
+  dup /Times-Roman-Extd findfont exch scalefont setfont
+  exch stringwidth } bind def
+/Rot90 { gsave currentpoint translate 90 rotate } bind def
+%%EndProlog
+%%BeginSetup
+1 setlinecap 1 setlinejoin 1 setlinewidth 0 setgray [ ] 0 setdash newpath
+/Times-Roman /Times-Roman-Extd encode_vector ReEncodeSmall
+%%EndSetup
+%%Page:    1    5
+/ProcheckSave save def
+ 30.00 50.00 moveto 550.00  50.00 lineto 550.00 780.00 lineto
+  30.00 780.00 lineto closepath gsave
+gsave 1.0000 setgray fill grestore
+clip newpath
+ 260.00 750.00 moveto
+(DUM)
+20.0 Print
+ 110.00 730.00 290.00 730.00 L
+ 290.00 730.00 290.00 550.00 L
+ 290.00 550.00 110.00 550.00 L
+ 110.00 550.00 110.00 730.00 L
+ 180.90 669.20 181.40 673.60 L
+ 181.40 673.60 177.20 675.00 L
+ 177.20 675.00 177.10 679.80 L
+ 177.10 679.80 172.00 679.90 L
+ 168.30 680.00 172.00 679.90 L
+ 171.70 675.20 172.00 679.90 L
+ 171.40 669.80 171.70 675.20 L
+ 170.20 669.80 171.40 669.80 L
+ 171.60 664.40 171.40 669.80 L
+ 171.60 659.80 171.60 664.40 L
+ 171.60 654.10 171.60 659.80 L
+ 171.60 649.60 171.60 654.10 L
+ 171.60 643.90 171.60 649.60 L
+ 171.50 639.40 171.60 643.90 L
+ 171.50 633.70 171.50 639.40 L
+ 171.50 629.40 171.50 633.70 L
+ 171.50 624.00 171.50 629.40 L
+ 171.50 619.80 171.50 624.00 L
+ 171.50 614.10 171.50 619.80 L
+ 171.50 609.80 171.50 614.10 L
+ 171.50 604.10 171.50 609.80 L
+ 171.40 600.00 171.50 604.10 L
+ 171.40 594.30 171.40 600.00 L
+ 171.40 590.10 171.40 594.30 L
+ 171.40 584.30 171.40 590.10 L
+ 172.00 679.90 172.20 685.20 L
+ 172.20 685.20 171.40 690.20 L
+ 171.40 690.20 171.60 696.50 L
+ 176.70 697.30 171.60 696.50 L
+ 171.60 696.50 171.40 700.00 L
+ 165.80 698.00 171.60 696.50 L
+ 165.00 695.30 165.80 698.00 L
+ 159.30 697.10 165.00 695.30 L
+ 158.10 693.60 159.30 697.10 L
+ 152.50 695.70 158.10 693.60 L
+ 162.60 694.50 158.10 693.60 L
+ 157.40 687.40 158.10 693.60 L
+ 186.00 677.50 181.40 673.60 L
+ 189.80 675.20 186.00 677.50 L
+ 194.30 679.20 189.80 675.20 L
+ 198.10 677.00 194.30 679.20 L
+ 202.70 680.90 198.10 677.00 L
+ 206.40 678.70 202.70 680.90 L
+ 210.90 682.50 206.40 678.70 L
+ 214.50 680.40 210.90 682.50 L
+ 219.00 684.10 214.50 680.40 L
+ 222.50 682.00 219.00 684.10 L
+ 226.90 685.70 222.50 682.00 L
+ 230.30 683.50 226.90 685.70 L
+ 234.60 687.30 230.30 683.50 L
+ 238.00 685.20 234.60 687.30 L
+ 242.30 688.90 238.00 685.20 L
+ 180.80 680.00 177.10 679.80 L
+ 177.00 683.40 177.10 679.80 L
+ 167.90 664.10 171.60 664.40 L
+ 175.40 664.20 171.60 664.40 L
+ 175.30 660.10 171.60 659.80 L
+ 167.90 660.20 171.60 659.80 L
+ 167.90 653.70 171.60 654.10 L
+ 175.30 653.70 171.60 654.10 L
+ 175.20 649.90 171.60 649.60 L
+ 167.90 650.00 171.60 649.60 L
+ 167.90 643.50 171.60 643.90 L
+ 175.30 643.50 171.60 643.90 L
+ 175.20 639.80 171.50 639.40 L
+ 167.90 639.80 171.50 639.40 L
+ 167.80 633.20 171.50 633.70 L
+ 175.20 633.20 171.50 633.70 L
+ 171.50 630.70 171.50 629.40 L
+ 171.50 622.70 171.50 624.00 L
+ 175.10 620.40 171.50 619.80 L
+ 167.90 620.40 171.50 619.80 L
+ 167.80 613.60 171.50 614.10 L
+ 175.20 613.60 171.50 614.10 L
+ 175.10 610.40 171.50 609.80 L
+ 167.90 610.40 171.50 609.80 L
+ 167.80 603.50 171.50 604.10 L
+ 175.10 603.50 171.50 604.10 L
+ 175.00 600.60 171.40 600.00 L
+ 167.80 600.60 171.40 600.00 L
+ 167.80 593.70 171.40 594.30 L
+ 175.10 593.70 171.40 594.30 L
+ 175.00 590.80 171.40 590.10 L
+ 167.80 590.80 171.40 590.10 L
+ 171.40 581.60 171.40 584.30 L
+ 167.90 583.70 171.40 584.30 L
+ 174.90 583.70 171.40 584.30 L
+ 169.00 685.10 172.20 685.20 L
+ 176.40 685.60 172.20 685.20 L
+ 168.50 696.60 165.00 695.30 L
+ 165.10 690.70 165.00 695.30 L
+ 156.00 696.40 159.30 697.10 L
+ 159.40 701.60 159.30 697.10 L
+ 151.40 693.20 152.50 695.70 L
+ 149.20 695.20 152.50 695.70 L
+ 152.80 700.10 152.50 695.70 L
+ 161.60 691.90 162.60 694.50 L
+ 162.60 699.00 162.60 694.50 L
+ 166.70 693.30 162.60 694.50 L
+ 156.40 685.10 157.40 687.40 L
+ 161.20 685.70 157.40 687.40 L
+ 153.90 686.80 157.40 687.40 L
+ 188.20 678.10 186.00 677.50 L
+ 184.50 681.40 186.00 677.50 L
+ 187.70 674.70 189.80 675.20 L
+ 191.40 671.30 189.80 675.20 L
+ 196.50 679.80 194.30 679.20 L
+ 192.70 683.10 194.30 679.20 L
+ 195.90 676.50 198.10 677.00 L
+ 199.70 673.20 198.10 677.00 L
+ 204.90 681.50 202.70 680.90 L
+ 201.10 684.70 202.70 680.90 L
+ 204.10 678.20 206.40 678.70 L
+ 208.00 674.90 206.40 678.70 L
+ 213.20 683.10 210.90 682.50 L
+ 209.30 686.30 210.90 682.50 L
+ 212.20 679.80 214.50 680.40 L
+ 216.10 676.60 214.50 680.40 L
+ 221.30 684.70 219.00 684.10 L
+ 217.40 687.90 219.00 684.10 L
+ 220.20 681.40 222.50 682.00 L
+ 224.10 678.20 222.50 682.00 L
+ 229.30 686.30 226.90 685.70 L
+ 225.30 689.40 226.90 685.70 L
+ 228.00 682.90 230.30 683.50 L
+ 231.90 679.80 230.30 683.50 L
+ 236.90 687.80 234.60 687.30 L
+ 233.00 690.90 234.60 687.30 L
+ 235.60 684.70 238.00 685.20 L
+ 239.60 681.60 238.00 685.20 L
+ 244.50 687.40 242.30 688.90 L
+ 244.60 689.50 242.30 688.90 L
+ 240.70 692.50 242.30 688.90 L
+ 171.00 700.50 moveto
+(O6)
+ 2.0 Print
+ 171.00 696.50 moveto
+(P)
+ 2.0 Print
+ 177.00 697.50 moveto
+(O5)
+ 2.0 Print
+ 166.00 698.50 moveto
+(O7)
+ 2.0 Print
+ 165.00 695.50 moveto
+(C22)
+ 2.0 Print
+ 168.00 696.50 moveto
+(H38)
+ 2.0 Print
+ 165.00 690.50 moveto
+(H39)
+ 2.0 Print
+ 159.00 697.50 moveto
+(C23)
+ 2.0 Print
+ 156.00 696.50 moveto
+(H40)
+ 2.0 Print
+ 159.00 701.50 moveto
+(H41)
+ 2.0 Print
+ 158.00 693.50 moveto
+(N)
+ 2.0 Print
+ 157.00 687.50 moveto
+(C26)
+ 2.0 Print
+ 154.00 687.50 moveto
+(H50)
+ 2.0 Print
+ 161.00 685.50 moveto
+(H49)
+ 2.0 Print
+ 156.00 685.50 moveto
+(H48)
+ 2.0 Print
+ 162.00 694.50 moveto
+(C25)
+ 2.0 Print
+ 167.00 693.50 moveto
+(H47)
+ 2.0 Print
+ 162.00 699.50 moveto
+(H46)
+ 2.0 Print
+ 161.00 692.50 moveto
+(H45)
+ 2.0 Print
+ 152.00 695.50 moveto
+(C24)
+ 2.0 Print
+ 153.00 700.50 moveto
+(H44)
+ 2.0 Print
+ 149.00 695.50 moveto
+(H43)
+ 2.0 Print
+ 151.00 693.50 moveto
+(H42)
+ 2.0 Print
+ 171.00 690.50 moveto
+(O4)
+ 2.0 Print
+ 172.00 685.50 moveto
+(C21)
+ 2.0 Print
+ 169.00 685.50 moveto
+(H36)
+ 2.0 Print
+ 176.00 685.50 moveto
+(H37)
+ 2.0 Print
+ 172.00 680.50 moveto
+(C2)
+ 2.0 Print
+ 168.00 680.50 moveto
+(H)
+ 2.0 Print
+ 177.00 680.50 moveto
+(C1)
+ 2.0 Print
+ 181.00 680.50 moveto
+(H1)
+ 2.0 Print
+ 177.00 683.50 moveto
+(H2)
+ 2.0 Print
+ 177.00 675.50 moveto
+(O1)
+ 2.0 Print
+ 181.00 673.50 moveto
+(C)
+ 2.0 Print
+ 186.00 677.50 moveto
+(C27)
+ 2.0 Print
+ 188.00 678.50 moveto
+(H51)
+ 2.0 Print
+ 184.00 681.50 moveto
+(H52)
+ 2.0 Print
+ 190.00 675.50 moveto
+(C28)
+ 2.0 Print
+ 188.00 674.75 moveto
+(H53)
+ 1.0 Print
+ 191.00 671.50 moveto
+(H54)
+ 2.0 Print
+ 194.00 679.50 moveto
+(C29)
+ 2.0 Print
+ 196.00 680.50 moveto
+(H55)
+ 2.0 Print
+ 193.00 683.50 moveto
+(H56)
+ 2.0 Print
+ 198.00 677.75 moveto
+(C30)
+ 1.0 Print
+ 196.00 676.75 moveto
+(H57)
+ 1.0 Print
+ 200.00 673.75 moveto
+(H58)
+ 1.0 Print
+ 203.00 681.75 moveto
+(C31)
+ 1.0 Print
+ 205.00 681.50 moveto
+(H59)
+ 2.0 Print
+ 201.00 684.75 moveto
+(H60)
+ 1.0 Print
+ 206.00 678.75 moveto
+(C32)
+ 1.0 Print
+ 204.00 678.75 moveto
+(H61)
+ 1.0 Print
+ 208.00 675.75 moveto
+(H62)
+ 1.0 Print
+ 211.00 682.75 moveto
+(C33)
+ 1.0 Print
+ 213.00 683.75 moveto
+(H63)
+ 1.0 Print
+ 209.00 686.75 moveto
+(H64)
+ 1.0 Print
+ 214.00 680.75 moveto
+(C34)
+ 1.0 Print
+ 212.00 680.75 moveto
+(H65)
+ 1.0 Print
+ 216.00 676.75 moveto
+(H66)
+ 1.0 Print
+ 219.00 684.75 moveto
+(C35)
+ 1.0 Print
+ 221.00 684.75 moveto
+(H67)
+ 1.0 Print
+ 217.00 688.75 moveto
+(H68)
+ 1.0 Print
+ 222.00 682.75 moveto
+(C36)
+ 1.0 Print
+ 220.00 681.75 moveto
+(H69)
+ 1.0 Print
+ 224.00 678.75 moveto
+(H70)
+ 1.0 Print
+ 227.00 685.75 moveto
+(C37)
+ 1.0 Print
+ 229.00 686.75 moveto
+(H71)
+ 1.0 Print
+ 225.00 689.75 moveto
+(H72)
+ 1.0 Print
+ 230.00 683.75 moveto
+(C38)
+ 1.0 Print
+ 228.00 683.75 moveto
+(H73)
+ 1.0 Print
+ 232.00 680.75 moveto
+(H74)
+ 1.0 Print
+ 234.00 687.75 moveto
+(C39)
+ 1.0 Print
+ 237.00 688.75 moveto
+(H75)
+ 1.0 Print
+ 233.00 691.75 moveto
+(H76)
+ 1.0 Print
+ 238.00 685.75 moveto
+(C40)
+ 1.0 Print
+ 235.00 684.75 moveto
+(H77)
+ 1.0 Print
+ 239.00 681.75 moveto
+(H78)
+ 1.0 Print
+ 242.00 689.75 moveto
+(C41)
+ 1.0 Print
+ 241.00 692.75 moveto
+(H81)
+ 1.0 Print
+ 244.00 689.75 moveto
+(H80)
+ 1.0 Print
+ 244.00 687.75 moveto
+(H79)
+ 1.0 Print
+ 181.00 669.50 moveto
+(O)
+ 2.0 Print
+ 172.00 675.50 moveto
+(O2)
+ 2.0 Print
+ 171.00 670.50 moveto
+(C3)
+ 2.0 Print
+ 170.00 670.50 moveto
+(O3)
+ 2.0 Print
+ 171.00 664.50 moveto
+(C4)
+ 2.0 Print
+ 168.00 664.50 moveto
+(H3)
+ 2.0 Print
+ 175.00 664.50 moveto
+(H4)
+ 2.0 Print
+ 171.00 660.50 moveto
+(C5)
+ 2.0 Print
+ 175.00 660.50 moveto
+(H5)
+ 2.0 Print
+ 168.00 660.50 moveto
+(H6)
+ 2.0 Print
+ 171.00 654.50 moveto
+(C6)
+ 2.0 Print
+ 168.00 653.50 moveto
+(H7)
+ 2.0 Print
+ 175.00 653.50 moveto
+(H8)
+ 2.0 Print
+ 171.00 649.50 moveto
+(C7)
+ 2.0 Print
+ 175.00 650.50 moveto
+(H9)
+ 2.0 Print
+ 168.00 650.50 moveto
+(H10)
+ 2.0 Print
+ 171.00 644.50 moveto
+(C8)
+ 2.0 Print
+ 168.00 643.50 moveto
+(H11)
+ 2.0 Print
+ 175.00 643.50 moveto
+(H12)
+ 2.0 Print
+ 171.00 639.50 moveto
+(C9)
+ 2.0 Print
+ 175.00 640.50 moveto
+(H13)
+ 2.0 Print
+ 168.00 640.50 moveto
+(H14)
+ 2.0 Print
+ 171.00 633.50 moveto
+(C10)
+ 2.0 Print
+ 168.00 633.50 moveto
+(H15)
+ 2.0 Print
+ 175.00 633.50 moveto
+(H16)
+ 2.0 Print
+ 171.00 629.50 moveto
+(C11)
+ 2.0 Print
+ 171.00 630.50 moveto
+(H17)
+ 2.0 Print
+ 171.00 624.50 moveto
+(C12)
+ 2.0 Print
+ 171.00 622.50 moveto
+(H18)
+ 2.0 Print
+ 171.00 620.50 moveto
+(C13)
+ 2.0 Print
+ 175.00 620.50 moveto
+(H19)
+ 2.0 Print
+ 168.00 620.50 moveto
+(H20)
+ 2.0 Print
+ 171.00 614.50 moveto
+(C14)
+ 2.0 Print
+ 168.00 613.50 moveto
+(H21)
+ 2.0 Print
+ 175.00 613.50 moveto
+(H22)
+ 2.0 Print
+ 171.00 610.50 moveto
+(C15)
+ 2.0 Print
+ 175.00 610.50 moveto
+(H23)
+ 2.0 Print
+ 168.00 610.50 moveto
+(H24)
+ 2.0 Print
+ 171.00 604.50 moveto
+(C16)
+ 2.0 Print
+ 168.00 603.50 moveto
+(H25)
+ 2.0 Print
+ 175.00 603.50 moveto
+(H26)
+ 2.0 Print
+ 171.00 600.50 moveto
+(C17)
+ 2.0 Print
+ 175.00 600.50 moveto
+(H27)
+ 2.0 Print
+ 168.00 600.50 moveto
+(H28)
+ 2.0 Print
+ 171.00 594.50 moveto
+(C18)
+ 2.0 Print
+ 168.00 593.50 moveto
+(H29)
+ 2.0 Print
+ 175.00 593.50 moveto
+(H30)
+ 2.0 Print
+ 171.00 590.50 moveto
+(C19)
+ 2.0 Print
+ 175.00 591.50 moveto
+(H31)
+ 2.0 Print
+ 168.00 591.50 moveto
+(H32)
+ 2.0 Print
+ 171.00 584.50 moveto
+(C20)
+ 2.0 Print
+ 175.00 583.50 moveto
+(H35)
+ 2.0 Print
+ 168.00 583.50 moveto
+(H34)
+ 2.0 Print
+ 171.00 581.50 moveto
+(H33)
+ 2.0 Print
+ 290.00 730.00 470.00 730.00 L
+ 470.00 730.00 470.00 550.00 L
+ 470.00 550.00 290.00 550.00 L
+ 290.00 550.00 290.00 730.00 L
+ 361.50 669.10 361.60 673.40 L
+ 361.60 673.40 356.80 674.80 L
+ 356.80 674.80 356.20 679.60 L
+ 356.20 679.60 350.70 679.50 L
+ 347.50 679.60 350.70 679.50 L
+ 349.80 674.90 350.70 679.50 L
+ 350.00 669.60 349.80 674.90 L
+ 349.60 669.50 350.00 669.60 L
+ 349.80 664.20 350.00 669.60 L
+ 350.50 659.60 349.80 664.20 L
+ 350.00 654.00 350.50 659.60 L
+ 350.70 649.50 350.00 654.00 L
+ 350.30 643.90 350.70 649.50 L
+ 350.90 639.40 350.30 643.90 L
+ 350.50 633.70 350.90 639.40 L
+ 351.20 629.50 350.50 633.70 L
+ 351.00 624.20 351.20 629.50 L
+ 351.70 620.00 351.00 624.20 L
+ 351.20 614.30 351.70 620.00 L
+ 351.90 610.10 351.20 614.30 L
+ 351.50 604.40 351.90 610.10 L
+ 352.10 600.30 351.50 604.40 L
+ 351.70 594.60 352.10 600.30 L
+ 352.30 590.50 351.70 594.60 L
+ 351.90 584.80 352.30 590.50 L
+ 350.70 679.50 350.30 684.90 L
+ 350.30 684.90 349.90 689.70 L
+ 349.90 689.70 349.70 696.10 L
+ 354.10 696.90 349.70 696.10 L
+ 349.70 696.10 350.30 699.50 L
+ 343.50 697.40 349.70 696.10 L
+ 341.90 694.70 343.50 697.40 L
+ 335.90 696.40 341.90 694.70 L
+ 333.90 692.90 335.90 696.40 L
+ 328.10 694.90 333.90 692.90 L
+ 337.60 693.90 333.90 692.90 L
+ 333.50 686.80 333.90 692.90 L
+ 366.20 677.30 361.60 673.40 L
+ 370.60 675.10 366.20 677.30 L
+ 375.20 679.20 370.60 675.10 L
+ 379.60 677.00 375.20 679.20 L
+ 384.20 681.00 379.60 677.00 L
+ 388.50 678.80 384.20 681.00 L
+ 393.10 682.70 388.50 678.80 L
+ 397.40 680.50 393.10 682.70 L
+ 402.00 684.40 397.40 680.50 L
+ 406.10 682.30 402.00 684.40 L
+ 410.70 686.10 406.10 682.30 L
+ 414.70 683.90 410.70 686.10 L
+ 419.20 687.80 414.70 683.90 L
+ 423.20 685.80 419.20 687.80 L
+ 427.60 689.60 423.20 685.80 L
+ 359.40 679.80 356.20 679.60 L
+ 356.50 683.10 356.20 679.60 L
+ 345.70 663.80 349.80 664.20 L
+ 353.10 664.00 349.80 664.20 L
+ 354.50 660.00 350.50 659.60 L
+ 347.30 660.00 350.50 659.60 L
+ 346.00 653.60 350.00 654.00 L
+ 353.30 653.60 350.00 654.00 L
+ 354.70 649.90 350.70 649.50 L
+ 347.50 649.90 350.70 649.50 L
+ 346.20 643.50 350.30 643.90 L
+ 353.50 643.50 350.30 643.90 L
+ 354.90 639.80 350.90 639.40 L
+ 347.80 639.80 350.90 639.40 L
+ 346.50 633.20 350.50 633.70 L
+ 353.80 633.20 350.50 633.70 L
+ 351.90 630.70 351.20 629.50 L
+ 350.30 622.80 351.00 624.20 L
+ 355.60 620.50 351.70 620.00 L
+ 348.50 620.60 351.70 620.00 L
+ 347.20 613.80 351.20 614.30 L
+ 354.40 613.80 351.20 614.30 L
+ 355.80 610.60 351.90 610.10 L
+ 348.70 610.70 351.90 610.10 L
+ 347.50 603.80 351.50 604.40 L
+ 354.70 603.80 351.50 604.40 L
+ 356.00 600.90 352.10 600.30 L
+ 349.00 601.00 352.10 600.30 L
+ 347.70 594.10 351.70 594.60 L
+ 354.90 594.00 351.70 594.60 L
+ 356.20 591.10 352.30 590.50 L
+ 349.20 591.20 352.30 590.50 L
+ 352.40 582.10 351.90 584.80 L
+ 348.10 584.20 351.90 584.80 L
+ 355.00 584.10 351.90 584.80 L
+ 346.60 684.70 350.30 684.90 L
+ 354.00 685.30 350.30 684.90 L
+ 344.80 696.10 341.90 694.70 L
+ 342.20 690.20 341.90 694.70 L
+ 333.20 695.70 335.90 696.40 L
+ 335.80 700.90 335.90 696.40 L
+ 326.40 692.40 328.10 694.90 L
+ 325.40 694.30 328.10 694.90 L
+ 328.10 699.30 328.10 694.90 L
+ 336.10 691.30 337.60 693.90 L
+ 337.40 698.30 337.60 693.90 L
+ 341.90 692.70 337.60 693.90 L
+ 332.00 684.50 333.50 686.80 L
+ 337.60 685.20 333.50 686.80 L
+ 330.60 686.20 333.50 686.80 L
+ 367.80 677.90 366.20 677.30 L
+ 364.90 681.20 366.20 677.30 L
+ 369.10 674.50 370.60 675.10 L
+ 372.10 671.20 370.60 675.10 L
+ 376.70 679.70 375.20 679.20 L
+ 373.70 683.00 375.20 679.20 L
+ 378.00 676.50 379.60 677.00 L
+ 381.00 673.20 379.60 677.00 L
+ 385.80 681.60 384.20 681.00 L
+ 382.80 684.80 384.20 681.00 L
+ 386.80 678.20 388.50 678.80 L
+ 389.90 675.00 388.50 678.80 L
+ 394.80 683.30 393.10 682.70 L
+ 391.70 686.50 393.10 682.70 L
+ 395.60 680.00 397.40 680.50 L
+ 398.80 676.80 397.40 680.50 L
+ 403.70 685.00 402.00 684.40 L
+ 400.50 688.20 402.00 684.40 L
+ 404.30 681.70 406.10 682.30 L
+ 407.50 678.50 406.10 682.30 L
+ 412.50 686.70 410.70 686.10 L
+ 409.20 689.80 410.70 686.10 L
+ 412.90 683.30 414.70 683.90 L
+ 416.20 680.20 414.70 683.90 L
+ 420.90 688.40 419.20 687.80 L
+ 417.60 691.40 419.20 687.80 L
+ 421.30 685.20 423.20 685.80 L
+ 424.70 682.10 423.20 685.80 L
+ 430.30 688.10 427.60 689.60 L
+ 429.50 690.20 427.60 689.60 L
+ 426.20 693.10 427.60 689.60 L
+ 350.00 699.50 moveto
+(O6)
+ 2.0 Print
+ 350.00 696.50 moveto
+(P)
+ 2.0 Print
+ 354.00 697.50 moveto
+(O5)
+ 2.0 Print
+ 343.00 697.50 moveto
+(O7)
+ 2.0 Print
+ 342.00 694.50 moveto
+(C22)
+ 2.0 Print
+ 345.00 696.50 moveto
+(H38)
+ 2.0 Print
+ 342.00 690.50 moveto
+(H39)
+ 2.0 Print
+ 336.00 696.50 moveto
+(C23)
+ 2.0 Print
+ 333.00 695.50 moveto
+(H40)
+ 2.0 Print
+ 336.00 701.50 moveto
+(H41)
+ 2.0 Print
+ 334.00 693.50 moveto
+(N)
+ 2.0 Print
+ 333.00 687.50 moveto
+(C26)
+ 2.0 Print
+ 330.00 686.50 moveto
+(H50)
+ 2.0 Print
+ 337.00 685.50 moveto
+(H49)
+ 2.0 Print
+ 332.00 684.50 moveto
+(H48)
+ 2.0 Print
+ 337.00 694.50 moveto
+(C25)
+ 2.0 Print
+ 342.00 692.50 moveto
+(H47)
+ 2.0 Print
+ 337.00 698.50 moveto
+(H46)
+ 2.0 Print
+ 336.00 691.50 moveto
+(H45)
+ 2.0 Print
+ 328.00 695.50 moveto
+(C24)
+ 2.0 Print
+ 328.00 699.50 moveto
+(H44)
+ 2.0 Print
+ 325.00 694.50 moveto
+(H43)
+ 2.0 Print
+ 326.00 692.50 moveto
+(H42)
+ 2.0 Print
+ 350.00 689.50 moveto
+(O4)
+ 2.0 Print
+ 350.00 685.50 moveto
+(C21)
+ 2.0 Print
+ 346.00 684.50 moveto
+(H36)
+ 2.0 Print
+ 354.00 685.50 moveto
+(H37)
+ 2.0 Print
+ 351.00 679.50 moveto
+(C2)
+ 2.0 Print
+ 347.00 679.50 moveto
+(H)
+ 2.0 Print
+ 356.00 679.50 moveto
+(C1)
+ 2.0 Print
+ 359.00 680.50 moveto
+(H1)
+ 2.0 Print
+ 356.00 683.50 moveto
+(H2)
+ 2.0 Print
+ 357.00 675.50 moveto
+(O1)
+ 2.0 Print
+ 361.00 673.50 moveto
+(C)
+ 2.0 Print
+ 366.00 677.50 moveto
+(C27)
+ 2.0 Print
+ 368.00 678.50 moveto
+(H51)
+ 2.0 Print
+ 365.00 681.50 moveto
+(H52)
+ 2.0 Print
+ 370.00 675.50 moveto
+(C28)
+ 2.0 Print
+ 369.00 674.75 moveto
+(H53)
+ 1.0 Print
+ 372.00 671.50 moveto
+(H54)
+ 2.0 Print
+ 375.00 679.50 moveto
+(C29)
+ 2.0 Print
+ 377.00 679.50 moveto
+(H55)
+ 2.0 Print
+ 374.00 683.50 moveto
+(H56)
+ 2.0 Print
+ 379.00 677.75 moveto
+(C30)
+ 1.0 Print
+ 378.00 676.75 moveto
+(H57)
+ 1.0 Print
+ 381.00 673.75 moveto
+(H58)
+ 1.0 Print
+ 384.00 681.75 moveto
+(C31)
+ 1.0 Print
+ 386.00 681.50 moveto
+(H59)
+ 2.0 Print
+ 383.00 685.75 moveto
+(H60)
+ 1.0 Print
+ 388.00 679.75 moveto
+(C32)
+ 1.0 Print
+ 387.00 678.75 moveto
+(H61)
+ 1.0 Print
+ 390.00 675.75 moveto
+(H62)
+ 1.0 Print
+ 393.00 682.75 moveto
+(C33)
+ 1.0 Print
+ 395.00 683.75 moveto
+(H63)
+ 1.0 Print
+ 392.00 686.75 moveto
+(H64)
+ 1.0 Print
+ 397.00 680.75 moveto
+(C34)
+ 1.0 Print
+ 395.00 680.75 moveto
+(H65)
+ 1.0 Print
+ 399.00 677.75 moveto
+(H66)
+ 1.0 Print
+ 402.00 684.75 moveto
+(C35)
+ 1.0 Print
+ 404.00 685.75 moveto
+(H67)
+ 1.0 Print
+ 400.00 688.75 moveto
+(H68)
+ 1.0 Print
+ 406.00 682.75 moveto
+(C36)
+ 1.0 Print
+ 404.00 681.75 moveto
+(H69)
+ 1.0 Print
+ 407.00 678.75 moveto
+(H70)
+ 1.0 Print
+ 411.00 686.75 moveto
+(C37)
+ 1.0 Print
+ 412.00 686.75 moveto
+(H71)
+ 1.0 Print
+ 409.00 690.75 moveto
+(H72)
+ 1.0 Print
+ 415.00 684.75 moveto
+(C38)
+ 1.0 Print
+ 413.00 683.75 moveto
+(H73)
+ 1.0 Print
+ 416.00 680.75 moveto
+(H74)
+ 1.0 Print
+ 419.00 688.75 moveto
+(C39)
+ 1.0 Print
+ 421.00 688.75 moveto
+(H75)
+ 1.0 Print
+ 417.00 691.75 moveto
+(H76)
+ 1.0 Print
+ 423.00 686.75 moveto
+(C40)
+ 1.0 Print
+ 421.00 685.75 moveto
+(H77)
+ 1.0 Print
+ 425.00 682.75 moveto
+(H78)
+ 1.0 Print
+ 427.00 689.75 moveto
+(C41)
+ 1.0 Print
+ 426.00 693.75 moveto
+(H81)
+ 1.0 Print
+ 429.00 690.75 moveto
+(H80)
+ 1.0 Print
+ 430.00 688.75 moveto
+(H79)
+ 1.0 Print
+ 361.00 669.50 moveto
+(O)
+ 2.0 Print
+ 350.00 675.50 moveto
+(O2)
+ 2.0 Print
+ 350.00 669.50 moveto
+(C3)
+ 2.0 Print
+ 349.00 669.50 moveto
+(O3)
+ 2.0 Print
+ 350.00 664.50 moveto
+(C4)
+ 2.0 Print
+ 346.00 664.50 moveto
+(H3)
+ 2.0 Print
+ 353.00 664.50 moveto
+(H4)
+ 2.0 Print
+ 350.00 659.50 moveto
+(C5)
+ 2.0 Print
+ 354.00 660.50 moveto
+(H5)
+ 2.0 Print
+ 347.00 660.50 moveto
+(H6)
+ 2.0 Print
+ 350.00 654.50 moveto
+(C6)
+ 2.0 Print
+ 346.00 653.50 moveto
+(H7)
+ 2.0 Print
+ 353.00 653.50 moveto
+(H8)
+ 2.0 Print
+ 351.00 649.50 moveto
+(C7)
+ 2.0 Print
+ 355.00 650.50 moveto
+(H9)
+ 2.0 Print
+ 347.00 650.50 moveto
+(H10)
+ 2.0 Print
+ 350.00 644.50 moveto
+(C8)
+ 2.0 Print
+ 346.00 643.50 moveto
+(H11)
+ 2.0 Print
+ 353.00 643.50 moveto
+(H12)
+ 2.0 Print
+ 351.00 639.50 moveto
+(C9)
+ 2.0 Print
+ 355.00 640.50 moveto
+(H13)
+ 2.0 Print
+ 348.00 640.50 moveto
+(H14)
+ 2.0 Print
+ 350.00 633.50 moveto
+(C10)
+ 2.0 Print
+ 346.00 633.50 moveto
+(H15)
+ 2.0 Print
+ 354.00 633.50 moveto
+(H16)
+ 2.0 Print
+ 351.00 629.50 moveto
+(C11)
+ 2.0 Print
+ 352.00 630.50 moveto
+(H17)
+ 2.0 Print
+ 351.00 624.50 moveto
+(C12)
+ 2.0 Print
+ 350.00 623.50 moveto
+(H18)
+ 2.0 Print
+ 352.00 620.50 moveto
+(C13)
+ 2.0 Print
+ 355.00 620.50 moveto
+(H19)
+ 2.0 Print
+ 348.00 620.50 moveto
+(H20)
+ 2.0 Print
+ 351.00 614.50 moveto
+(C14)
+ 2.0 Print
+ 347.00 614.50 moveto
+(H21)
+ 2.0 Print
+ 354.00 614.50 moveto
+(H22)
+ 2.0 Print
+ 352.00 610.50 moveto
+(C15)
+ 2.0 Print
+ 356.00 610.50 moveto
+(H23)
+ 2.0 Print
+ 349.00 610.50 moveto
+(H24)
+ 2.0 Print
+ 351.00 604.50 moveto
+(C16)
+ 2.0 Print
+ 347.00 604.50 moveto
+(H25)
+ 2.0 Print
+ 355.00 604.50 moveto
+(H26)
+ 2.0 Print
+ 352.00 600.50 moveto
+(C17)
+ 2.0 Print
+ 356.00 601.50 moveto
+(H27)
+ 2.0 Print
+ 349.00 601.75 moveto
+(H28)
+ 1.0 Print
+ 352.00 594.50 moveto
+(C18)
+ 2.0 Print
+ 348.00 594.50 moveto
+(H29)
+ 2.0 Print
+ 355.00 594.50 moveto
+(H30)
+ 2.0 Print
+ 352.00 590.50 moveto
+(C19)
+ 2.0 Print
+ 356.00 591.75 moveto
+(H31)
+ 1.0 Print
+ 349.00 591.75 moveto
+(H32)
+ 1.0 Print
+ 352.00 585.50 moveto
+(C20)
+ 2.0 Print
+ 355.00 584.50 moveto
+(H35)
+ 2.0 Print
+ 348.00 584.50 moveto
+(H34)
+ 2.0 Print
+ 352.00 582.50 moveto
+(H33)
+ 2.0 Print
+ 260.00 527.50 moveto
+(BONDS)
+10.0 Print
+  90.00 508.00 moveto
+(lib)
+ 8.0 Print
+ 113.04 508.00 moveto
+(-)
+ 8.0 Print
+ 124.56 508.00 moveto
+(value)
+ 8.0 Print
+ 159.12 508.00 moveto
+(from)
+ 8.0 Print
+ 187.92 508.00 moveto
+(library,)
+ 8.0 Print
+ 239.76 508.00 moveto
+(crd)
+ 8.0 Print
+ 262.80 508.00 moveto
+(-)
+ 8.0 Print
+ 274.32 508.00 moveto
+(value)
+ 8.0 Print
+ 308.88 508.00 moveto
+(from)
+ 8.0 Print
+ 337.68 508.00 moveto
+(coords{created},)
+ 8.0 Print
+ 435.60 508.00 moveto
+(chem)
+ 8.0 Print
+ 464.40 508.00 moveto
+(-from)
+ 8.0 Print
+ 498.96 508.00 moveto
+(ener_li)
+ 8.0 Print
+  93.00 493.00 moveto
+(Dlib)
+ 8.0 Print
+ 121.80 493.00 moveto
+(Dcrd)
+ 8.0 Print
+ 150.60 493.00 moveto
+(Dchem)
+ 8.0 Print
+ 266.00 493.00 moveto
+(Dlib)
+ 8.0 Print
+ 294.80 493.00 moveto
+(Dcrd)
+ 8.0 Print
+ 323.60 493.00 moveto
+(Dchem)
+ 8.0 Print
+ 439.00 493.00 moveto
+(Dlib)
+ 8.0 Print
+ 467.80 493.00 moveto
+(Dcrd)
+ 8.0 Print
+ 496.60 493.00 moveto
+(Dchem)
+ 8.0 Print
+  41.00 478.00 moveto
+(O)
+ 8.0 Print
+  64.04 478.00 moveto
+(-C)
+ 8.0 Print
+  81.00 478.00 moveto
+  92.52 478.00 moveto
+(1.220)
+ 8.0 Print
+ 132.84 478.00 moveto
+(1.223)
+ 8.0 Print
+ 173.16 478.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 478.00 moveto
+(C)
+ 8.0 Print
+ 237.04 478.00 moveto
+(-O1)
+ 8.0 Print
+ 254.00 478.00 moveto
+ 265.52 478.00 moveto
+(1.454)
+ 8.0 Print
+ 305.84 478.00 moveto
+(1.441)
+ 8.0 Print
+ 346.16 478.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 478.00 moveto
+(O1)
+ 8.0 Print
+ 410.04 478.00 moveto
+(-C1)
+ 8.0 Print
+ 427.00 478.00 moveto
+ 438.52 478.00 moveto
+(1.426)
+ 8.0 Print
+ 478.84 478.00 moveto
+(1.413)
+ 8.0 Print
+ 519.16 478.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 468.00 moveto
+(C1)
+ 8.0 Print
+  64.04 468.00 moveto
+(-C2)
+ 8.0 Print
+  81.00 468.00 moveto
+  92.52 468.00 moveto
+(1.524)
+ 8.0 Print
+ 132.84 468.00 moveto
+(1.502)
+ 8.0 Print
+ 173.16 468.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 468.00 moveto
+(H)
+ 8.0 Print
+ 237.04 468.00 moveto
+(-C2)
+ 8.0 Print
+ 254.00 468.00 moveto
+ 265.52 468.00 moveto
+(1.099)
+ 8.0 Print
+ 305.84 468.00 moveto
+(1.099)
+ 8.0 Print
+ 346.16 468.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 468.00 moveto
+(O2)
+ 8.0 Print
+ 410.04 468.00 moveto
+(-C2)
+ 8.0 Print
+ 427.00 468.00 moveto
+ 438.52 468.00 moveto
+(1.426)
+ 8.0 Print
+ 478.84 468.00 moveto
+(1.432)
+ 8.0 Print
+ 519.16 468.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 458.00 moveto
+(C3)
+ 8.0 Print
+  64.04 458.00 moveto
+(-O2)
+ 8.0 Print
+  81.00 458.00 moveto
+  92.52 458.00 moveto
+(1.454)
+ 8.0 Print
+ 132.84 458.00 moveto
+(1.453)
+ 8.0 Print
+ 173.16 458.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 458.00 moveto
+(O3)
+ 8.0 Print
+ 237.04 458.00 moveto
+(-C3)
+ 8.0 Print
+ 254.00 458.00 moveto
+ 265.52 458.00 moveto
+(1.220)
+ 8.0 Print
+ 305.84 458.00 moveto
+(1.221)
+ 8.0 Print
+ 346.16 458.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 458.00 moveto
+(C4)
+ 8.0 Print
+ 410.04 458.00 moveto
+(-C3)
+ 8.0 Print
+ 427.00 458.00 moveto
+ 438.52 458.00 moveto
+(1.510)
+ 8.0 Print
+ 478.84 458.00 moveto
+(1.513)
+ 8.0 Print
+ 519.16 458.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 448.00 moveto
+(C5)
+ 8.0 Print
+  64.04 448.00 moveto
+(-C4)
+ 8.0 Print
+  81.00 448.00 moveto
+  92.52 448.00 moveto
+(1.524)
+ 8.0 Print
+ 132.84 448.00 moveto
+(1.526)
+ 8.0 Print
+ 173.16 448.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 448.00 moveto
+(C6)
+ 8.0 Print
+ 237.04 448.00 moveto
+(-C5)
+ 8.0 Print
+ 254.00 448.00 moveto
+ 265.52 448.00 moveto
+(1.524)
+ 8.0 Print
+ 305.84 448.00 moveto
+(1.516)
+ 8.0 Print
+ 346.16 448.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 448.00 moveto
+(C7)
+ 8.0 Print
+ 410.04 448.00 moveto
+(-C6)
+ 8.0 Print
+ 427.00 448.00 moveto
+ 438.52 448.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 448.00 moveto
+(1.523)
+ 8.0 Print
+ 519.16 448.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 438.00 moveto
+(C8)
+ 8.0 Print
+  64.04 438.00 moveto
+(-C7)
+ 8.0 Print
+  81.00 438.00 moveto
+  92.52 438.00 moveto
+(1.524)
+ 8.0 Print
+ 132.84 438.00 moveto
+(1.524)
+ 8.0 Print
+ 173.16 438.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 438.00 moveto
+(C9)
+ 8.0 Print
+ 237.04 438.00 moveto
+(-C8)
+ 8.0 Print
+ 254.00 438.00 moveto
+ 265.52 438.00 moveto
+(1.524)
+ 8.0 Print
+ 305.84 438.00 moveto
+(1.523)
+ 8.0 Print
+ 346.16 438.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 438.00 moveto
+(C10)
+ 8.0 Print
+ 410.04 438.00 moveto
+(-C9)
+ 8.0 Print
+ 427.00 438.00 moveto
+ 438.52 438.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 438.00 moveto
+(1.526)
+ 8.0 Print
+ 519.16 438.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 428.00 moveto
+(C11)
+ 8.0 Print
+  64.04 428.00 moveto
+(-C10)
+ 8.0 Print
+  81.00 428.00 moveto
+  92.52 428.00 moveto
+(1.510)
+ 8.0 Print
+ 132.84 428.00 moveto
+(1.517)
+ 8.0 Print
+ 173.16 428.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 428.00 moveto
+(C12)
+ 8.0 Print
+ 237.04 428.00 moveto
+(-C11)
+ 8.0 Print
+ 254.00 428.00 moveto
+ 265.52 428.00 moveto
+(1.330)
+ 8.0 Print
+ 305.84 428.00 moveto
+(1.339)
+ 8.0 Print
+ 346.16 428.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 428.00 moveto
+(C13)
+ 8.0 Print
+ 410.04 428.00 moveto
+(-C12)
+ 8.0 Print
+ 427.00 428.00 moveto
+ 438.52 428.00 moveto
+(1.510)
+ 8.0 Print
+ 478.84 428.00 moveto
+(1.517)
+ 8.0 Print
+ 519.16 428.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 418.00 moveto
+(C14)
+ 8.0 Print
+  64.04 418.00 moveto
+(-C13)
+ 8.0 Print
+  81.00 418.00 moveto
+  92.52 418.00 moveto
+(1.524)
+ 8.0 Print
+ 132.84 418.00 moveto
+(1.526)
+ 8.0 Print
+ 173.16 418.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 418.00 moveto
+(C15)
+ 8.0 Print
+ 237.04 418.00 moveto
+(-C14)
+ 8.0 Print
+ 254.00 418.00 moveto
+ 265.52 418.00 moveto
+(1.524)
+ 8.0 Print
+ 305.84 418.00 moveto
+(1.523)
+ 8.0 Print
+ 346.16 418.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 418.00 moveto
+(C16)
+ 8.0 Print
+ 410.04 418.00 moveto
+(-C15)
+ 8.0 Print
+ 427.00 418.00 moveto
+ 438.52 418.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 418.00 moveto
+(1.522)
+ 8.0 Print
+ 519.16 418.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 408.00 moveto
+(C17)
+ 8.0 Print
+  64.04 408.00 moveto
+(-C16)
+ 8.0 Print
+  81.00 408.00 moveto
+  92.52 408.00 moveto
+(1.524)
+ 8.0 Print
+ 132.84 408.00 moveto
+(1.524)
+ 8.0 Print
+ 173.16 408.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 408.00 moveto
+(C18)
+ 8.0 Print
+ 237.04 408.00 moveto
+(-C17)
+ 8.0 Print
+ 254.00 408.00 moveto
+ 265.52 408.00 moveto
+(1.524)
+ 8.0 Print
+ 305.84 408.00 moveto
+(1.518)
+ 8.0 Print
+ 346.16 408.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 408.00 moveto
+(C19)
+ 8.0 Print
+ 410.04 408.00 moveto
+(-C18)
+ 8.0 Print
+ 427.00 408.00 moveto
+ 438.52 408.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 408.00 moveto
+(1.514)
+ 8.0 Print
+ 519.16 408.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 398.00 moveto
+(C20)
+ 8.0 Print
+  64.04 398.00 moveto
+(-C19)
+ 8.0 Print
+  81.00 398.00 moveto
+  92.52 398.00 moveto
+(1.513)
+ 8.0 Print
+ 132.84 398.00 moveto
+(1.515)
+ 8.0 Print
+ 173.16 398.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 398.00 moveto
+(C2)
+ 8.0 Print
+ 237.04 398.00 moveto
+(-C21)
+ 8.0 Print
+ 254.00 398.00 moveto
+ 265.52 398.00 moveto
+(1.524)
+ 8.0 Print
+ 305.84 398.00 moveto
+(1.537)
+ 8.0 Print
+ 346.16 398.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 398.00 moveto
+(C21)
+ 8.0 Print
+ 410.04 398.00 moveto
+(-O4)
+ 8.0 Print
+ 427.00 398.00 moveto
+ 438.52 398.00 moveto
+(1.426)
+ 8.0 Print
+ 478.84 398.00 moveto
+(1.425)
+ 8.0 Print
+ 519.16 398.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 388.00 moveto
+(O4)
+ 8.0 Print
+  64.04 388.00 moveto
+(-P)
+ 8.0 Print
+  81.00 388.00 moveto
+  92.52 388.00 moveto
+(1.610)
+ 8.0 Print
+ 132.84 388.00 moveto
+(1.607)
+ 8.0 Print
+ 173.16 388.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 388.00 moveto
+(O5)
+ 8.0 Print
+ 237.04 388.00 moveto
+(-P)
+ 8.0 Print
+ 254.00 388.00 moveto
+ 265.52 388.00 moveto
+(1.510)
+ 8.0 Print
+ 305.84 388.00 moveto
+(1.511)
+ 8.0 Print
+ 346.16 388.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 388.00 moveto
+(P)
+ 8.0 Print
+ 410.04 388.00 moveto
+(-O6)
+ 8.0 Print
+ 427.00 388.00 moveto
+ 438.52 388.00 moveto
+(1.510)
+ 8.0 Print
+ 478.84 388.00 moveto
+(1.511)
+ 8.0 Print
+ 519.16 388.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 378.00 moveto
+(O7)
+ 8.0 Print
+  64.04 378.00 moveto
+(-P)
+ 8.0 Print
+  81.00 378.00 moveto
+  92.52 378.00 moveto
+(1.610)
+ 8.0 Print
+ 132.84 378.00 moveto
+(1.616)
+ 8.0 Print
+ 173.16 378.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 378.00 moveto
+(C22)
+ 8.0 Print
+ 237.04 378.00 moveto
+(-O7)
+ 8.0 Print
+ 254.00 378.00 moveto
+ 265.52 378.00 moveto
+(1.426)
+ 8.0 Print
+ 305.84 378.00 moveto
+(1.417)
+ 8.0 Print
+ 346.16 378.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 378.00 moveto
+(C23)
+ 8.0 Print
+ 410.04 378.00 moveto
+(-C22)
+ 8.0 Print
+ 427.00 378.00 moveto
+ 438.52 378.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 378.00 moveto
+(1.510)
+ 8.0 Print
+ 519.16 378.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 368.00 moveto
+(N)
+ 8.0 Print
+  64.04 368.00 moveto
+(-C23)
+ 8.0 Print
+  81.00 368.00 moveto
+  92.52 368.00 moveto
+(1.469)
+ 8.0 Print
+ 132.84 368.00 moveto
+(1.469)
+ 8.0 Print
+ 173.16 368.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 368.00 moveto
+(C24)
+ 8.0 Print
+ 237.04 368.00 moveto
+(-N)
+ 8.0 Print
+ 254.00 368.00 moveto
+ 265.52 368.00 moveto
+(1.469)
+ 8.0 Print
+ 305.84 368.00 moveto
+(1.478)
+ 8.0 Print
+ 346.16 368.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 368.00 moveto
+(C25)
+ 8.0 Print
+ 410.04 368.00 moveto
+(-N)
+ 8.0 Print
+ 427.00 368.00 moveto
+ 438.52 368.00 moveto
+(1.469)
+ 8.0 Print
+ 478.84 368.00 moveto
+(1.477)
+ 8.0 Print
+ 519.16 368.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 358.00 moveto
+(C26)
+ 8.0 Print
+  64.04 358.00 moveto
+(-N)
+ 8.0 Print
+  81.00 358.00 moveto
+  92.52 358.00 moveto
+(1.469)
+ 8.0 Print
+ 132.84 358.00 moveto
+(1.480)
+ 8.0 Print
+ 173.16 358.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 358.00 moveto
+(C27)
+ 8.0 Print
+ 237.04 358.00 moveto
+(-C)
+ 8.0 Print
+ 254.00 358.00 moveto
+ 265.52 358.00 moveto
+(1.510)
+ 8.0 Print
+ 305.84 358.00 moveto
+(1.500)
+ 8.0 Print
+ 346.16 358.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 358.00 moveto
+(C28)
+ 8.0 Print
+ 410.04 358.00 moveto
+(-C27)
+ 8.0 Print
+ 427.00 358.00 moveto
+ 438.52 358.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 358.00 moveto
+(1.505)
+ 8.0 Print
+ 519.16 358.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 348.00 moveto
+(C29)
+ 8.0 Print
+  64.04 348.00 moveto
+(-C28)
+ 8.0 Print
+  81.00 348.00 moveto
+  92.52 348.00 moveto
+(1.524)
+ 8.0 Print
+ 132.84 348.00 moveto
+(1.522)
+ 8.0 Print
+ 173.16 348.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 348.00 moveto
+(C30)
+ 8.0 Print
+ 237.04 348.00 moveto
+(-C29)
+ 8.0 Print
+ 254.00 348.00 moveto
+ 265.52 348.00 moveto
+(1.524)
+ 8.0 Print
+ 305.84 348.00 moveto
+(1.518)
+ 8.0 Print
+ 346.16 348.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 348.00 moveto
+(C31)
+ 8.0 Print
+ 410.04 348.00 moveto
+(-C30)
+ 8.0 Print
+ 427.00 348.00 moveto
+ 438.52 348.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 348.00 moveto
+(1.522)
+ 8.0 Print
+ 519.16 348.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 338.00 moveto
+(C32)
+ 8.0 Print
+  64.04 338.00 moveto
+(-C31)
+ 8.0 Print
+  81.00 338.00 moveto
+  92.52 338.00 moveto
+(1.524)
+ 8.0 Print
+ 132.84 338.00 moveto
+(1.525)
+ 8.0 Print
+ 173.16 338.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 338.00 moveto
+(C33)
+ 8.0 Print
+ 237.04 338.00 moveto
+(-C32)
+ 8.0 Print
+ 254.00 338.00 moveto
+ 265.52 338.00 moveto
+(1.524)
+ 8.0 Print
+ 305.84 338.00 moveto
+(1.526)
+ 8.0 Print
+ 346.16 338.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 338.00 moveto
+(C34)
+ 8.0 Print
+ 410.04 338.00 moveto
+(-C33)
+ 8.0 Print
+ 427.00 338.00 moveto
+ 438.52 338.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 338.00 moveto
+(1.526)
+ 8.0 Print
+ 519.16 338.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 328.00 moveto
+(C35)
+ 8.0 Print
+  64.04 328.00 moveto
+(-C34)
+ 8.0 Print
+  81.00 328.00 moveto
+  92.52 328.00 moveto
+(1.524)
+ 8.0 Print
+ 132.84 328.00 moveto
+(1.527)
+ 8.0 Print
+ 173.16 328.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 328.00 moveto
+(C36)
+ 8.0 Print
+ 237.04 328.00 moveto
+(-C35)
+ 8.0 Print
+ 254.00 328.00 moveto
+ 265.52 328.00 moveto
+(1.524)
+ 8.0 Print
+ 305.84 328.00 moveto
+(1.526)
+ 8.0 Print
+ 346.16 328.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 328.00 moveto
+(C37)
+ 8.0 Print
+ 410.04 328.00 moveto
+(-C36)
+ 8.0 Print
+ 427.00 328.00 moveto
+ 438.52 328.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 328.00 moveto
+(1.524)
+ 8.0 Print
+ 519.16 328.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 318.00 moveto
+(C38)
+ 8.0 Print
+  64.04 318.00 moveto
+(-C37)
+ 8.0 Print
+  81.00 318.00 moveto
+  92.52 318.00 moveto
+(1.524)
+ 8.0 Print
+ 132.84 318.00 moveto
+(1.525)
+ 8.0 Print
+ 173.16 318.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 318.00 moveto
+(C39)
+ 8.0 Print
+ 237.04 318.00 moveto
+(-C38)
+ 8.0 Print
+ 254.00 318.00 moveto
+ 265.52 318.00 moveto
+(1.524)
+ 8.0 Print
+ 305.84 318.00 moveto
+(1.520)
+ 8.0 Print
+ 346.16 318.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 318.00 moveto
+(C40)
+ 8.0 Print
+ 410.04 318.00 moveto
+(-C39)
+ 8.0 Print
+ 427.00 318.00 moveto
+ 438.52 318.00 moveto
+(1.524)
+ 8.0 Print
+ 478.84 318.00 moveto
+(1.515)
+ 8.0 Print
+ 519.16 318.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 308.00 moveto
+(C41)
+ 8.0 Print
+  64.04 308.00 moveto
+(-C40)
+ 8.0 Print
+  81.00 308.00 moveto
+  92.52 308.00 moveto
+(1.513)
+ 8.0 Print
+ 132.84 308.00 moveto
+(1.516)
+ 8.0 Print
+ 173.16 308.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 308.00 moveto
+(H1)
+ 8.0 Print
+ 237.04 308.00 moveto
+(-C1)
+ 8.0 Print
+ 254.00 308.00 moveto
+ 265.52 308.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 308.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 308.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 308.00 moveto
+(H2)
+ 8.0 Print
+ 410.04 308.00 moveto
+(-C1)
+ 8.0 Print
+ 427.00 308.00 moveto
+ 438.52 308.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 308.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 308.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 298.00 moveto
+(H3)
+ 8.0 Print
+  64.04 298.00 moveto
+(-C4)
+ 8.0 Print
+  81.00 298.00 moveto
+  92.52 298.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 298.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 298.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 298.00 moveto
+(H4)
+ 8.0 Print
+ 237.04 298.00 moveto
+(-C4)
+ 8.0 Print
+ 254.00 298.00 moveto
+ 265.52 298.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 298.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 298.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 298.00 moveto
+(H5)
+ 8.0 Print
+ 410.04 298.00 moveto
+(-C5)
+ 8.0 Print
+ 427.00 298.00 moveto
+ 438.52 298.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 298.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 298.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 288.00 moveto
+(H6)
+ 8.0 Print
+  64.04 288.00 moveto
+(-C5)
+ 8.0 Print
+  81.00 288.00 moveto
+  92.52 288.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 288.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 288.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 288.00 moveto
+(H7)
+ 8.0 Print
+ 237.04 288.00 moveto
+(-C6)
+ 8.0 Print
+ 254.00 288.00 moveto
+ 265.52 288.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 288.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 288.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 288.00 moveto
+(H8)
+ 8.0 Print
+ 410.04 288.00 moveto
+(-C6)
+ 8.0 Print
+ 427.00 288.00 moveto
+ 438.52 288.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 288.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 288.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 278.00 moveto
+(H9)
+ 8.0 Print
+  64.04 278.00 moveto
+(-C7)
+ 8.0 Print
+  81.00 278.00 moveto
+  92.52 278.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 278.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 278.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 278.00 moveto
+(H10)
+ 8.0 Print
+ 237.04 278.00 moveto
+(-C7)
+ 8.0 Print
+ 254.00 278.00 moveto
+ 265.52 278.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 278.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 278.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 278.00 moveto
+(H11)
+ 8.0 Print
+ 410.04 278.00 moveto
+(-C8)
+ 8.0 Print
+ 427.00 278.00 moveto
+ 438.52 278.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 278.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 278.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 268.00 moveto
+(H12)
+ 8.0 Print
+  64.04 268.00 moveto
+(-C8)
+ 8.0 Print
+  81.00 268.00 moveto
+  92.52 268.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 268.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 268.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 268.00 moveto
+(H13)
+ 8.0 Print
+ 237.04 268.00 moveto
+(-C9)
+ 8.0 Print
+ 254.00 268.00 moveto
+ 265.52 268.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 268.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 268.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 268.00 moveto
+(H14)
+ 8.0 Print
+ 410.04 268.00 moveto
+(-C9)
+ 8.0 Print
+ 427.00 268.00 moveto
+ 438.52 268.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 268.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 268.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 258.00 moveto
+(H15)
+ 8.0 Print
+  64.04 258.00 moveto
+(-C10)
+ 8.0 Print
+  81.00 258.00 moveto
+  92.52 258.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 258.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 258.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 258.00 moveto
+(H16)
+ 8.0 Print
+ 237.04 258.00 moveto
+(-C10)
+ 8.0 Print
+ 254.00 258.00 moveto
+ 265.52 258.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 258.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 258.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 258.00 moveto
+(H17)
+ 8.0 Print
+ 410.04 258.00 moveto
+(-C11)
+ 8.0 Print
+ 427.00 258.00 moveto
+ 438.52 258.00 moveto
+(1.077)
+ 8.0 Print
+ 478.84 258.00 moveto
+(1.077)
+ 8.0 Print
+ 519.16 258.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 248.00 moveto
+(H18)
+ 8.0 Print
+  64.04 248.00 moveto
+(-C12)
+ 8.0 Print
+  81.00 248.00 moveto
+  92.52 248.00 moveto
+(1.077)
+ 8.0 Print
+ 132.84 248.00 moveto
+(1.077)
+ 8.0 Print
+ 173.16 248.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 248.00 moveto
+(H19)
+ 8.0 Print
+ 237.04 248.00 moveto
+(-C13)
+ 8.0 Print
+ 254.00 248.00 moveto
+ 265.52 248.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 248.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 248.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 248.00 moveto
+(H20)
+ 8.0 Print
+ 410.04 248.00 moveto
+(-C13)
+ 8.0 Print
+ 427.00 248.00 moveto
+ 438.52 248.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 248.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 248.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 238.00 moveto
+(H21)
+ 8.0 Print
+  64.04 238.00 moveto
+(-C14)
+ 8.0 Print
+  81.00 238.00 moveto
+  92.52 238.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 238.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 238.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 238.00 moveto
+(H22)
+ 8.0 Print
+ 237.04 238.00 moveto
+(-C14)
+ 8.0 Print
+ 254.00 238.00 moveto
+ 265.52 238.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 238.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 238.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 238.00 moveto
+(H23)
+ 8.0 Print
+ 410.04 238.00 moveto
+(-C15)
+ 8.0 Print
+ 427.00 238.00 moveto
+ 438.52 238.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 238.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 238.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 228.00 moveto
+(H24)
+ 8.0 Print
+  64.04 228.00 moveto
+(-C15)
+ 8.0 Print
+  81.00 228.00 moveto
+  92.52 228.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 228.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 228.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 228.00 moveto
+(H25)
+ 8.0 Print
+ 237.04 228.00 moveto
+(-C16)
+ 8.0 Print
+ 254.00 228.00 moveto
+ 265.52 228.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 228.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 228.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 228.00 moveto
+(H26)
+ 8.0 Print
+ 410.04 228.00 moveto
+(-C16)
+ 8.0 Print
+ 427.00 228.00 moveto
+ 438.52 228.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 228.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 228.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 218.00 moveto
+(H27)
+ 8.0 Print
+  64.04 218.00 moveto
+(-C17)
+ 8.0 Print
+  81.00 218.00 moveto
+  92.52 218.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 218.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 218.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 218.00 moveto
+(H28)
+ 8.0 Print
+ 237.04 218.00 moveto
+(-C17)
+ 8.0 Print
+ 254.00 218.00 moveto
+ 265.52 218.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 218.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 218.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 218.00 moveto
+(H29)
+ 8.0 Print
+ 410.04 218.00 moveto
+(-C18)
+ 8.0 Print
+ 427.00 218.00 moveto
+ 438.52 218.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 218.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 218.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 208.00 moveto
+(H30)
+ 8.0 Print
+  64.04 208.00 moveto
+(-C18)
+ 8.0 Print
+  81.00 208.00 moveto
+  92.52 208.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 208.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 208.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 208.00 moveto
+(H31)
+ 8.0 Print
+ 237.04 208.00 moveto
+(-C19)
+ 8.0 Print
+ 254.00 208.00 moveto
+ 265.52 208.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 208.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 208.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 208.00 moveto
+(H32)
+ 8.0 Print
+ 410.04 208.00 moveto
+(-C19)
+ 8.0 Print
+ 427.00 208.00 moveto
+ 438.52 208.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 208.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 208.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 198.00 moveto
+(H33)
+ 8.0 Print
+  64.04 198.00 moveto
+(-C20)
+ 8.0 Print
+  81.00 198.00 moveto
+  92.52 198.00 moveto
+(1.059)
+ 8.0 Print
+ 132.84 198.00 moveto
+(1.059)
+ 8.0 Print
+ 173.16 198.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 198.00 moveto
+(H34)
+ 8.0 Print
+ 237.04 198.00 moveto
+(-C20)
+ 8.0 Print
+ 254.00 198.00 moveto
+ 265.52 198.00 moveto
+(1.059)
+ 8.0 Print
+ 305.84 198.00 moveto
+(1.059)
+ 8.0 Print
+ 346.16 198.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 198.00 moveto
+(H35)
+ 8.0 Print
+ 410.04 198.00 moveto
+(-C20)
+ 8.0 Print
+ 427.00 198.00 moveto
+ 438.52 198.00 moveto
+(1.059)
+ 8.0 Print
+ 478.84 198.00 moveto
+(1.059)
+ 8.0 Print
+ 519.16 198.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 188.00 moveto
+(H36)
+ 8.0 Print
+  64.04 188.00 moveto
+(-C21)
+ 8.0 Print
+  81.00 188.00 moveto
+  92.52 188.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 188.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 188.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 188.00 moveto
+(H37)
+ 8.0 Print
+ 237.04 188.00 moveto
+(-C21)
+ 8.0 Print
+ 254.00 188.00 moveto
+ 265.52 188.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 188.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 188.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 188.00 moveto
+(H38)
+ 8.0 Print
+ 410.04 188.00 moveto
+(-C22)
+ 8.0 Print
+ 427.00 188.00 moveto
+ 438.52 188.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 188.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 188.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 178.00 moveto
+(H39)
+ 8.0 Print
+  64.04 178.00 moveto
+(-C22)
+ 8.0 Print
+  81.00 178.00 moveto
+  92.52 178.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 178.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 178.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 178.00 moveto
+(H40)
+ 8.0 Print
+ 237.04 178.00 moveto
+(-C23)
+ 8.0 Print
+ 254.00 178.00 moveto
+ 265.52 178.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 178.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 178.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 178.00 moveto
+(H41)
+ 8.0 Print
+ 410.04 178.00 moveto
+(-C23)
+ 8.0 Print
+ 427.00 178.00 moveto
+ 438.52 178.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 178.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 178.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 168.00 moveto
+(H42)
+ 8.0 Print
+  64.04 168.00 moveto
+(-C24)
+ 8.0 Print
+  81.00 168.00 moveto
+  92.52 168.00 moveto
+(1.059)
+ 8.0 Print
+ 132.84 168.00 moveto
+(1.060)
+ 8.0 Print
+ 173.16 168.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 168.00 moveto
+(H43)
+ 8.0 Print
+ 237.04 168.00 moveto
+(-C24)
+ 8.0 Print
+ 254.00 168.00 moveto
+ 265.52 168.00 moveto
+(1.059)
+ 8.0 Print
+ 305.84 168.00 moveto
+(1.060)
+ 8.0 Print
+ 346.16 168.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 168.00 moveto
+(H44)
+ 8.0 Print
+ 410.04 168.00 moveto
+(-C24)
+ 8.0 Print
+ 427.00 168.00 moveto
+ 438.52 168.00 moveto
+(1.059)
+ 8.0 Print
+ 478.84 168.00 moveto
+(1.060)
+ 8.0 Print
+ 519.16 168.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 158.00 moveto
+(H45)
+ 8.0 Print
+  64.04 158.00 moveto
+(-C25)
+ 8.0 Print
+  81.00 158.00 moveto
+  92.52 158.00 moveto
+(1.059)
+ 8.0 Print
+ 132.84 158.00 moveto
+(1.060)
+ 8.0 Print
+ 173.16 158.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 158.00 moveto
+(H46)
+ 8.0 Print
+ 237.04 158.00 moveto
+(-C25)
+ 8.0 Print
+ 254.00 158.00 moveto
+ 265.52 158.00 moveto
+(1.059)
+ 8.0 Print
+ 305.84 158.00 moveto
+(1.060)
+ 8.0 Print
+ 346.16 158.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 158.00 moveto
+(H47)
+ 8.0 Print
+ 410.04 158.00 moveto
+(-C25)
+ 8.0 Print
+ 427.00 158.00 moveto
+ 438.52 158.00 moveto
+(1.059)
+ 8.0 Print
+ 478.84 158.00 moveto
+(1.060)
+ 8.0 Print
+ 519.16 158.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 148.00 moveto
+(H48)
+ 8.0 Print
+  64.04 148.00 moveto
+(-C26)
+ 8.0 Print
+  81.00 148.00 moveto
+  92.52 148.00 moveto
+(1.059)
+ 8.0 Print
+ 132.84 148.00 moveto
+(1.060)
+ 8.0 Print
+ 173.16 148.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 148.00 moveto
+(H49)
+ 8.0 Print
+ 237.04 148.00 moveto
+(-C26)
+ 8.0 Print
+ 254.00 148.00 moveto
+ 265.52 148.00 moveto
+(1.059)
+ 8.0 Print
+ 305.84 148.00 moveto
+(1.060)
+ 8.0 Print
+ 346.16 148.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 148.00 moveto
+(H50)
+ 8.0 Print
+ 410.04 148.00 moveto
+(-C26)
+ 8.0 Print
+ 427.00 148.00 moveto
+ 438.52 148.00 moveto
+(1.059)
+ 8.0 Print
+ 478.84 148.00 moveto
+(1.060)
+ 8.0 Print
+ 519.16 148.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 138.00 moveto
+(H51)
+ 8.0 Print
+  64.04 138.00 moveto
+(-C27)
+ 8.0 Print
+  81.00 138.00 moveto
+  92.52 138.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 138.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 138.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 138.00 moveto
+(H52)
+ 8.0 Print
+ 237.04 138.00 moveto
+(-C27)
+ 8.0 Print
+ 254.00 138.00 moveto
+ 265.52 138.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 138.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 138.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 138.00 moveto
+(H53)
+ 8.0 Print
+ 410.04 138.00 moveto
+(-C28)
+ 8.0 Print
+ 427.00 138.00 moveto
+ 438.52 138.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 138.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 138.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 128.00 moveto
+(H54)
+ 8.0 Print
+  64.04 128.00 moveto
+(-C28)
+ 8.0 Print
+  81.00 128.00 moveto
+  92.52 128.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 128.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 128.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 128.00 moveto
+(H55)
+ 8.0 Print
+ 237.04 128.00 moveto
+(-C29)
+ 8.0 Print
+ 254.00 128.00 moveto
+ 265.52 128.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 128.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 128.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 128.00 moveto
+(H56)
+ 8.0 Print
+ 410.04 128.00 moveto
+(-C29)
+ 8.0 Print
+ 427.00 128.00 moveto
+ 438.52 128.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 128.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 128.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 118.00 moveto
+(H57)
+ 8.0 Print
+  64.04 118.00 moveto
+(-C30)
+ 8.0 Print
+  81.00 118.00 moveto
+  92.52 118.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 118.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 118.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 118.00 moveto
+(H58)
+ 8.0 Print
+ 237.04 118.00 moveto
+(-C30)
+ 8.0 Print
+ 254.00 118.00 moveto
+ 265.52 118.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 118.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 118.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 118.00 moveto
+(H59)
+ 8.0 Print
+ 410.04 118.00 moveto
+(-C31)
+ 8.0 Print
+ 427.00 118.00 moveto
+ 438.52 118.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 118.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 118.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 108.00 moveto
+(H60)
+ 8.0 Print
+  64.04 108.00 moveto
+(-C31)
+ 8.0 Print
+  81.00 108.00 moveto
+  92.52 108.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 108.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 108.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 108.00 moveto
+(H61)
+ 8.0 Print
+ 237.04 108.00 moveto
+(-C32)
+ 8.0 Print
+ 254.00 108.00 moveto
+ 265.52 108.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 108.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 108.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 108.00 moveto
+(H62)
+ 8.0 Print
+ 410.04 108.00 moveto
+(-C32)
+ 8.0 Print
+ 427.00 108.00 moveto
+ 438.52 108.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 108.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 108.00 moveto
+(0.000)
+ 8.0 Print
+grestore stroke
+ProcheckSave restore
+showpage
+%%Page:  2  5
+/ProcheckSave save def
+ 30.00 50.00 moveto 550.00  50.00 lineto 550.00 780.00 lineto
+  30.00 780.00 lineto closepath gsave
+gsave 1.0000 setgray fill grestore
+clip newpath
+ 260.00 750.00 moveto
+(DUM)
+20.0 Print
+  41.00 728.00 moveto
+(H63)
+ 8.0 Print
+  64.04 728.00 moveto
+(-C33)
+ 8.0 Print
+  81.00 728.00 moveto
+  92.52 728.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 728.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 728.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 728.00 moveto
+(H64)
+ 8.0 Print
+ 237.04 728.00 moveto
+(-C33)
+ 8.0 Print
+ 254.00 728.00 moveto
+ 265.52 728.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 728.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 728.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 728.00 moveto
+(H65)
+ 8.0 Print
+ 410.04 728.00 moveto
+(-C34)
+ 8.0 Print
+ 427.00 728.00 moveto
+ 438.52 728.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 728.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 728.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 718.00 moveto
+(H66)
+ 8.0 Print
+  64.04 718.00 moveto
+(-C34)
+ 8.0 Print
+  81.00 718.00 moveto
+  92.52 718.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 718.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 718.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 718.00 moveto
+(H67)
+ 8.0 Print
+ 237.04 718.00 moveto
+(-C35)
+ 8.0 Print
+ 254.00 718.00 moveto
+ 265.52 718.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 718.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 718.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 718.00 moveto
+(H68)
+ 8.0 Print
+ 410.04 718.00 moveto
+(-C35)
+ 8.0 Print
+ 427.00 718.00 moveto
+ 438.52 718.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 718.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 718.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 708.00 moveto
+(H69)
+ 8.0 Print
+  64.04 708.00 moveto
+(-C36)
+ 8.0 Print
+  81.00 708.00 moveto
+  92.52 708.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 708.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 708.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 708.00 moveto
+(H70)
+ 8.0 Print
+ 237.04 708.00 moveto
+(-C36)
+ 8.0 Print
+ 254.00 708.00 moveto
+ 265.52 708.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 708.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 708.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 708.00 moveto
+(H71)
+ 8.0 Print
+ 410.04 708.00 moveto
+(-C37)
+ 8.0 Print
+ 427.00 708.00 moveto
+ 438.52 708.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 708.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 708.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 698.00 moveto
+(H72)
+ 8.0 Print
+  64.04 698.00 moveto
+(-C37)
+ 8.0 Print
+  81.00 698.00 moveto
+  92.52 698.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 698.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 698.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 698.00 moveto
+(H73)
+ 8.0 Print
+ 237.04 698.00 moveto
+(-C38)
+ 8.0 Print
+ 254.00 698.00 moveto
+ 265.52 698.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 698.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 698.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 698.00 moveto
+(H74)
+ 8.0 Print
+ 410.04 698.00 moveto
+(-C38)
+ 8.0 Print
+ 427.00 698.00 moveto
+ 438.52 698.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 698.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 698.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 688.00 moveto
+(H75)
+ 8.0 Print
+  64.04 688.00 moveto
+(-C39)
+ 8.0 Print
+  81.00 688.00 moveto
+  92.52 688.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 688.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 688.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 688.00 moveto
+(H76)
+ 8.0 Print
+ 237.04 688.00 moveto
+(-C39)
+ 8.0 Print
+ 254.00 688.00 moveto
+ 265.52 688.00 moveto
+(1.092)
+ 8.0 Print
+ 305.84 688.00 moveto
+(1.092)
+ 8.0 Print
+ 346.16 688.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 688.00 moveto
+(H77)
+ 8.0 Print
+ 410.04 688.00 moveto
+(-C40)
+ 8.0 Print
+ 427.00 688.00 moveto
+ 438.52 688.00 moveto
+(1.092)
+ 8.0 Print
+ 478.84 688.00 moveto
+(1.092)
+ 8.0 Print
+ 519.16 688.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 678.00 moveto
+(H78)
+ 8.0 Print
+  64.04 678.00 moveto
+(-C40)
+ 8.0 Print
+  81.00 678.00 moveto
+  92.52 678.00 moveto
+(1.092)
+ 8.0 Print
+ 132.84 678.00 moveto
+(1.092)
+ 8.0 Print
+ 173.16 678.00 moveto
+(0.000)
+ 8.0 Print
+ 214.00 678.00 moveto
+(H79)
+ 8.0 Print
+ 237.04 678.00 moveto
+(-C41)
+ 8.0 Print
+ 254.00 678.00 moveto
+ 265.52 678.00 moveto
+(1.059)
+ 8.0 Print
+ 305.84 678.00 moveto
+(1.059)
+ 8.0 Print
+ 346.16 678.00 moveto
+(0.000)
+ 8.0 Print
+ 387.00 678.00 moveto
+(H80)
+ 8.0 Print
+ 410.04 678.00 moveto
+(-C41)
+ 8.0 Print
+ 427.00 678.00 moveto
+ 438.52 678.00 moveto
+(1.059)
+ 8.0 Print
+ 478.84 678.00 moveto
+(1.059)
+ 8.0 Print
+ 519.16 678.00 moveto
+(0.000)
+ 8.0 Print
+  41.00 668.00 moveto
+(H81)
+ 8.0 Print
+  64.04 668.00 moveto
+(-C41)
+ 8.0 Print
+  81.00 668.00 moveto
+  92.52 668.00 moveto
+(1.059)
+ 8.0 Print
+ 132.84 668.00 moveto
+(1.059)
+ 8.0 Print
+ 173.16 668.00 moveto
+(0.000)
+ 8.0 Print
+ 260.00 637.50 moveto
+(ANGLES)
+10.0 Print
+ 120.00 618.00 moveto
+(lib)
+ 8.0 Print
+ 143.04 618.00 moveto
+(crd)
+ 8.0 Print
+ 166.08 618.00 moveto
+(chem)
+ 8.0 Print
+ 298.00 618.00 moveto
+(lib)
+ 8.0 Print
+ 321.04 618.00 moveto
+(crd)
+ 8.0 Print
+ 344.08 618.00 moveto
+(chem)
+ 8.0 Print
+ 471.00 618.00 moveto
+(lib)
+ 8.0 Print
+ 494.04 618.00 moveto
+(crd)
+ 8.0 Print
+ 517.08 618.00 moveto
+(chem)
+ 8.0 Print
+  35.00 603.00 moveto
+(O6)
+ 8.0 Print
+  58.04 603.00 moveto
+(-P)
+ 8.0 Print
+  86.84 603.00 moveto
+(-O5)
+ 8.0 Print
+ 105.00 603.00 moveto
+ 116.52 603.00 moveto
+(119.90)
+ 8.0 Print
+ 135.00 603.00 moveto
+ 146.52 603.00 moveto
+(117.01)
+ 8.0 Print
+ 160.00 603.00 moveto
+ 183.04 603.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 603.00 moveto
+(O6)
+ 8.0 Print
+ 236.04 603.00 moveto
+(-P)
+ 8.0 Print
+ 264.84 603.00 moveto
+(-O7)
+ 8.0 Print
+ 283.00 603.00 moveto
+ 294.52 603.00 moveto
+(108.20)
+ 8.0 Print
+ 313.00 603.00 moveto
+ 324.52 603.00 moveto
+(105.64)
+ 8.0 Print
+ 338.00 603.00 moveto
+ 361.04 603.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 603.00 moveto
+(O6)
+ 8.0 Print
+ 409.04 603.00 moveto
+(-P)
+ 8.0 Print
+ 437.84 603.00 moveto
+(-O4)
+ 8.0 Print
+ 456.00 603.00 moveto
+ 467.52 603.00 moveto
+(108.20)
+ 8.0 Print
+ 486.00 603.00 moveto
+ 497.52 603.00 moveto
+(105.38)
+ 8.0 Print
+ 511.00 603.00 moveto
+ 534.04 603.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 593.00 moveto
+(O5)
+ 8.0 Print
+  58.04 593.00 moveto
+(-P)
+ 8.0 Print
+  86.84 593.00 moveto
+(-O7)
+ 8.0 Print
+ 105.00 593.00 moveto
+ 116.52 593.00 moveto
+(108.20)
+ 8.0 Print
+ 135.00 593.00 moveto
+ 146.52 593.00 moveto
+(111.83)
+ 8.0 Print
+ 160.00 593.00 moveto
+ 183.04 593.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 593.00 moveto
+(O5)
+ 8.0 Print
+ 236.04 593.00 moveto
+(-P)
+ 8.0 Print
+ 264.84 593.00 moveto
+(-O4)
+ 8.0 Print
+ 283.00 593.00 moveto
+ 294.52 593.00 moveto
+(108.20)
+ 8.0 Print
+ 313.00 593.00 moveto
+ 324.52 593.00 moveto
+(108.89)
+ 8.0 Print
+ 338.00 593.00 moveto
+ 361.04 593.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 593.00 moveto
+(O7)
+ 8.0 Print
+ 409.04 593.00 moveto
+(-P)
+ 8.0 Print
+ 437.84 593.00 moveto
+(-O4)
+ 8.0 Print
+ 456.00 593.00 moveto
+ 467.52 593.00 moveto
+(102.60)
+ 8.0 Print
+ 486.00 593.00 moveto
+ 497.52 593.00 moveto
+(107.54)
+ 8.0 Print
+ 511.00 593.00 moveto
+ 534.04 593.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 583.00 moveto
+(P)
+ 8.0 Print
+  58.04 583.00 moveto
+(-O7)
+ 8.0 Print
+  86.84 583.00 moveto
+(-C22)
+ 8.0 Print
+ 105.00 583.00 moveto
+ 116.52 583.00 moveto
+(120.50)
+ 8.0 Print
+ 135.00 583.00 moveto
+ 146.52 583.00 moveto
+(117.11)
+ 8.0 Print
+ 160.00 583.00 moveto
+ 183.04 583.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 583.00 moveto
+(O7)
+ 8.0 Print
+ 236.04 583.00 moveto
+(-C22)
+ 8.0 Print
+ 264.84 583.00 moveto
+(-H38)
+ 8.0 Print
+ 283.00 583.00 moveto
+ 294.52 583.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 583.00 moveto
+ 324.52 583.00 moveto
+(108.66)
+ 8.0 Print
+ 338.00 583.00 moveto
+ 361.04 583.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 583.00 moveto
+(O7)
+ 8.0 Print
+ 409.04 583.00 moveto
+(-C22)
+ 8.0 Print
+ 437.84 583.00 moveto
+(-H39)
+ 8.0 Print
+ 456.00 583.00 moveto
+ 467.52 583.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 583.00 moveto
+ 497.52 583.00 moveto
+(108.66)
+ 8.0 Print
+ 511.00 583.00 moveto
+ 534.04 583.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 573.00 moveto
+(O7)
+ 8.0 Print
+  58.04 573.00 moveto
+(-C22)
+ 8.0 Print
+  86.84 573.00 moveto
+(-C23)
+ 8.0 Print
+ 105.00 573.00 moveto
+ 116.52 573.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 573.00 moveto
+ 146.52 573.00 moveto
+(111.02)
+ 8.0 Print
+ 160.00 573.00 moveto
+ 183.04 573.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 573.00 moveto
+(H38)
+ 8.0 Print
+ 236.04 573.00 moveto
+(-C22)
+ 8.0 Print
+ 264.84 573.00 moveto
+(-H39)
+ 8.0 Print
+ 283.00 573.00 moveto
+ 294.52 573.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 573.00 moveto
+ 324.52 573.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 573.00 moveto
+ 361.04 573.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 573.00 moveto
+(H38)
+ 8.0 Print
+ 409.04 573.00 moveto
+(-C22)
+ 8.0 Print
+ 437.84 573.00 moveto
+(-C23)
+ 8.0 Print
+ 456.00 573.00 moveto
+ 467.52 573.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 573.00 moveto
+ 497.52 573.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 573.00 moveto
+ 534.04 573.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 563.00 moveto
+(H39)
+ 8.0 Print
+  58.04 563.00 moveto
+(-C22)
+ 8.0 Print
+  86.84 563.00 moveto
+(-C23)
+ 8.0 Print
+ 105.00 563.00 moveto
+ 116.52 563.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 563.00 moveto
+ 146.52 563.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 563.00 moveto
+ 183.04 563.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 563.00 moveto
+(C22)
+ 8.0 Print
+ 236.04 563.00 moveto
+(-C23)
+ 8.0 Print
+ 264.84 563.00 moveto
+(-H40)
+ 8.0 Print
+ 283.00 563.00 moveto
+ 294.52 563.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 563.00 moveto
+ 324.52 563.00 moveto
+(109.21)
+ 8.0 Print
+ 338.00 563.00 moveto
+ 361.04 563.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 563.00 moveto
+(C22)
+ 8.0 Print
+ 409.04 563.00 moveto
+(-C23)
+ 8.0 Print
+ 437.84 563.00 moveto
+(-H41)
+ 8.0 Print
+ 456.00 563.00 moveto
+ 467.52 563.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 563.00 moveto
+ 497.52 563.00 moveto
+(109.21)
+ 8.0 Print
+ 511.00 563.00 moveto
+ 534.04 563.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 553.00 moveto
+(C22)
+ 8.0 Print
+  58.04 553.00 moveto
+(-C23)
+ 8.0 Print
+  86.84 553.00 moveto
+(-N)
+ 8.0 Print
+ 105.00 553.00 moveto
+ 116.52 553.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 553.00 moveto
+ 146.52 553.00 moveto
+(109.92)
+ 8.0 Print
+ 160.00 553.00 moveto
+ 183.04 553.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 553.00 moveto
+(H40)
+ 8.0 Print
+ 236.04 553.00 moveto
+(-C23)
+ 8.0 Print
+ 264.84 553.00 moveto
+(-H41)
+ 8.0 Print
+ 283.00 553.00 moveto
+ 294.52 553.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 553.00 moveto
+ 324.52 553.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 553.00 moveto
+ 361.04 553.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 553.00 moveto
+(H40)
+ 8.0 Print
+ 409.04 553.00 moveto
+(-C23)
+ 8.0 Print
+ 437.84 553.00 moveto
+(-N)
+ 8.0 Print
+ 456.00 553.00 moveto
+ 467.52 553.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 553.00 moveto
+ 497.52 553.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 553.00 moveto
+ 534.04 553.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 543.00 moveto
+(H41)
+ 8.0 Print
+  58.04 543.00 moveto
+(-C23)
+ 8.0 Print
+  86.84 543.00 moveto
+(-N)
+ 8.0 Print
+ 105.00 543.00 moveto
+ 116.52 543.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 543.00 moveto
+ 146.52 543.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 543.00 moveto
+ 183.04 543.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 543.00 moveto
+(C23)
+ 8.0 Print
+ 236.04 543.00 moveto
+(-N)
+ 8.0 Print
+ 264.84 543.00 moveto
+(-C26)
+ 8.0 Print
+ 283.00 543.00 moveto
+ 294.52 543.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 543.00 moveto
+ 324.52 543.00 moveto
+(114.04)
+ 8.0 Print
+ 338.00 543.00 moveto
+ 361.04 543.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 543.00 moveto
+(C23)
+ 8.0 Print
+ 409.04 543.00 moveto
+(-N)
+ 8.0 Print
+ 437.84 543.00 moveto
+(-C25)
+ 8.0 Print
+ 456.00 543.00 moveto
+ 467.52 543.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 543.00 moveto
+ 497.52 543.00 moveto
+(110.34)
+ 8.0 Print
+ 511.00 543.00 moveto
+ 534.04 543.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 533.00 moveto
+(C23)
+ 8.0 Print
+  58.04 533.00 moveto
+(-N)
+ 8.0 Print
+  86.84 533.00 moveto
+(-C24)
+ 8.0 Print
+ 105.00 533.00 moveto
+ 116.52 533.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 533.00 moveto
+ 146.52 533.00 moveto
+(107.50)
+ 8.0 Print
+ 160.00 533.00 moveto
+ 183.04 533.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 533.00 moveto
+(C26)
+ 8.0 Print
+ 236.04 533.00 moveto
+(-N)
+ 8.0 Print
+ 264.84 533.00 moveto
+(-C25)
+ 8.0 Print
+ 283.00 533.00 moveto
+ 294.52 533.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 533.00 moveto
+ 324.52 533.00 moveto
+(110.78)
+ 8.0 Print
+ 338.00 533.00 moveto
+ 361.04 533.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 533.00 moveto
+(C26)
+ 8.0 Print
+ 409.04 533.00 moveto
+(-N)
+ 8.0 Print
+ 437.84 533.00 moveto
+(-C24)
+ 8.0 Print
+ 456.00 533.00 moveto
+ 467.52 533.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 533.00 moveto
+ 497.52 533.00 moveto
+(106.37)
+ 8.0 Print
+ 511.00 533.00 moveto
+ 534.04 533.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 523.00 moveto
+(C25)
+ 8.0 Print
+  58.04 523.00 moveto
+(-N)
+ 8.0 Print
+  86.84 523.00 moveto
+(-C24)
+ 8.0 Print
+ 105.00 523.00 moveto
+ 116.52 523.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 523.00 moveto
+ 146.52 523.00 moveto
+(107.46)
+ 8.0 Print
+ 160.00 523.00 moveto
+ 183.04 523.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 523.00 moveto
+(N)
+ 8.0 Print
+ 236.04 523.00 moveto
+(-C26)
+ 8.0 Print
+ 264.84 523.00 moveto
+(-H50)
+ 8.0 Print
+ 283.00 523.00 moveto
+ 294.52 523.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 523.00 moveto
+ 324.52 523.00 moveto
+(109.61)
+ 8.0 Print
+ 338.00 523.00 moveto
+ 361.04 523.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 523.00 moveto
+(N)
+ 8.0 Print
+ 409.04 523.00 moveto
+(-C26)
+ 8.0 Print
+ 437.84 523.00 moveto
+(-H49)
+ 8.0 Print
+ 456.00 523.00 moveto
+ 467.52 523.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 523.00 moveto
+ 497.52 523.00 moveto
+(109.61)
+ 8.0 Print
+ 511.00 523.00 moveto
+ 534.04 523.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 513.00 moveto
+(N)
+ 8.0 Print
+  58.04 513.00 moveto
+(-C26)
+ 8.0 Print
+  86.84 513.00 moveto
+(-H48)
+ 8.0 Print
+ 105.00 513.00 moveto
+ 116.52 513.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 513.00 moveto
+ 146.52 513.00 moveto
+(109.61)
+ 8.0 Print
+ 160.00 513.00 moveto
+ 183.04 513.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 513.00 moveto
+(H50)
+ 8.0 Print
+ 236.04 513.00 moveto
+(-C26)
+ 8.0 Print
+ 264.84 513.00 moveto
+(-H49)
+ 8.0 Print
+ 283.00 513.00 moveto
+ 294.52 513.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 513.00 moveto
+ 324.52 513.00 moveto
+(109.33)
+ 8.0 Print
+ 338.00 513.00 moveto
+ 361.04 513.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 513.00 moveto
+(H50)
+ 8.0 Print
+ 409.04 513.00 moveto
+(-C26)
+ 8.0 Print
+ 437.84 513.00 moveto
+(-H48)
+ 8.0 Print
+ 456.00 513.00 moveto
+ 467.52 513.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 513.00 moveto
+ 497.52 513.00 moveto
+(109.33)
+ 8.0 Print
+ 511.00 513.00 moveto
+ 534.04 513.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 503.00 moveto
+(H49)
+ 8.0 Print
+  58.04 503.00 moveto
+(-C26)
+ 8.0 Print
+  86.84 503.00 moveto
+(-H48)
+ 8.0 Print
+ 105.00 503.00 moveto
+ 116.52 503.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 503.00 moveto
+ 146.52 503.00 moveto
+(109.33)
+ 8.0 Print
+ 160.00 503.00 moveto
+ 183.04 503.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 503.00 moveto
+(N)
+ 8.0 Print
+ 236.04 503.00 moveto
+(-C25)
+ 8.0 Print
+ 264.84 503.00 moveto
+(-H47)
+ 8.0 Print
+ 283.00 503.00 moveto
+ 294.52 503.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 503.00 moveto
+ 324.52 503.00 moveto
+(109.57)
+ 8.0 Print
+ 338.00 503.00 moveto
+ 361.04 503.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 503.00 moveto
+(N)
+ 8.0 Print
+ 409.04 503.00 moveto
+(-C25)
+ 8.0 Print
+ 437.84 503.00 moveto
+(-H46)
+ 8.0 Print
+ 456.00 503.00 moveto
+ 467.52 503.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 503.00 moveto
+ 497.52 503.00 moveto
+(109.57)
+ 8.0 Print
+ 511.00 503.00 moveto
+ 534.04 503.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 493.00 moveto
+(N)
+ 8.0 Print
+  58.04 493.00 moveto
+(-C25)
+ 8.0 Print
+  86.84 493.00 moveto
+(-H45)
+ 8.0 Print
+ 105.00 493.00 moveto
+ 116.52 493.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 493.00 moveto
+ 146.52 493.00 moveto
+(109.57)
+ 8.0 Print
+ 160.00 493.00 moveto
+ 183.04 493.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 493.00 moveto
+(H47)
+ 8.0 Print
+ 236.04 493.00 moveto
+(-C25)
+ 8.0 Print
+ 264.84 493.00 moveto
+(-H46)
+ 8.0 Print
+ 283.00 493.00 moveto
+ 294.52 493.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 493.00 moveto
+ 324.52 493.00 moveto
+(109.37)
+ 8.0 Print
+ 338.00 493.00 moveto
+ 361.04 493.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 493.00 moveto
+(H47)
+ 8.0 Print
+ 409.04 493.00 moveto
+(-C25)
+ 8.0 Print
+ 437.84 493.00 moveto
+(-H45)
+ 8.0 Print
+ 456.00 493.00 moveto
+ 467.52 493.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 493.00 moveto
+ 497.52 493.00 moveto
+(109.37)
+ 8.0 Print
+ 511.00 493.00 moveto
+ 534.04 493.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 483.00 moveto
+(H46)
+ 8.0 Print
+  58.04 483.00 moveto
+(-C25)
+ 8.0 Print
+  86.84 483.00 moveto
+(-H45)
+ 8.0 Print
+ 105.00 483.00 moveto
+ 116.52 483.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 483.00 moveto
+ 146.52 483.00 moveto
+(109.37)
+ 8.0 Print
+ 160.00 483.00 moveto
+ 183.04 483.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 483.00 moveto
+(N)
+ 8.0 Print
+ 236.04 483.00 moveto
+(-C24)
+ 8.0 Print
+ 264.84 483.00 moveto
+(-H44)
+ 8.0 Print
+ 283.00 483.00 moveto
+ 294.52 483.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 483.00 moveto
+ 324.52 483.00 moveto
+(109.58)
+ 8.0 Print
+ 338.00 483.00 moveto
+ 361.04 483.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 483.00 moveto
+(N)
+ 8.0 Print
+ 409.04 483.00 moveto
+(-C24)
+ 8.0 Print
+ 437.84 483.00 moveto
+(-H43)
+ 8.0 Print
+ 456.00 483.00 moveto
+ 467.52 483.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 483.00 moveto
+ 497.52 483.00 moveto
+(109.58)
+ 8.0 Print
+ 511.00 483.00 moveto
+ 534.04 483.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 473.00 moveto
+(N)
+ 8.0 Print
+  58.04 473.00 moveto
+(-C24)
+ 8.0 Print
+  86.84 473.00 moveto
+(-H42)
+ 8.0 Print
+ 105.00 473.00 moveto
+ 116.52 473.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 473.00 moveto
+ 146.52 473.00 moveto
+(109.58)
+ 8.0 Print
+ 160.00 473.00 moveto
+ 183.04 473.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 473.00 moveto
+(H44)
+ 8.0 Print
+ 236.04 473.00 moveto
+(-C24)
+ 8.0 Print
+ 264.84 473.00 moveto
+(-H43)
+ 8.0 Print
+ 283.00 473.00 moveto
+ 294.52 473.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 473.00 moveto
+ 324.52 473.00 moveto
+(109.37)
+ 8.0 Print
+ 338.00 473.00 moveto
+ 361.04 473.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 473.00 moveto
+(H44)
+ 8.0 Print
+ 409.04 473.00 moveto
+(-C24)
+ 8.0 Print
+ 437.84 473.00 moveto
+(-H42)
+ 8.0 Print
+ 456.00 473.00 moveto
+ 467.52 473.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 473.00 moveto
+ 497.52 473.00 moveto
+(109.37)
+ 8.0 Print
+ 511.00 473.00 moveto
+ 534.04 473.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 463.00 moveto
+(H43)
+ 8.0 Print
+  58.04 463.00 moveto
+(-C24)
+ 8.0 Print
+  86.84 463.00 moveto
+(-H42)
+ 8.0 Print
+ 105.00 463.00 moveto
+ 116.52 463.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 463.00 moveto
+ 146.52 463.00 moveto
+(109.37)
+ 8.0 Print
+ 160.00 463.00 moveto
+ 183.04 463.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 463.00 moveto
+(P)
+ 8.0 Print
+ 236.04 463.00 moveto
+(-O4)
+ 8.0 Print
+ 264.84 463.00 moveto
+(-C21)
+ 8.0 Print
+ 283.00 463.00 moveto
+ 294.52 463.00 moveto
+(120.50)
+ 8.0 Print
+ 313.00 463.00 moveto
+ 324.52 463.00 moveto
+(126.87)
+ 8.0 Print
+ 338.00 463.00 moveto
+ 361.04 463.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 463.00 moveto
+(O4)
+ 8.0 Print
+ 409.04 463.00 moveto
+(-C21)
+ 8.0 Print
+ 437.84 463.00 moveto
+(-H36)
+ 8.0 Print
+ 456.00 463.00 moveto
+ 467.52 463.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 463.00 moveto
+ 497.52 463.00 moveto
+(107.48)
+ 8.0 Print
+ 511.00 463.00 moveto
+ 534.04 463.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 453.00 moveto
+(O4)
+ 8.0 Print
+  58.04 453.00 moveto
+(-C21)
+ 8.0 Print
+  86.84 453.00 moveto
+(-H37)
+ 8.0 Print
+ 105.00 453.00 moveto
+ 116.52 453.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 453.00 moveto
+ 146.52 453.00 moveto
+(107.48)
+ 8.0 Print
+ 160.00 453.00 moveto
+ 183.04 453.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 453.00 moveto
+(O4)
+ 8.0 Print
+ 236.04 453.00 moveto
+(-C21)
+ 8.0 Print
+ 264.84 453.00 moveto
+(-C2)
+ 8.0 Print
+ 283.00 453.00 moveto
+ 294.52 453.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 453.00 moveto
+ 324.52 453.00 moveto
+(113.31)
+ 8.0 Print
+ 338.00 453.00 moveto
+ 361.04 453.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 453.00 moveto
+(H36)
+ 8.0 Print
+ 409.04 453.00 moveto
+(-C21)
+ 8.0 Print
+ 437.84 453.00 moveto
+(-H37)
+ 8.0 Print
+ 456.00 453.00 moveto
+ 467.52 453.00 moveto
+(107.90)
+ 8.0 Print
+ 486.00 453.00 moveto
+ 497.52 453.00 moveto
+(109.40)
+ 8.0 Print
+ 511.00 453.00 moveto
+ 534.04 453.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 443.00 moveto
+(H36)
+ 8.0 Print
+  58.04 443.00 moveto
+(-C21)
+ 8.0 Print
+  86.84 443.00 moveto
+(-C2)
+ 8.0 Print
+ 105.00 443.00 moveto
+ 116.52 443.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 443.00 moveto
+ 146.52 443.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 443.00 moveto
+ 183.04 443.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 443.00 moveto
+(H37)
+ 8.0 Print
+ 236.04 443.00 moveto
+(-C21)
+ 8.0 Print
+ 264.84 443.00 moveto
+(-C2)
+ 8.0 Print
+ 283.00 443.00 moveto
+ 294.52 443.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 443.00 moveto
+ 324.52 443.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 443.00 moveto
+ 361.04 443.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 443.00 moveto
+(C21)
+ 8.0 Print
+ 409.04 443.00 moveto
+(-C2)
+ 8.0 Print
+ 437.84 443.00 moveto
+(-H)
+ 8.0 Print
+ 456.00 443.00 moveto
+ 467.52 443.00 moveto
+(108.34)
+ 8.0 Print
+ 486.00 443.00 moveto
+ 497.52 443.00 moveto
+(109.48)
+ 8.0 Print
+ 511.00 443.00 moveto
+ 534.04 443.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 433.00 moveto
+(C21)
+ 8.0 Print
+  58.04 433.00 moveto
+(-C2)
+ 8.0 Print
+  86.84 433.00 moveto
+(-C1)
+ 8.0 Print
+ 105.00 433.00 moveto
+ 116.52 433.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 433.00 moveto
+ 146.52 433.00 moveto
+(106.37)
+ 8.0 Print
+ 160.00 433.00 moveto
+ 183.04 433.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 433.00 moveto
+(C21)
+ 8.0 Print
+ 236.04 433.00 moveto
+(-C2)
+ 8.0 Print
+ 264.84 433.00 moveto
+(-O2)
+ 8.0 Print
+ 283.00 433.00 moveto
+ 294.52 433.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 433.00 moveto
+ 324.52 433.00 moveto
+(108.28)
+ 8.0 Print
+ 338.00 433.00 moveto
+ 361.04 433.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 433.00 moveto
+(H)
+ 8.0 Print
+ 409.04 433.00 moveto
+(-C2)
+ 8.0 Print
+ 437.84 433.00 moveto
+(-C1)
+ 8.0 Print
+ 456.00 433.00 moveto
+ 467.52 433.00 moveto
+(108.34)
+ 8.0 Print
+ 486.00 433.00 moveto
+ 497.52 433.00 moveto
+(109.48)
+ 8.0 Print
+ 511.00 433.00 moveto
+ 534.04 433.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 423.00 moveto
+(H)
+ 8.0 Print
+  58.04 423.00 moveto
+(-C2)
+ 8.0 Print
+  86.84 423.00 moveto
+(-O2)
+ 8.0 Print
+ 105.00 423.00 moveto
+ 116.52 423.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 423.00 moveto
+ 146.52 423.00 moveto
+(109.48)
+ 8.0 Print
+ 160.00 423.00 moveto
+ 183.04 423.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 423.00 moveto
+(C1)
+ 8.0 Print
+ 236.04 423.00 moveto
+(-C2)
+ 8.0 Print
+ 264.84 423.00 moveto
+(-O2)
+ 8.0 Print
+ 283.00 423.00 moveto
+ 294.52 423.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 423.00 moveto
+ 324.52 423.00 moveto
+(113.63)
+ 8.0 Print
+ 338.00 423.00 moveto
+ 361.04 423.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 423.00 moveto
+(C2)
+ 8.0 Print
+ 409.04 423.00 moveto
+(-C1)
+ 8.0 Print
+ 437.84 423.00 moveto
+(-H1)
+ 8.0 Print
+ 456.00 423.00 moveto
+ 467.52 423.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 423.00 moveto
+ 497.52 423.00 moveto
+(109.57)
+ 8.0 Print
+ 511.00 423.00 moveto
+ 534.04 423.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 413.00 moveto
+(C2)
+ 8.0 Print
+  58.04 413.00 moveto
+(-C1)
+ 8.0 Print
+  86.84 413.00 moveto
+(-H2)
+ 8.0 Print
+ 105.00 413.00 moveto
+ 116.52 413.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 413.00 moveto
+ 146.52 413.00 moveto
+(109.57)
+ 8.0 Print
+ 160.00 413.00 moveto
+ 183.04 413.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 413.00 moveto
+(C2)
+ 8.0 Print
+ 236.04 413.00 moveto
+(-C1)
+ 8.0 Print
+ 264.84 413.00 moveto
+(-O1)
+ 8.0 Print
+ 283.00 413.00 moveto
+ 294.52 413.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 413.00 moveto
+ 324.52 413.00 moveto
+(109.21)
+ 8.0 Print
+ 338.00 413.00 moveto
+ 361.04 413.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 413.00 moveto
+(H1)
+ 8.0 Print
+ 409.04 413.00 moveto
+(-C1)
+ 8.0 Print
+ 437.84 413.00 moveto
+(-H2)
+ 8.0 Print
+ 456.00 413.00 moveto
+ 467.52 413.00 moveto
+(107.90)
+ 8.0 Print
+ 486.00 413.00 moveto
+ 497.52 413.00 moveto
+(109.40)
+ 8.0 Print
+ 511.00 413.00 moveto
+ 534.04 413.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 403.00 moveto
+(H1)
+ 8.0 Print
+  58.04 403.00 moveto
+(-C1)
+ 8.0 Print
+  86.84 403.00 moveto
+(-O1)
+ 8.0 Print
+ 105.00 403.00 moveto
+ 116.52 403.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 403.00 moveto
+ 146.52 403.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 403.00 moveto
+ 183.04 403.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 403.00 moveto
+(H2)
+ 8.0 Print
+ 236.04 403.00 moveto
+(-C1)
+ 8.0 Print
+ 264.84 403.00 moveto
+(-O1)
+ 8.0 Print
+ 283.00 403.00 moveto
+ 294.52 403.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 403.00 moveto
+ 324.52 403.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 403.00 moveto
+ 361.04 403.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 403.00 moveto
+(C1)
+ 8.0 Print
+ 409.04 403.00 moveto
+(-O1)
+ 8.0 Print
+ 437.84 403.00 moveto
+(-C)
+ 8.0 Print
+ 456.00 403.00 moveto
+ 467.52 403.00 moveto
+(120.00)
+ 8.0 Print
+ 486.00 403.00 moveto
+ 497.52 403.00 moveto
+(124.52)
+ 8.0 Print
+ 511.00 403.00 moveto
+ 534.04 403.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 393.00 moveto
+(O1)
+ 8.0 Print
+  58.04 393.00 moveto
+(-C)
+ 8.0 Print
+  86.84 393.00 moveto
+(-C27)
+ 8.0 Print
+ 105.00 393.00 moveto
+ 116.52 393.00 moveto
+(120.00)
+ 8.0 Print
+ 135.00 393.00 moveto
+ 146.52 393.00 moveto
+(117.83)
+ 8.0 Print
+ 160.00 393.00 moveto
+ 183.04 393.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 393.00 moveto
+(O1)
+ 8.0 Print
+ 236.04 393.00 moveto
+(-C)
+ 8.0 Print
+ 264.84 393.00 moveto
+(-O)
+ 8.0 Print
+ 283.00 393.00 moveto
+ 294.52 393.00 moveto
+(119.00)
+ 8.0 Print
+ 313.00 393.00 moveto
+ 324.52 393.00 moveto
+(115.99)
+ 8.0 Print
+ 338.00 393.00 moveto
+ 361.04 393.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 393.00 moveto
+(C27)
+ 8.0 Print
+ 409.04 393.00 moveto
+(-C)
+ 8.0 Print
+ 437.84 393.00 moveto
+(-O)
+ 8.0 Print
+ 456.00 393.00 moveto
+ 467.52 393.00 moveto
+(120.50)
+ 8.0 Print
+ 486.00 393.00 moveto
+ 497.52 393.00 moveto
+(126.16)
+ 8.0 Print
+ 511.00 393.00 moveto
+ 534.04 393.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 383.00 moveto
+(C)
+ 8.0 Print
+  58.04 383.00 moveto
+(-C27)
+ 8.0 Print
+  86.84 383.00 moveto
+(-H51)
+ 8.0 Print
+ 105.00 383.00 moveto
+ 116.52 383.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 383.00 moveto
+ 146.52 383.00 moveto
+(110.02)
+ 8.0 Print
+ 160.00 383.00 moveto
+ 183.04 383.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 383.00 moveto
+(C)
+ 8.0 Print
+ 236.04 383.00 moveto
+(-C27)
+ 8.0 Print
+ 264.84 383.00 moveto
+(-H52)
+ 8.0 Print
+ 283.00 383.00 moveto
+ 294.52 383.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 383.00 moveto
+ 324.52 383.00 moveto
+(110.02)
+ 8.0 Print
+ 338.00 383.00 moveto
+ 361.04 383.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 383.00 moveto
+(C)
+ 8.0 Print
+ 409.04 383.00 moveto
+(-C27)
+ 8.0 Print
+ 437.84 383.00 moveto
+(-C28)
+ 8.0 Print
+ 456.00 383.00 moveto
+ 467.52 383.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 383.00 moveto
+ 497.52 383.00 moveto
+(108.30)
+ 8.0 Print
+ 511.00 383.00 moveto
+ 534.04 383.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 373.00 moveto
+(H51)
+ 8.0 Print
+  58.04 373.00 moveto
+(-C27)
+ 8.0 Print
+  86.84 373.00 moveto
+(-H52)
+ 8.0 Print
+ 105.00 373.00 moveto
+ 116.52 373.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 373.00 moveto
+ 146.52 373.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 373.00 moveto
+ 183.04 373.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 373.00 moveto
+(H51)
+ 8.0 Print
+ 236.04 373.00 moveto
+(-C27)
+ 8.0 Print
+ 264.84 373.00 moveto
+(-C28)
+ 8.0 Print
+ 283.00 373.00 moveto
+ 294.52 373.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 373.00 moveto
+ 324.52 373.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 373.00 moveto
+ 361.04 373.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 373.00 moveto
+(H52)
+ 8.0 Print
+ 409.04 373.00 moveto
+(-C27)
+ 8.0 Print
+ 437.84 373.00 moveto
+(-C28)
+ 8.0 Print
+ 456.00 373.00 moveto
+ 467.52 373.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 373.00 moveto
+ 497.52 373.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 373.00 moveto
+ 534.04 373.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 363.00 moveto
+(C27)
+ 8.0 Print
+  58.04 363.00 moveto
+(-C28)
+ 8.0 Print
+  86.84 363.00 moveto
+(-H53)
+ 8.0 Print
+ 105.00 363.00 moveto
+ 116.52 363.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 363.00 moveto
+ 146.52 363.00 moveto
+(110.60)
+ 8.0 Print
+ 160.00 363.00 moveto
+ 183.04 363.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 363.00 moveto
+(C27)
+ 8.0 Print
+ 236.04 363.00 moveto
+(-C28)
+ 8.0 Print
+ 264.84 363.00 moveto
+(-H54)
+ 8.0 Print
+ 283.00 363.00 moveto
+ 294.52 363.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 363.00 moveto
+ 324.52 363.00 moveto
+(110.60)
+ 8.0 Print
+ 338.00 363.00 moveto
+ 361.04 363.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 363.00 moveto
+(C27)
+ 8.0 Print
+ 409.04 363.00 moveto
+(-C28)
+ 8.0 Print
+ 437.84 363.00 moveto
+(-C29)
+ 8.0 Print
+ 456.00 363.00 moveto
+ 467.52 363.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 363.00 moveto
+ 497.52 363.00 moveto
+(107.12)
+ 8.0 Print
+ 511.00 363.00 moveto
+ 534.04 363.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 353.00 moveto
+(H53)
+ 8.0 Print
+  58.04 353.00 moveto
+(-C28)
+ 8.0 Print
+  86.84 353.00 moveto
+(-H54)
+ 8.0 Print
+ 105.00 353.00 moveto
+ 116.52 353.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 353.00 moveto
+ 146.52 353.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 353.00 moveto
+ 183.04 353.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 353.00 moveto
+(H53)
+ 8.0 Print
+ 236.04 353.00 moveto
+(-C28)
+ 8.0 Print
+ 264.84 353.00 moveto
+(-C29)
+ 8.0 Print
+ 283.00 353.00 moveto
+ 294.52 353.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 353.00 moveto
+ 324.52 353.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 353.00 moveto
+ 361.04 353.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 353.00 moveto
+(H54)
+ 8.0 Print
+ 409.04 353.00 moveto
+(-C28)
+ 8.0 Print
+ 437.84 353.00 moveto
+(-C29)
+ 8.0 Print
+ 456.00 353.00 moveto
+ 467.52 353.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 353.00 moveto
+ 497.52 353.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 353.00 moveto
+ 534.04 353.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 343.00 moveto
+(C28)
+ 8.0 Print
+  58.04 343.00 moveto
+(-C29)
+ 8.0 Print
+  86.84 343.00 moveto
+(-H55)
+ 8.0 Print
+ 105.00 343.00 moveto
+ 116.52 343.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 343.00 moveto
+ 146.52 343.00 moveto
+(109.84)
+ 8.0 Print
+ 160.00 343.00 moveto
+ 183.04 343.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 343.00 moveto
+(C28)
+ 8.0 Print
+ 236.04 343.00 moveto
+(-C29)
+ 8.0 Print
+ 264.84 343.00 moveto
+(-H56)
+ 8.0 Print
+ 283.00 343.00 moveto
+ 294.52 343.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 343.00 moveto
+ 324.52 343.00 moveto
+(109.84)
+ 8.0 Print
+ 338.00 343.00 moveto
+ 361.04 343.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 343.00 moveto
+(C28)
+ 8.0 Print
+ 409.04 343.00 moveto
+(-C29)
+ 8.0 Print
+ 437.84 343.00 moveto
+(-C30)
+ 8.0 Print
+ 456.00 343.00 moveto
+ 467.52 343.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 343.00 moveto
+ 497.52 343.00 moveto
+(108.65)
+ 8.0 Print
+ 511.00 343.00 moveto
+ 534.04 343.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 333.00 moveto
+(H55)
+ 8.0 Print
+  58.04 333.00 moveto
+(-C29)
+ 8.0 Print
+  86.84 333.00 moveto
+(-H56)
+ 8.0 Print
+ 105.00 333.00 moveto
+ 116.52 333.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 333.00 moveto
+ 146.52 333.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 333.00 moveto
+ 183.04 333.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 333.00 moveto
+(H55)
+ 8.0 Print
+ 236.04 333.00 moveto
+(-C29)
+ 8.0 Print
+ 264.84 333.00 moveto
+(-C30)
+ 8.0 Print
+ 283.00 333.00 moveto
+ 294.52 333.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 333.00 moveto
+ 324.52 333.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 333.00 moveto
+ 361.04 333.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 333.00 moveto
+(H56)
+ 8.0 Print
+ 409.04 333.00 moveto
+(-C29)
+ 8.0 Print
+ 437.84 333.00 moveto
+(-C30)
+ 8.0 Print
+ 456.00 333.00 moveto
+ 467.52 333.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 333.00 moveto
+ 497.52 333.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 333.00 moveto
+ 534.04 333.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 323.00 moveto
+(C29)
+ 8.0 Print
+  58.04 323.00 moveto
+(-C30)
+ 8.0 Print
+  86.84 323.00 moveto
+(-H57)
+ 8.0 Print
+ 105.00 323.00 moveto
+ 116.52 323.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 323.00 moveto
+ 146.52 323.00 moveto
+(109.07)
+ 8.0 Print
+ 160.00 323.00 moveto
+ 183.04 323.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 323.00 moveto
+(C29)
+ 8.0 Print
+ 236.04 323.00 moveto
+(-C30)
+ 8.0 Print
+ 264.84 323.00 moveto
+(-H58)
+ 8.0 Print
+ 283.00 323.00 moveto
+ 294.52 323.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 323.00 moveto
+ 324.52 323.00 moveto
+(109.07)
+ 8.0 Print
+ 338.00 323.00 moveto
+ 361.04 323.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 323.00 moveto
+(C29)
+ 8.0 Print
+ 409.04 323.00 moveto
+(-C30)
+ 8.0 Print
+ 437.84 323.00 moveto
+(-C31)
+ 8.0 Print
+ 456.00 323.00 moveto
+ 467.52 323.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 323.00 moveto
+ 497.52 323.00 moveto
+(110.21)
+ 8.0 Print
+ 511.00 323.00 moveto
+ 534.04 323.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 313.00 moveto
+(H57)
+ 8.0 Print
+  58.04 313.00 moveto
+(-C30)
+ 8.0 Print
+  86.84 313.00 moveto
+(-H58)
+ 8.0 Print
+ 105.00 313.00 moveto
+ 116.52 313.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 313.00 moveto
+ 146.52 313.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 313.00 moveto
+ 183.04 313.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 313.00 moveto
+(H57)
+ 8.0 Print
+ 236.04 313.00 moveto
+(-C30)
+ 8.0 Print
+ 264.84 313.00 moveto
+(-C31)
+ 8.0 Print
+ 283.00 313.00 moveto
+ 294.52 313.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 313.00 moveto
+ 324.52 313.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 313.00 moveto
+ 361.04 313.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 313.00 moveto
+(H58)
+ 8.0 Print
+ 409.04 313.00 moveto
+(-C30)
+ 8.0 Print
+ 437.84 313.00 moveto
+(-C31)
+ 8.0 Print
+ 456.00 313.00 moveto
+ 467.52 313.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 313.00 moveto
+ 497.52 313.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 313.00 moveto
+ 534.04 313.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 303.00 moveto
+(C30)
+ 8.0 Print
+  58.04 303.00 moveto
+(-C31)
+ 8.0 Print
+  86.84 303.00 moveto
+(-H59)
+ 8.0 Print
+ 105.00 303.00 moveto
+ 116.52 303.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 303.00 moveto
+ 146.52 303.00 moveto
+(109.24)
+ 8.0 Print
+ 160.00 303.00 moveto
+ 183.04 303.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 303.00 moveto
+(C30)
+ 8.0 Print
+ 236.04 303.00 moveto
+(-C31)
+ 8.0 Print
+ 264.84 303.00 moveto
+(-H60)
+ 8.0 Print
+ 283.00 303.00 moveto
+ 294.52 303.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 303.00 moveto
+ 324.52 303.00 moveto
+(109.23)
+ 8.0 Print
+ 338.00 303.00 moveto
+ 361.04 303.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 303.00 moveto
+(C30)
+ 8.0 Print
+ 409.04 303.00 moveto
+(-C31)
+ 8.0 Print
+ 437.84 303.00 moveto
+(-C32)
+ 8.0 Print
+ 456.00 303.00 moveto
+ 467.52 303.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 303.00 moveto
+ 497.52 303.00 moveto
+(109.87)
+ 8.0 Print
+ 511.00 303.00 moveto
+ 534.04 303.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 293.00 moveto
+(H59)
+ 8.0 Print
+  58.04 293.00 moveto
+(-C31)
+ 8.0 Print
+  86.84 293.00 moveto
+(-H60)
+ 8.0 Print
+ 105.00 293.00 moveto
+ 116.52 293.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 293.00 moveto
+ 146.52 293.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 293.00 moveto
+ 183.04 293.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 293.00 moveto
+(H59)
+ 8.0 Print
+ 236.04 293.00 moveto
+(-C31)
+ 8.0 Print
+ 264.84 293.00 moveto
+(-C32)
+ 8.0 Print
+ 283.00 293.00 moveto
+ 294.52 293.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 293.00 moveto
+ 324.52 293.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 293.00 moveto
+ 361.04 293.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 293.00 moveto
+(H60)
+ 8.0 Print
+ 409.04 293.00 moveto
+(-C31)
+ 8.0 Print
+ 437.84 293.00 moveto
+(-C32)
+ 8.0 Print
+ 456.00 293.00 moveto
+ 467.52 293.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 293.00 moveto
+ 497.52 293.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 293.00 moveto
+ 534.04 293.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 283.00 moveto
+(C31)
+ 8.0 Print
+  58.04 283.00 moveto
+(-C32)
+ 8.0 Print
+  86.84 283.00 moveto
+(-H61)
+ 8.0 Print
+ 105.00 283.00 moveto
+ 116.52 283.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 283.00 moveto
+ 146.52 283.00 moveto
+(109.02)
+ 8.0 Print
+ 160.00 283.00 moveto
+ 183.04 283.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 283.00 moveto
+(C31)
+ 8.0 Print
+ 236.04 283.00 moveto
+(-C32)
+ 8.0 Print
+ 264.84 283.00 moveto
+(-H62)
+ 8.0 Print
+ 283.00 283.00 moveto
+ 294.52 283.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 283.00 moveto
+ 324.52 283.00 moveto
+(109.02)
+ 8.0 Print
+ 338.00 283.00 moveto
+ 361.04 283.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 283.00 moveto
+(C31)
+ 8.0 Print
+ 409.04 283.00 moveto
+(-C32)
+ 8.0 Print
+ 437.84 283.00 moveto
+(-C33)
+ 8.0 Print
+ 456.00 283.00 moveto
+ 467.52 283.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 283.00 moveto
+ 497.52 283.00 moveto
+(110.30)
+ 8.0 Print
+ 511.00 283.00 moveto
+ 534.04 283.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 273.00 moveto
+(H61)
+ 8.0 Print
+  58.04 273.00 moveto
+(-C32)
+ 8.0 Print
+  86.84 273.00 moveto
+(-H62)
+ 8.0 Print
+ 105.00 273.00 moveto
+ 116.52 273.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 273.00 moveto
+ 146.52 273.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 273.00 moveto
+ 183.04 273.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 273.00 moveto
+(H61)
+ 8.0 Print
+ 236.04 273.00 moveto
+(-C32)
+ 8.0 Print
+ 264.84 273.00 moveto
+(-C33)
+ 8.0 Print
+ 283.00 273.00 moveto
+ 294.52 273.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 273.00 moveto
+ 324.52 273.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 273.00 moveto
+ 361.04 273.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 273.00 moveto
+(H62)
+ 8.0 Print
+ 409.04 273.00 moveto
+(-C32)
+ 8.0 Print
+ 437.84 273.00 moveto
+(-C33)
+ 8.0 Print
+ 456.00 273.00 moveto
+ 467.52 273.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 273.00 moveto
+ 497.52 273.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 273.00 moveto
+ 534.04 273.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 263.00 moveto
+(C32)
+ 8.0 Print
+  58.04 263.00 moveto
+(-C33)
+ 8.0 Print
+  86.84 263.00 moveto
+(-H63)
+ 8.0 Print
+ 105.00 263.00 moveto
+ 116.52 263.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 263.00 moveto
+ 146.52 263.00 moveto
+(108.92)
+ 8.0 Print
+ 160.00 263.00 moveto
+ 183.04 263.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 263.00 moveto
+(C32)
+ 8.0 Print
+ 236.04 263.00 moveto
+(-C33)
+ 8.0 Print
+ 264.84 263.00 moveto
+(-H64)
+ 8.0 Print
+ 283.00 263.00 moveto
+ 294.52 263.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 263.00 moveto
+ 324.52 263.00 moveto
+(108.92)
+ 8.0 Print
+ 338.00 263.00 moveto
+ 361.04 263.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 263.00 moveto
+(C32)
+ 8.0 Print
+ 409.04 263.00 moveto
+(-C33)
+ 8.0 Print
+ 437.84 263.00 moveto
+(-C34)
+ 8.0 Print
+ 456.00 263.00 moveto
+ 467.52 263.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 263.00 moveto
+ 497.52 263.00 moveto
+(110.49)
+ 8.0 Print
+ 511.00 263.00 moveto
+ 534.04 263.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 253.00 moveto
+(H63)
+ 8.0 Print
+  58.04 253.00 moveto
+(-C33)
+ 8.0 Print
+  86.84 253.00 moveto
+(-H64)
+ 8.0 Print
+ 105.00 253.00 moveto
+ 116.52 253.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 253.00 moveto
+ 146.52 253.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 253.00 moveto
+ 183.04 253.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 253.00 moveto
+(H63)
+ 8.0 Print
+ 236.04 253.00 moveto
+(-C33)
+ 8.0 Print
+ 264.84 253.00 moveto
+(-C34)
+ 8.0 Print
+ 283.00 253.00 moveto
+ 294.52 253.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 253.00 moveto
+ 324.52 253.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 253.00 moveto
+ 361.04 253.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 253.00 moveto
+(H64)
+ 8.0 Print
+ 409.04 253.00 moveto
+(-C33)
+ 8.0 Print
+ 437.84 253.00 moveto
+(-C34)
+ 8.0 Print
+ 456.00 253.00 moveto
+ 467.52 253.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 253.00 moveto
+ 497.52 253.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 253.00 moveto
+ 534.04 253.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 243.00 moveto
+(C33)
+ 8.0 Print
+  58.04 243.00 moveto
+(-C34)
+ 8.0 Print
+  86.84 243.00 moveto
+(-H65)
+ 8.0 Print
+ 105.00 243.00 moveto
+ 116.52 243.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 243.00 moveto
+ 146.52 243.00 moveto
+(108.92)
+ 8.0 Print
+ 160.00 243.00 moveto
+ 183.04 243.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 243.00 moveto
+(C33)
+ 8.0 Print
+ 236.04 243.00 moveto
+(-C34)
+ 8.0 Print
+ 264.84 243.00 moveto
+(-H66)
+ 8.0 Print
+ 283.00 243.00 moveto
+ 294.52 243.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 243.00 moveto
+ 324.52 243.00 moveto
+(108.92)
+ 8.0 Print
+ 338.00 243.00 moveto
+ 361.04 243.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 243.00 moveto
+(C33)
+ 8.0 Print
+ 409.04 243.00 moveto
+(-C34)
+ 8.0 Print
+ 437.84 243.00 moveto
+(-C35)
+ 8.0 Print
+ 456.00 243.00 moveto
+ 467.52 243.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 243.00 moveto
+ 497.52 243.00 moveto
+(110.49)
+ 8.0 Print
+ 511.00 243.00 moveto
+ 534.04 243.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 233.00 moveto
+(H65)
+ 8.0 Print
+  58.04 233.00 moveto
+(-C34)
+ 8.0 Print
+  86.84 233.00 moveto
+(-H66)
+ 8.0 Print
+ 105.00 233.00 moveto
+ 116.52 233.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 233.00 moveto
+ 146.52 233.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 233.00 moveto
+ 183.04 233.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 233.00 moveto
+(H65)
+ 8.0 Print
+ 236.04 233.00 moveto
+(-C34)
+ 8.0 Print
+ 264.84 233.00 moveto
+(-C35)
+ 8.0 Print
+ 283.00 233.00 moveto
+ 294.52 233.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 233.00 moveto
+ 324.52 233.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 233.00 moveto
+ 361.04 233.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 233.00 moveto
+(H66)
+ 8.0 Print
+ 409.04 233.00 moveto
+(-C34)
+ 8.0 Print
+ 437.84 233.00 moveto
+(-C35)
+ 8.0 Print
+ 456.00 233.00 moveto
+ 467.52 233.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 233.00 moveto
+ 497.52 233.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 233.00 moveto
+ 534.04 233.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 223.00 moveto
+(C34)
+ 8.0 Print
+  58.04 223.00 moveto
+(-C35)
+ 8.0 Print
+  86.84 223.00 moveto
+(-H67)
+ 8.0 Print
+ 105.00 223.00 moveto
+ 116.52 223.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 223.00 moveto
+ 146.52 223.00 moveto
+(108.96)
+ 8.0 Print
+ 160.00 223.00 moveto
+ 183.04 223.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 223.00 moveto
+(C34)
+ 8.0 Print
+ 236.04 223.00 moveto
+(-C35)
+ 8.0 Print
+ 264.84 223.00 moveto
+(-H68)
+ 8.0 Print
+ 283.00 223.00 moveto
+ 294.52 223.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 223.00 moveto
+ 324.52 223.00 moveto
+(108.96)
+ 8.0 Print
+ 338.00 223.00 moveto
+ 361.04 223.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 223.00 moveto
+(C34)
+ 8.0 Print
+ 409.04 223.00 moveto
+(-C35)
+ 8.0 Print
+ 437.84 223.00 moveto
+(-C36)
+ 8.0 Print
+ 456.00 223.00 moveto
+ 467.52 223.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 223.00 moveto
+ 497.52 223.00 moveto
+(110.42)
+ 8.0 Print
+ 511.00 223.00 moveto
+ 534.04 223.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 213.00 moveto
+(H67)
+ 8.0 Print
+  58.04 213.00 moveto
+(-C35)
+ 8.0 Print
+  86.84 213.00 moveto
+(-H68)
+ 8.0 Print
+ 105.00 213.00 moveto
+ 116.52 213.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 213.00 moveto
+ 146.52 213.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 213.00 moveto
+ 183.04 213.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 213.00 moveto
+(H67)
+ 8.0 Print
+ 236.04 213.00 moveto
+(-C35)
+ 8.0 Print
+ 264.84 213.00 moveto
+(-C36)
+ 8.0 Print
+ 283.00 213.00 moveto
+ 294.52 213.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 213.00 moveto
+ 324.52 213.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 213.00 moveto
+ 361.04 213.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 213.00 moveto
+(H68)
+ 8.0 Print
+ 409.04 213.00 moveto
+(-C35)
+ 8.0 Print
+ 437.84 213.00 moveto
+(-C36)
+ 8.0 Print
+ 456.00 213.00 moveto
+ 467.52 213.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 213.00 moveto
+ 497.52 213.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 213.00 moveto
+ 534.04 213.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 203.00 moveto
+(C35)
+ 8.0 Print
+  58.04 203.00 moveto
+(-C36)
+ 8.0 Print
+  86.84 203.00 moveto
+(-H69)
+ 8.0 Print
+ 105.00 203.00 moveto
+ 116.52 203.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 203.00 moveto
+ 146.52 203.00 moveto
+(108.93)
+ 8.0 Print
+ 160.00 203.00 moveto
+ 183.04 203.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 203.00 moveto
+(C35)
+ 8.0 Print
+ 236.04 203.00 moveto
+(-C36)
+ 8.0 Print
+ 264.84 203.00 moveto
+(-H70)
+ 8.0 Print
+ 283.00 203.00 moveto
+ 294.52 203.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 203.00 moveto
+ 324.52 203.00 moveto
+(108.93)
+ 8.0 Print
+ 338.00 203.00 moveto
+ 361.04 203.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 203.00 moveto
+(C35)
+ 8.0 Print
+ 409.04 203.00 moveto
+(-C36)
+ 8.0 Print
+ 437.84 203.00 moveto
+(-C37)
+ 8.0 Print
+ 456.00 203.00 moveto
+ 467.52 203.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 203.00 moveto
+ 497.52 203.00 moveto
+(110.47)
+ 8.0 Print
+ 511.00 203.00 moveto
+ 534.04 203.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 193.00 moveto
+(H69)
+ 8.0 Print
+  58.04 193.00 moveto
+(-C36)
+ 8.0 Print
+  86.84 193.00 moveto
+(-H70)
+ 8.0 Print
+ 105.00 193.00 moveto
+ 116.52 193.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 193.00 moveto
+ 146.52 193.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 193.00 moveto
+ 183.04 193.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 193.00 moveto
+(H69)
+ 8.0 Print
+ 236.04 193.00 moveto
+(-C36)
+ 8.0 Print
+ 264.84 193.00 moveto
+(-C37)
+ 8.0 Print
+ 283.00 193.00 moveto
+ 294.52 193.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 193.00 moveto
+ 324.52 193.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 193.00 moveto
+ 361.04 193.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 193.00 moveto
+(H70)
+ 8.0 Print
+ 409.04 193.00 moveto
+(-C36)
+ 8.0 Print
+ 437.84 193.00 moveto
+(-C37)
+ 8.0 Print
+ 456.00 193.00 moveto
+ 467.52 193.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 193.00 moveto
+ 497.52 193.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 193.00 moveto
+ 534.04 193.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 183.00 moveto
+(C36)
+ 8.0 Print
+  58.04 183.00 moveto
+(-C37)
+ 8.0 Print
+  86.84 183.00 moveto
+(-H71)
+ 8.0 Print
+ 105.00 183.00 moveto
+ 116.52 183.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 183.00 moveto
+ 146.52 183.00 moveto
+(109.17)
+ 8.0 Print
+ 160.00 183.00 moveto
+ 183.04 183.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 183.00 moveto
+(C36)
+ 8.0 Print
+ 236.04 183.00 moveto
+(-C37)
+ 8.0 Print
+ 264.84 183.00 moveto
+(-H72)
+ 8.0 Print
+ 283.00 183.00 moveto
+ 294.52 183.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 183.00 moveto
+ 324.52 183.00 moveto
+(109.17)
+ 8.0 Print
+ 338.00 183.00 moveto
+ 361.04 183.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 183.00 moveto
+(C36)
+ 8.0 Print
+ 409.04 183.00 moveto
+(-C37)
+ 8.0 Print
+ 437.84 183.00 moveto
+(-C38)
+ 8.0 Print
+ 456.00 183.00 moveto
+ 467.52 183.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 183.00 moveto
+ 497.52 183.00 moveto
+(110.00)
+ 8.0 Print
+ 511.00 183.00 moveto
+ 534.04 183.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 173.00 moveto
+(H71)
+ 8.0 Print
+  58.04 173.00 moveto
+(-C37)
+ 8.0 Print
+  86.84 173.00 moveto
+(-H72)
+ 8.0 Print
+ 105.00 173.00 moveto
+ 116.52 173.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 173.00 moveto
+ 146.52 173.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 173.00 moveto
+ 183.04 173.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 173.00 moveto
+(H71)
+ 8.0 Print
+ 236.04 173.00 moveto
+(-C37)
+ 8.0 Print
+ 264.84 173.00 moveto
+(-C38)
+ 8.0 Print
+ 283.00 173.00 moveto
+ 294.52 173.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 173.00 moveto
+ 324.52 173.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 173.00 moveto
+ 361.04 173.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 173.00 moveto
+(H72)
+ 8.0 Print
+ 409.04 173.00 moveto
+(-C37)
+ 8.0 Print
+ 437.84 173.00 moveto
+(-C38)
+ 8.0 Print
+ 456.00 173.00 moveto
+ 467.52 173.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 173.00 moveto
+ 497.52 173.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 173.00 moveto
+ 534.04 173.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 163.00 moveto
+(C37)
+ 8.0 Print
+  58.04 163.00 moveto
+(-C38)
+ 8.0 Print
+  86.84 163.00 moveto
+(-H73)
+ 8.0 Print
+ 105.00 163.00 moveto
+ 116.52 163.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 163.00 moveto
+ 146.52 163.00 moveto
+(109.60)
+ 8.0 Print
+ 160.00 163.00 moveto
+ 183.04 163.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 163.00 moveto
+(C37)
+ 8.0 Print
+ 236.04 163.00 moveto
+(-C38)
+ 8.0 Print
+ 264.84 163.00 moveto
+(-H74)
+ 8.0 Print
+ 283.00 163.00 moveto
+ 294.52 163.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 163.00 moveto
+ 324.52 163.00 moveto
+(109.60)
+ 8.0 Print
+ 338.00 163.00 moveto
+ 361.04 163.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 163.00 moveto
+(C37)
+ 8.0 Print
+ 409.04 163.00 moveto
+(-C38)
+ 8.0 Print
+ 437.84 163.00 moveto
+(-C39)
+ 8.0 Print
+ 456.00 163.00 moveto
+ 467.52 163.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 163.00 moveto
+ 497.52 163.00 moveto
+(109.15)
+ 8.0 Print
+ 511.00 163.00 moveto
+ 534.04 163.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 153.00 moveto
+(H73)
+ 8.0 Print
+  58.04 153.00 moveto
+(-C38)
+ 8.0 Print
+  86.84 153.00 moveto
+(-H74)
+ 8.0 Print
+ 105.00 153.00 moveto
+ 116.52 153.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 153.00 moveto
+ 146.52 153.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 153.00 moveto
+ 183.04 153.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 153.00 moveto
+(H73)
+ 8.0 Print
+ 236.04 153.00 moveto
+(-C38)
+ 8.0 Print
+ 264.84 153.00 moveto
+(-C39)
+ 8.0 Print
+ 283.00 153.00 moveto
+ 294.52 153.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 153.00 moveto
+ 324.52 153.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 153.00 moveto
+ 361.04 153.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 153.00 moveto
+(H74)
+ 8.0 Print
+ 409.04 153.00 moveto
+(-C38)
+ 8.0 Print
+ 437.84 153.00 moveto
+(-C39)
+ 8.0 Print
+ 456.00 153.00 moveto
+ 467.52 153.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 153.00 moveto
+ 497.52 153.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 153.00 moveto
+ 534.04 153.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 143.00 moveto
+(C38)
+ 8.0 Print
+  58.04 143.00 moveto
+(-C39)
+ 8.0 Print
+  86.84 143.00 moveto
+(-H75)
+ 8.0 Print
+ 105.00 143.00 moveto
+ 116.52 143.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 143.00 moveto
+ 146.52 143.00 moveto
+(108.59)
+ 8.0 Print
+ 160.00 143.00 moveto
+ 183.04 143.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 143.00 moveto
+(C38)
+ 8.0 Print
+ 236.04 143.00 moveto
+(-C39)
+ 8.0 Print
+ 264.84 143.00 moveto
+(-H76)
+ 8.0 Print
+ 283.00 143.00 moveto
+ 294.52 143.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 143.00 moveto
+ 324.52 143.00 moveto
+(108.59)
+ 8.0 Print
+ 338.00 143.00 moveto
+ 361.04 143.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 143.00 moveto
+(C38)
+ 8.0 Print
+ 409.04 143.00 moveto
+(-C39)
+ 8.0 Print
+ 437.84 143.00 moveto
+(-C40)
+ 8.0 Print
+ 456.00 143.00 moveto
+ 467.52 143.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 143.00 moveto
+ 497.52 143.00 moveto
+(111.15)
+ 8.0 Print
+ 511.00 143.00 moveto
+ 534.04 143.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 133.00 moveto
+(H75)
+ 8.0 Print
+  58.04 133.00 moveto
+(-C39)
+ 8.0 Print
+  86.84 133.00 moveto
+(-H76)
+ 8.0 Print
+ 105.00 133.00 moveto
+ 116.52 133.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 133.00 moveto
+ 146.52 133.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 133.00 moveto
+ 183.04 133.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 133.00 moveto
+(H75)
+ 8.0 Print
+ 236.04 133.00 moveto
+(-C39)
+ 8.0 Print
+ 264.84 133.00 moveto
+(-C40)
+ 8.0 Print
+ 283.00 133.00 moveto
+ 294.52 133.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 133.00 moveto
+ 324.52 133.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 133.00 moveto
+ 361.04 133.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 133.00 moveto
+(H76)
+ 8.0 Print
+ 409.04 133.00 moveto
+(-C39)
+ 8.0 Print
+ 437.84 133.00 moveto
+(-C40)
+ 8.0 Print
+ 456.00 133.00 moveto
+ 467.52 133.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 133.00 moveto
+ 497.52 133.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 133.00 moveto
+ 534.04 133.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 123.00 moveto
+(C39)
+ 8.0 Print
+  58.04 123.00 moveto
+(-C40)
+ 8.0 Print
+  86.84 123.00 moveto
+(-H77)
+ 8.0 Print
+ 105.00 123.00 moveto
+ 116.52 123.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 123.00 moveto
+ 146.52 123.00 moveto
+(108.49)
+ 8.0 Print
+ 160.00 123.00 moveto
+ 183.04 123.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 123.00 moveto
+(C39)
+ 8.0 Print
+ 236.04 123.00 moveto
+(-C40)
+ 8.0 Print
+ 264.84 123.00 moveto
+(-H78)
+ 8.0 Print
+ 283.00 123.00 moveto
+ 294.52 123.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 123.00 moveto
+ 324.52 123.00 moveto
+(108.49)
+ 8.0 Print
+ 338.00 123.00 moveto
+ 361.04 123.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 123.00 moveto
+(C39)
+ 8.0 Print
+ 409.04 123.00 moveto
+(-C40)
+ 8.0 Print
+ 437.84 123.00 moveto
+(-C41)
+ 8.0 Print
+ 456.00 123.00 moveto
+ 467.52 123.00 moveto
+(111.00)
+ 8.0 Print
+ 486.00 123.00 moveto
+ 497.52 123.00 moveto
+(111.34)
+ 8.0 Print
+ 511.00 123.00 moveto
+ 534.04 123.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 113.00 moveto
+(H77)
+ 8.0 Print
+  58.04 113.00 moveto
+(-C40)
+ 8.0 Print
+  86.84 113.00 moveto
+(-H78)
+ 8.0 Print
+ 105.00 113.00 moveto
+ 116.52 113.00 moveto
+(107.90)
+ 8.0 Print
+ 135.00 113.00 moveto
+ 146.52 113.00 moveto
+(109.40)
+ 8.0 Print
+ 160.00 113.00 moveto
+ 183.04 113.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 113.00 moveto
+(H77)
+ 8.0 Print
+ 236.04 113.00 moveto
+(-C40)
+ 8.0 Print
+ 264.84 113.00 moveto
+(-C41)
+ 8.0 Print
+ 283.00 113.00 moveto
+ 294.52 113.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 113.00 moveto
+ 324.52 113.00 moveto
+(109.54)
+ 8.0 Print
+ 338.00 113.00 moveto
+ 361.04 113.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 113.00 moveto
+(H78)
+ 8.0 Print
+ 409.04 113.00 moveto
+(-C40)
+ 8.0 Print
+ 437.84 113.00 moveto
+(-C41)
+ 8.0 Print
+ 456.00 113.00 moveto
+ 467.52 113.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 113.00 moveto
+ 497.52 113.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 113.00 moveto
+ 534.04 113.00 moveto
+(0.00)
+ 8.0 Print
+grestore stroke
+ProcheckSave restore
+showpage
+%%Page:  3  5
+/ProcheckSave save def
+ 30.00 50.00 moveto 550.00  50.00 lineto 550.00 780.00 lineto
+  30.00 780.00 lineto closepath gsave
+gsave 1.0000 setgray fill grestore
+clip newpath
+ 260.00 750.00 moveto
+(DUM)
+20.0 Print
+  35.00 728.00 moveto
+(C40)
+ 8.0 Print
+  58.04 728.00 moveto
+(-C41)
+ 8.0 Print
+  86.84 728.00 moveto
+(-H81)
+ 8.0 Print
+ 105.00 728.00 moveto
+ 116.52 728.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 728.00 moveto
+ 146.52 728.00 moveto
+(109.50)
+ 8.0 Print
+ 160.00 728.00 moveto
+ 183.04 728.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 728.00 moveto
+(C40)
+ 8.0 Print
+ 236.04 728.00 moveto
+(-C41)
+ 8.0 Print
+ 264.84 728.00 moveto
+(-H80)
+ 8.0 Print
+ 283.00 728.00 moveto
+ 294.52 728.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 728.00 moveto
+ 324.52 728.00 moveto
+(109.50)
+ 8.0 Print
+ 338.00 728.00 moveto
+ 361.04 728.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 728.00 moveto
+(C40)
+ 8.0 Print
+ 409.04 728.00 moveto
+(-C41)
+ 8.0 Print
+ 437.84 728.00 moveto
+(-H79)
+ 8.0 Print
+ 456.00 728.00 moveto
+ 467.52 728.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 728.00 moveto
+ 497.52 728.00 moveto
+(109.50)
+ 8.0 Print
+ 511.00 728.00 moveto
+ 534.04 728.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 718.00 moveto
+(H81)
+ 8.0 Print
+  58.04 718.00 moveto
+(-C41)
+ 8.0 Print
+  86.84 718.00 moveto
+(-H80)
+ 8.0 Print
+ 105.00 718.00 moveto
+ 116.52 718.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 718.00 moveto
+ 146.52 718.00 moveto
+(109.44)
+ 8.0 Print
+ 160.00 718.00 moveto
+ 183.04 718.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 718.00 moveto
+(H81)
+ 8.0 Print
+ 236.04 718.00 moveto
+(-C41)
+ 8.0 Print
+ 264.84 718.00 moveto
+(-H79)
+ 8.0 Print
+ 283.00 718.00 moveto
+ 294.52 718.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 718.00 moveto
+ 324.52 718.00 moveto
+(109.44)
+ 8.0 Print
+ 338.00 718.00 moveto
+ 361.04 718.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 718.00 moveto
+(H80)
+ 8.0 Print
+ 409.04 718.00 moveto
+(-C41)
+ 8.0 Print
+ 437.84 718.00 moveto
+(-H79)
+ 8.0 Print
+ 456.00 718.00 moveto
+ 467.52 718.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 718.00 moveto
+ 497.52 718.00 moveto
+(109.44)
+ 8.0 Print
+ 511.00 718.00 moveto
+ 534.04 718.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 708.00 moveto
+(C2)
+ 8.0 Print
+  58.04 708.00 moveto
+(-O2)
+ 8.0 Print
+  86.84 708.00 moveto
+(-C3)
+ 8.0 Print
+ 105.00 708.00 moveto
+ 116.52 708.00 moveto
+(111.80)
+ 8.0 Print
+ 135.00 708.00 moveto
+ 146.52 708.00 moveto
+(115.03)
+ 8.0 Print
+ 160.00 708.00 moveto
+ 183.04 708.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 708.00 moveto
+(O2)
+ 8.0 Print
+ 236.04 708.00 moveto
+(-C3)
+ 8.0 Print
+ 264.84 708.00 moveto
+(-O3)
+ 8.0 Print
+ 283.00 708.00 moveto
+ 294.52 708.00 moveto
+(119.00)
+ 8.0 Print
+ 313.00 708.00 moveto
+ 324.52 708.00 moveto
+(117.91)
+ 8.0 Print
+ 338.00 708.00 moveto
+ 361.04 708.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 708.00 moveto
+(O2)
+ 8.0 Print
+ 409.04 708.00 moveto
+(-C3)
+ 8.0 Print
+ 437.84 708.00 moveto
+(-C4)
+ 8.0 Print
+ 456.00 708.00 moveto
+ 467.52 708.00 moveto
+(120.00)
+ 8.0 Print
+ 486.00 708.00 moveto
+ 497.52 708.00 moveto
+(120.45)
+ 8.0 Print
+ 511.00 708.00 moveto
+ 534.04 708.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 698.00 moveto
+(O3)
+ 8.0 Print
+  58.04 698.00 moveto
+(-C3)
+ 8.0 Print
+  86.84 698.00 moveto
+(-C4)
+ 8.0 Print
+ 105.00 698.00 moveto
+ 116.52 698.00 moveto
+(120.50)
+ 8.0 Print
+ 135.00 698.00 moveto
+ 146.52 698.00 moveto
+(120.75)
+ 8.0 Print
+ 160.00 698.00 moveto
+ 183.04 698.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 698.00 moveto
+(C3)
+ 8.0 Print
+ 236.04 698.00 moveto
+(-C4)
+ 8.0 Print
+ 264.84 698.00 moveto
+(-H3)
+ 8.0 Print
+ 283.00 698.00 moveto
+ 294.52 698.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 698.00 moveto
+ 324.52 698.00 moveto
+(110.86)
+ 8.0 Print
+ 338.00 698.00 moveto
+ 361.04 698.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 698.00 moveto
+(C3)
+ 8.0 Print
+ 409.04 698.00 moveto
+(-C4)
+ 8.0 Print
+ 437.84 698.00 moveto
+(-H4)
+ 8.0 Print
+ 456.00 698.00 moveto
+ 467.52 698.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 698.00 moveto
+ 497.52 698.00 moveto
+(110.86)
+ 8.0 Print
+ 511.00 698.00 moveto
+ 534.04 698.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 688.00 moveto
+(C3)
+ 8.0 Print
+  58.04 688.00 moveto
+(-C4)
+ 8.0 Print
+  86.84 688.00 moveto
+(-C5)
+ 8.0 Print
+ 105.00 688.00 moveto
+ 116.52 688.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 688.00 moveto
+ 146.52 688.00 moveto
+(106.59)
+ 8.0 Print
+ 160.00 688.00 moveto
+ 183.04 688.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 688.00 moveto
+(H3)
+ 8.0 Print
+ 236.04 688.00 moveto
+(-C4)
+ 8.0 Print
+ 264.84 688.00 moveto
+(-H4)
+ 8.0 Print
+ 283.00 688.00 moveto
+ 294.52 688.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 688.00 moveto
+ 324.52 688.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 688.00 moveto
+ 361.04 688.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 688.00 moveto
+(H3)
+ 8.0 Print
+ 409.04 688.00 moveto
+(-C4)
+ 8.0 Print
+ 437.84 688.00 moveto
+(-C5)
+ 8.0 Print
+ 456.00 688.00 moveto
+ 467.52 688.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 688.00 moveto
+ 497.52 688.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 688.00 moveto
+ 534.04 688.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 678.00 moveto
+(H4)
+ 8.0 Print
+  58.04 678.00 moveto
+(-C4)
+ 8.0 Print
+  86.84 678.00 moveto
+(-C5)
+ 8.0 Print
+ 105.00 678.00 moveto
+ 116.52 678.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 678.00 moveto
+ 146.52 678.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 678.00 moveto
+ 183.04 678.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 678.00 moveto
+(C4)
+ 8.0 Print
+ 236.04 678.00 moveto
+(-C5)
+ 8.0 Print
+ 264.84 678.00 moveto
+(-H5)
+ 8.0 Print
+ 283.00 678.00 moveto
+ 294.52 678.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 678.00 moveto
+ 324.52 678.00 moveto
+(108.69)
+ 8.0 Print
+ 338.00 678.00 moveto
+ 361.04 678.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 678.00 moveto
+(C4)
+ 8.0 Print
+ 409.04 678.00 moveto
+(-C5)
+ 8.0 Print
+ 437.84 678.00 moveto
+(-H6)
+ 8.0 Print
+ 456.00 678.00 moveto
+ 467.52 678.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 678.00 moveto
+ 497.52 678.00 moveto
+(108.69)
+ 8.0 Print
+ 511.00 678.00 moveto
+ 534.04 678.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 668.00 moveto
+(C4)
+ 8.0 Print
+  58.04 668.00 moveto
+(-C5)
+ 8.0 Print
+  86.84 668.00 moveto
+(-C6)
+ 8.0 Print
+ 105.00 668.00 moveto
+ 116.52 668.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 668.00 moveto
+ 146.52 668.00 moveto
+(110.95)
+ 8.0 Print
+ 160.00 668.00 moveto
+ 183.04 668.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 668.00 moveto
+(H5)
+ 8.0 Print
+ 236.04 668.00 moveto
+(-C5)
+ 8.0 Print
+ 264.84 668.00 moveto
+(-H6)
+ 8.0 Print
+ 283.00 668.00 moveto
+ 294.52 668.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 668.00 moveto
+ 324.52 668.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 668.00 moveto
+ 361.04 668.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 668.00 moveto
+(H5)
+ 8.0 Print
+ 409.04 668.00 moveto
+(-C5)
+ 8.0 Print
+ 437.84 668.00 moveto
+(-C6)
+ 8.0 Print
+ 456.00 668.00 moveto
+ 467.52 668.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 668.00 moveto
+ 497.52 668.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 668.00 moveto
+ 534.04 668.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 658.00 moveto
+(H6)
+ 8.0 Print
+  58.04 658.00 moveto
+(-C5)
+ 8.0 Print
+  86.84 658.00 moveto
+(-C6)
+ 8.0 Print
+ 105.00 658.00 moveto
+ 116.52 658.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 658.00 moveto
+ 146.52 658.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 658.00 moveto
+ 183.04 658.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 658.00 moveto
+(C5)
+ 8.0 Print
+ 236.04 658.00 moveto
+(-C6)
+ 8.0 Print
+ 264.84 658.00 moveto
+(-H7)
+ 8.0 Print
+ 283.00 658.00 moveto
+ 294.52 658.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 658.00 moveto
+ 324.52 658.00 moveto
+(108.93)
+ 8.0 Print
+ 338.00 658.00 moveto
+ 361.04 658.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 658.00 moveto
+(C5)
+ 8.0 Print
+ 409.04 658.00 moveto
+(-C6)
+ 8.0 Print
+ 437.84 658.00 moveto
+(-H8)
+ 8.0 Print
+ 456.00 658.00 moveto
+ 467.52 658.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 658.00 moveto
+ 497.52 658.00 moveto
+(108.93)
+ 8.0 Print
+ 511.00 658.00 moveto
+ 534.04 658.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 648.00 moveto
+(C5)
+ 8.0 Print
+  58.04 648.00 moveto
+(-C6)
+ 8.0 Print
+  86.84 648.00 moveto
+(-C7)
+ 8.0 Print
+ 105.00 648.00 moveto
+ 116.52 648.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 648.00 moveto
+ 146.52 648.00 moveto
+(110.47)
+ 8.0 Print
+ 160.00 648.00 moveto
+ 183.04 648.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 648.00 moveto
+(H7)
+ 8.0 Print
+ 236.04 648.00 moveto
+(-C6)
+ 8.0 Print
+ 264.84 648.00 moveto
+(-H8)
+ 8.0 Print
+ 283.00 648.00 moveto
+ 294.52 648.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 648.00 moveto
+ 324.52 648.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 648.00 moveto
+ 361.04 648.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 648.00 moveto
+(H7)
+ 8.0 Print
+ 409.04 648.00 moveto
+(-C6)
+ 8.0 Print
+ 437.84 648.00 moveto
+(-C7)
+ 8.0 Print
+ 456.00 648.00 moveto
+ 467.52 648.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 648.00 moveto
+ 497.52 648.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 648.00 moveto
+ 534.04 648.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 638.00 moveto
+(H8)
+ 8.0 Print
+  58.04 638.00 moveto
+(-C6)
+ 8.0 Print
+  86.84 638.00 moveto
+(-C7)
+ 8.0 Print
+ 105.00 638.00 moveto
+ 116.52 638.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 638.00 moveto
+ 146.52 638.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 638.00 moveto
+ 183.04 638.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 638.00 moveto
+(C6)
+ 8.0 Print
+ 236.04 638.00 moveto
+(-C7)
+ 8.0 Print
+ 264.84 638.00 moveto
+(-H9)
+ 8.0 Print
+ 283.00 638.00 moveto
+ 294.52 638.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 638.00 moveto
+ 324.52 638.00 moveto
+(109.58)
+ 8.0 Print
+ 338.00 638.00 moveto
+ 361.04 638.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 638.00 moveto
+(C6)
+ 8.0 Print
+ 409.04 638.00 moveto
+(-C7)
+ 8.0 Print
+ 437.84 638.00 moveto
+(-H10)
+ 8.0 Print
+ 456.00 638.00 moveto
+ 467.52 638.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 638.00 moveto
+ 497.52 638.00 moveto
+(109.58)
+ 8.0 Print
+ 511.00 638.00 moveto
+ 534.04 638.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 628.00 moveto
+(C6)
+ 8.0 Print
+  58.04 628.00 moveto
+(-C7)
+ 8.0 Print
+  86.84 628.00 moveto
+(-C8)
+ 8.0 Print
+ 105.00 628.00 moveto
+ 116.52 628.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 628.00 moveto
+ 146.52 628.00 moveto
+(109.19)
+ 8.0 Print
+ 160.00 628.00 moveto
+ 183.04 628.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 628.00 moveto
+(H9)
+ 8.0 Print
+ 236.04 628.00 moveto
+(-C7)
+ 8.0 Print
+ 264.84 628.00 moveto
+(-H10)
+ 8.0 Print
+ 283.00 628.00 moveto
+ 294.52 628.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 628.00 moveto
+ 324.52 628.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 628.00 moveto
+ 361.04 628.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 628.00 moveto
+(H9)
+ 8.0 Print
+ 409.04 628.00 moveto
+(-C7)
+ 8.0 Print
+ 437.84 628.00 moveto
+(-C8)
+ 8.0 Print
+ 456.00 628.00 moveto
+ 467.52 628.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 628.00 moveto
+ 497.52 628.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 628.00 moveto
+ 534.04 628.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 618.00 moveto
+(H10)
+ 8.0 Print
+  58.04 618.00 moveto
+(-C7)
+ 8.0 Print
+  86.84 618.00 moveto
+(-C8)
+ 8.0 Print
+ 105.00 618.00 moveto
+ 116.52 618.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 618.00 moveto
+ 146.52 618.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 618.00 moveto
+ 183.04 618.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 618.00 moveto
+(C7)
+ 8.0 Print
+ 236.04 618.00 moveto
+(-C8)
+ 8.0 Print
+ 264.84 618.00 moveto
+(-H11)
+ 8.0 Print
+ 283.00 618.00 moveto
+ 294.52 618.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 618.00 moveto
+ 324.52 618.00 moveto
+(108.97)
+ 8.0 Print
+ 338.00 618.00 moveto
+ 361.04 618.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 618.00 moveto
+(C7)
+ 8.0 Print
+ 409.04 618.00 moveto
+(-C8)
+ 8.0 Print
+ 437.84 618.00 moveto
+(-H12)
+ 8.0 Print
+ 456.00 618.00 moveto
+ 467.52 618.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 618.00 moveto
+ 497.52 618.00 moveto
+(108.97)
+ 8.0 Print
+ 511.00 618.00 moveto
+ 534.04 618.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 608.00 moveto
+(C7)
+ 8.0 Print
+  58.04 608.00 moveto
+(-C8)
+ 8.0 Print
+  86.84 608.00 moveto
+(-C9)
+ 8.0 Print
+ 105.00 608.00 moveto
+ 116.52 608.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 608.00 moveto
+ 146.52 608.00 moveto
+(110.39)
+ 8.0 Print
+ 160.00 608.00 moveto
+ 183.04 608.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 608.00 moveto
+(H11)
+ 8.0 Print
+ 236.04 608.00 moveto
+(-C8)
+ 8.0 Print
+ 264.84 608.00 moveto
+(-H12)
+ 8.0 Print
+ 283.00 608.00 moveto
+ 294.52 608.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 608.00 moveto
+ 324.52 608.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 608.00 moveto
+ 361.04 608.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 608.00 moveto
+(H11)
+ 8.0 Print
+ 409.04 608.00 moveto
+(-C8)
+ 8.0 Print
+ 437.84 608.00 moveto
+(-C9)
+ 8.0 Print
+ 456.00 608.00 moveto
+ 467.52 608.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 608.00 moveto
+ 497.52 608.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 608.00 moveto
+ 534.04 608.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 598.00 moveto
+(H12)
+ 8.0 Print
+  58.04 598.00 moveto
+(-C8)
+ 8.0 Print
+  86.84 598.00 moveto
+(-C9)
+ 8.0 Print
+ 105.00 598.00 moveto
+ 116.52 598.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 598.00 moveto
+ 146.52 598.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 598.00 moveto
+ 183.04 598.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 598.00 moveto
+(C8)
+ 8.0 Print
+ 236.04 598.00 moveto
+(-C9)
+ 8.0 Print
+ 264.84 598.00 moveto
+(-H13)
+ 8.0 Print
+ 283.00 598.00 moveto
+ 294.52 598.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 598.00 moveto
+ 324.52 598.00 moveto
+(108.71)
+ 8.0 Print
+ 338.00 598.00 moveto
+ 361.04 598.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 598.00 moveto
+(C8)
+ 8.0 Print
+ 409.04 598.00 moveto
+(-C9)
+ 8.0 Print
+ 437.84 598.00 moveto
+(-H14)
+ 8.0 Print
+ 456.00 598.00 moveto
+ 467.52 598.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 598.00 moveto
+ 497.52 598.00 moveto
+(108.71)
+ 8.0 Print
+ 511.00 598.00 moveto
+ 534.04 598.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 588.00 moveto
+(C8)
+ 8.0 Print
+  58.04 588.00 moveto
+(-C9)
+ 8.0 Print
+  86.84 588.00 moveto
+(-C10)
+ 8.0 Print
+ 105.00 588.00 moveto
+ 116.52 588.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 588.00 moveto
+ 146.52 588.00 moveto
+(110.91)
+ 8.0 Print
+ 160.00 588.00 moveto
+ 183.04 588.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 588.00 moveto
+(H13)
+ 8.0 Print
+ 236.04 588.00 moveto
+(-C9)
+ 8.0 Print
+ 264.84 588.00 moveto
+(-H14)
+ 8.0 Print
+ 283.00 588.00 moveto
+ 294.52 588.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 588.00 moveto
+ 324.52 588.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 588.00 moveto
+ 361.04 588.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 588.00 moveto
+(H13)
+ 8.0 Print
+ 409.04 588.00 moveto
+(-C9)
+ 8.0 Print
+ 437.84 588.00 moveto
+(-C10)
+ 8.0 Print
+ 456.00 588.00 moveto
+ 467.52 588.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 588.00 moveto
+ 497.52 588.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 588.00 moveto
+ 534.04 588.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 578.00 moveto
+(H14)
+ 8.0 Print
+  58.04 578.00 moveto
+(-C9)
+ 8.0 Print
+  86.84 578.00 moveto
+(-C10)
+ 8.0 Print
+ 105.00 578.00 moveto
+ 116.52 578.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 578.00 moveto
+ 146.52 578.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 578.00 moveto
+ 183.04 578.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 578.00 moveto
+(C9)
+ 8.0 Print
+ 236.04 578.00 moveto
+(-C10)
+ 8.0 Print
+ 264.84 578.00 moveto
+(-H15)
+ 8.0 Print
+ 283.00 578.00 moveto
+ 294.52 578.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 578.00 moveto
+ 324.52 578.00 moveto
+(109.63)
+ 8.0 Print
+ 338.00 578.00 moveto
+ 361.04 578.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 578.00 moveto
+(C9)
+ 8.0 Print
+ 409.04 578.00 moveto
+(-C10)
+ 8.0 Print
+ 437.84 578.00 moveto
+(-H16)
+ 8.0 Print
+ 456.00 578.00 moveto
+ 467.52 578.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 578.00 moveto
+ 497.52 578.00 moveto
+(109.63)
+ 8.0 Print
+ 511.00 578.00 moveto
+ 534.04 578.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 568.00 moveto
+(C9)
+ 8.0 Print
+  58.04 568.00 moveto
+(-C10)
+ 8.0 Print
+  86.84 568.00 moveto
+(-C11)
+ 8.0 Print
+ 105.00 568.00 moveto
+ 116.52 568.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 568.00 moveto
+ 146.52 568.00 moveto
+(109.09)
+ 8.0 Print
+ 160.00 568.00 moveto
+ 183.04 568.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 568.00 moveto
+(H15)
+ 8.0 Print
+ 236.04 568.00 moveto
+(-C10)
+ 8.0 Print
+ 264.84 568.00 moveto
+(-H16)
+ 8.0 Print
+ 283.00 568.00 moveto
+ 294.52 568.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 568.00 moveto
+ 324.52 568.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 568.00 moveto
+ 361.04 568.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 568.00 moveto
+(H15)
+ 8.0 Print
+ 409.04 568.00 moveto
+(-C10)
+ 8.0 Print
+ 437.84 568.00 moveto
+(-C11)
+ 8.0 Print
+ 456.00 568.00 moveto
+ 467.52 568.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 568.00 moveto
+ 497.52 568.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 568.00 moveto
+ 534.04 568.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 558.00 moveto
+(H16)
+ 8.0 Print
+  58.04 558.00 moveto
+(-C10)
+ 8.0 Print
+  86.84 558.00 moveto
+(-C11)
+ 8.0 Print
+ 105.00 558.00 moveto
+ 116.52 558.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 558.00 moveto
+ 146.52 558.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 558.00 moveto
+ 183.04 558.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 558.00 moveto
+(C10)
+ 8.0 Print
+ 236.04 558.00 moveto
+(-C11)
+ 8.0 Print
+ 264.84 558.00 moveto
+(-H17)
+ 8.0 Print
+ 283.00 558.00 moveto
+ 294.52 558.00 moveto
+(120.00)
+ 8.0 Print
+ 313.00 558.00 moveto
+ 324.52 558.00 moveto
+(120.04)
+ 8.0 Print
+ 338.00 558.00 moveto
+ 361.04 558.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 558.00 moveto
+(C10)
+ 8.0 Print
+ 409.04 558.00 moveto
+(-C11)
+ 8.0 Print
+ 437.84 558.00 moveto
+(-C12)
+ 8.0 Print
+ 456.00 558.00 moveto
+ 467.52 558.00 moveto
+(120.00)
+ 8.0 Print
+ 486.00 558.00 moveto
+ 497.52 558.00 moveto
+(119.93)
+ 8.0 Print
+ 511.00 558.00 moveto
+ 534.04 558.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 548.00 moveto
+(H17)
+ 8.0 Print
+  58.04 548.00 moveto
+(-C11)
+ 8.0 Print
+  86.84 548.00 moveto
+(-C12)
+ 8.0 Print
+ 105.00 548.00 moveto
+ 116.52 548.00 moveto
+(120.00)
+ 8.0 Print
+ 135.00 548.00 moveto
+ 146.52 548.00 moveto
+(120.04)
+ 8.0 Print
+ 160.00 548.00 moveto
+ 183.04 548.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 548.00 moveto
+(C11)
+ 8.0 Print
+ 236.04 548.00 moveto
+(-C12)
+ 8.0 Print
+ 264.84 548.00 moveto
+(-H18)
+ 8.0 Print
+ 283.00 548.00 moveto
+ 294.52 548.00 moveto
+(120.00)
+ 8.0 Print
+ 313.00 548.00 moveto
+ 324.52 548.00 moveto
+(120.04)
+ 8.0 Print
+ 338.00 548.00 moveto
+ 361.04 548.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 548.00 moveto
+(C11)
+ 8.0 Print
+ 409.04 548.00 moveto
+(-C12)
+ 8.0 Print
+ 437.84 548.00 moveto
+(-C13)
+ 8.0 Print
+ 456.00 548.00 moveto
+ 467.52 548.00 moveto
+(120.00)
+ 8.0 Print
+ 486.00 548.00 moveto
+ 497.52 548.00 moveto
+(119.91)
+ 8.0 Print
+ 511.00 548.00 moveto
+ 534.04 548.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 538.00 moveto
+(H18)
+ 8.0 Print
+  58.04 538.00 moveto
+(-C12)
+ 8.0 Print
+  86.84 538.00 moveto
+(-C13)
+ 8.0 Print
+ 105.00 538.00 moveto
+ 116.52 538.00 moveto
+(120.00)
+ 8.0 Print
+ 135.00 538.00 moveto
+ 146.52 538.00 moveto
+(120.04)
+ 8.0 Print
+ 160.00 538.00 moveto
+ 183.04 538.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 538.00 moveto
+(C12)
+ 8.0 Print
+ 236.04 538.00 moveto
+(-C13)
+ 8.0 Print
+ 264.84 538.00 moveto
+(-H19)
+ 8.0 Print
+ 283.00 538.00 moveto
+ 294.52 538.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 538.00 moveto
+ 324.52 538.00 moveto
+(109.60)
+ 8.0 Print
+ 338.00 538.00 moveto
+ 361.04 538.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 538.00 moveto
+(C12)
+ 8.0 Print
+ 409.04 538.00 moveto
+(-C13)
+ 8.0 Print
+ 437.84 538.00 moveto
+(-H20)
+ 8.0 Print
+ 456.00 538.00 moveto
+ 467.52 538.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 538.00 moveto
+ 497.52 538.00 moveto
+(109.60)
+ 8.0 Print
+ 511.00 538.00 moveto
+ 534.04 538.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 528.00 moveto
+(C12)
+ 8.0 Print
+  58.04 528.00 moveto
+(-C13)
+ 8.0 Print
+  86.84 528.00 moveto
+(-C14)
+ 8.0 Print
+ 105.00 528.00 moveto
+ 116.52 528.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 528.00 moveto
+ 146.52 528.00 moveto
+(109.14)
+ 8.0 Print
+ 160.00 528.00 moveto
+ 183.04 528.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 528.00 moveto
+(H19)
+ 8.0 Print
+ 236.04 528.00 moveto
+(-C13)
+ 8.0 Print
+ 264.84 528.00 moveto
+(-H20)
+ 8.0 Print
+ 283.00 528.00 moveto
+ 294.52 528.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 528.00 moveto
+ 324.52 528.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 528.00 moveto
+ 361.04 528.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 528.00 moveto
+(H19)
+ 8.0 Print
+ 409.04 528.00 moveto
+(-C13)
+ 8.0 Print
+ 437.84 528.00 moveto
+(-C14)
+ 8.0 Print
+ 456.00 528.00 moveto
+ 467.52 528.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 528.00 moveto
+ 497.52 528.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 528.00 moveto
+ 534.04 528.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 518.00 moveto
+(H20)
+ 8.0 Print
+  58.04 518.00 moveto
+(-C13)
+ 8.0 Print
+  86.84 518.00 moveto
+(-C14)
+ 8.0 Print
+ 105.00 518.00 moveto
+ 116.52 518.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 518.00 moveto
+ 146.52 518.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 518.00 moveto
+ 183.04 518.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 518.00 moveto
+(C13)
+ 8.0 Print
+ 236.04 518.00 moveto
+(-C14)
+ 8.0 Print
+ 264.84 518.00 moveto
+(-H21)
+ 8.0 Print
+ 283.00 518.00 moveto
+ 294.52 518.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 518.00 moveto
+ 324.52 518.00 moveto
+(108.73)
+ 8.0 Print
+ 338.00 518.00 moveto
+ 361.04 518.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 518.00 moveto
+(C13)
+ 8.0 Print
+ 409.04 518.00 moveto
+(-C14)
+ 8.0 Print
+ 437.84 518.00 moveto
+(-H22)
+ 8.0 Print
+ 456.00 518.00 moveto
+ 467.52 518.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 518.00 moveto
+ 497.52 518.00 moveto
+(108.73)
+ 8.0 Print
+ 511.00 518.00 moveto
+ 534.04 518.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 508.00 moveto
+(C13)
+ 8.0 Print
+  58.04 508.00 moveto
+(-C14)
+ 8.0 Print
+  86.84 508.00 moveto
+(-C15)
+ 8.0 Print
+ 105.00 508.00 moveto
+ 116.52 508.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 508.00 moveto
+ 146.52 508.00 moveto
+(110.87)
+ 8.0 Print
+ 160.00 508.00 moveto
+ 183.04 508.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 508.00 moveto
+(H21)
+ 8.0 Print
+ 236.04 508.00 moveto
+(-C14)
+ 8.0 Print
+ 264.84 508.00 moveto
+(-H22)
+ 8.0 Print
+ 283.00 508.00 moveto
+ 294.52 508.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 508.00 moveto
+ 324.52 508.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 508.00 moveto
+ 361.04 508.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 508.00 moveto
+(H21)
+ 8.0 Print
+ 409.04 508.00 moveto
+(-C14)
+ 8.0 Print
+ 437.84 508.00 moveto
+(-C15)
+ 8.0 Print
+ 456.00 508.00 moveto
+ 467.52 508.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 508.00 moveto
+ 497.52 508.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 508.00 moveto
+ 534.04 508.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 498.00 moveto
+(H22)
+ 8.0 Print
+  58.04 498.00 moveto
+(-C14)
+ 8.0 Print
+  86.84 498.00 moveto
+(-C15)
+ 8.0 Print
+ 105.00 498.00 moveto
+ 116.52 498.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 498.00 moveto
+ 146.52 498.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 498.00 moveto
+ 183.04 498.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 498.00 moveto
+(C14)
+ 8.0 Print
+ 236.04 498.00 moveto
+(-C15)
+ 8.0 Print
+ 264.84 498.00 moveto
+(-H23)
+ 8.0 Print
+ 283.00 498.00 moveto
+ 294.52 498.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 498.00 moveto
+ 324.52 498.00 moveto
+(108.92)
+ 8.0 Print
+ 338.00 498.00 moveto
+ 361.04 498.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 498.00 moveto
+(C14)
+ 8.0 Print
+ 409.04 498.00 moveto
+(-C15)
+ 8.0 Print
+ 437.84 498.00 moveto
+(-H24)
+ 8.0 Print
+ 456.00 498.00 moveto
+ 467.52 498.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 498.00 moveto
+ 497.52 498.00 moveto
+(108.92)
+ 8.0 Print
+ 511.00 498.00 moveto
+ 534.04 498.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 488.00 moveto
+(C14)
+ 8.0 Print
+  58.04 488.00 moveto
+(-C15)
+ 8.0 Print
+  86.84 488.00 moveto
+(-C16)
+ 8.0 Print
+ 105.00 488.00 moveto
+ 116.52 488.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 488.00 moveto
+ 146.52 488.00 moveto
+(110.50)
+ 8.0 Print
+ 160.00 488.00 moveto
+ 183.04 488.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 488.00 moveto
+(H23)
+ 8.0 Print
+ 236.04 488.00 moveto
+(-C15)
+ 8.0 Print
+ 264.84 488.00 moveto
+(-H24)
+ 8.0 Print
+ 283.00 488.00 moveto
+ 294.52 488.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 488.00 moveto
+ 324.52 488.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 488.00 moveto
+ 361.04 488.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 488.00 moveto
+(H23)
+ 8.0 Print
+ 409.04 488.00 moveto
+(-C15)
+ 8.0 Print
+ 437.84 488.00 moveto
+(-C16)
+ 8.0 Print
+ 456.00 488.00 moveto
+ 467.52 488.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 488.00 moveto
+ 497.52 488.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 488.00 moveto
+ 534.04 488.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 478.00 moveto
+(H24)
+ 8.0 Print
+  58.04 478.00 moveto
+(-C15)
+ 8.0 Print
+  86.84 478.00 moveto
+(-C16)
+ 8.0 Print
+ 105.00 478.00 moveto
+ 116.52 478.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 478.00 moveto
+ 146.52 478.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 478.00 moveto
+ 183.04 478.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 478.00 moveto
+(C15)
+ 8.0 Print
+ 236.04 478.00 moveto
+(-C16)
+ 8.0 Print
+ 264.84 478.00 moveto
+(-H25)
+ 8.0 Print
+ 283.00 478.00 moveto
+ 294.52 478.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 478.00 moveto
+ 324.52 478.00 moveto
+(109.38)
+ 8.0 Print
+ 338.00 478.00 moveto
+ 361.04 478.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 478.00 moveto
+(C15)
+ 8.0 Print
+ 409.04 478.00 moveto
+(-C16)
+ 8.0 Print
+ 437.84 478.00 moveto
+(-H26)
+ 8.0 Print
+ 456.00 478.00 moveto
+ 467.52 478.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 478.00 moveto
+ 497.52 478.00 moveto
+(109.38)
+ 8.0 Print
+ 511.00 478.00 moveto
+ 534.04 478.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 468.00 moveto
+(C15)
+ 8.0 Print
+  58.04 468.00 moveto
+(-C16)
+ 8.0 Print
+  86.84 468.00 moveto
+(-C17)
+ 8.0 Print
+ 105.00 468.00 moveto
+ 116.52 468.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 468.00 moveto
+ 146.52 468.00 moveto
+(109.58)
+ 8.0 Print
+ 160.00 468.00 moveto
+ 183.04 468.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 468.00 moveto
+(H25)
+ 8.0 Print
+ 236.04 468.00 moveto
+(-C16)
+ 8.0 Print
+ 264.84 468.00 moveto
+(-H26)
+ 8.0 Print
+ 283.00 468.00 moveto
+ 294.52 468.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 468.00 moveto
+ 324.52 468.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 468.00 moveto
+ 361.04 468.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 468.00 moveto
+(H25)
+ 8.0 Print
+ 409.04 468.00 moveto
+(-C16)
+ 8.0 Print
+ 437.84 468.00 moveto
+(-C17)
+ 8.0 Print
+ 456.00 468.00 moveto
+ 467.52 468.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 468.00 moveto
+ 497.52 468.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 468.00 moveto
+ 534.04 468.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 458.00 moveto
+(H26)
+ 8.0 Print
+  58.04 458.00 moveto
+(-C16)
+ 8.0 Print
+  86.84 458.00 moveto
+(-C17)
+ 8.0 Print
+ 105.00 458.00 moveto
+ 116.52 458.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 458.00 moveto
+ 146.52 458.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 458.00 moveto
+ 183.04 458.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 458.00 moveto
+(C16)
+ 8.0 Print
+ 236.04 458.00 moveto
+(-C17)
+ 8.0 Print
+ 264.84 458.00 moveto
+(-H27)
+ 8.0 Print
+ 283.00 458.00 moveto
+ 294.52 458.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 458.00 moveto
+ 324.52 458.00 moveto
+(109.70)
+ 8.0 Print
+ 338.00 458.00 moveto
+ 361.04 458.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 458.00 moveto
+(C16)
+ 8.0 Print
+ 409.04 458.00 moveto
+(-C17)
+ 8.0 Print
+ 437.84 458.00 moveto
+(-H28)
+ 8.0 Print
+ 456.00 458.00 moveto
+ 467.52 458.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 458.00 moveto
+ 497.52 458.00 moveto
+(109.70)
+ 8.0 Print
+ 511.00 458.00 moveto
+ 534.04 458.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 448.00 moveto
+(C16)
+ 8.0 Print
+  58.04 448.00 moveto
+(-C17)
+ 8.0 Print
+  86.84 448.00 moveto
+(-C18)
+ 8.0 Print
+ 105.00 448.00 moveto
+ 116.52 448.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 448.00 moveto
+ 146.52 448.00 moveto
+(108.94)
+ 8.0 Print
+ 160.00 448.00 moveto
+ 183.04 448.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 448.00 moveto
+(H27)
+ 8.0 Print
+ 236.04 448.00 moveto
+(-C17)
+ 8.0 Print
+ 264.84 448.00 moveto
+(-H28)
+ 8.0 Print
+ 283.00 448.00 moveto
+ 294.52 448.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 448.00 moveto
+ 324.52 448.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 448.00 moveto
+ 361.04 448.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 448.00 moveto
+(H27)
+ 8.0 Print
+ 409.04 448.00 moveto
+(-C17)
+ 8.0 Print
+ 437.84 448.00 moveto
+(-C18)
+ 8.0 Print
+ 456.00 448.00 moveto
+ 467.52 448.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 448.00 moveto
+ 497.52 448.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 448.00 moveto
+ 534.04 448.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 438.00 moveto
+(H28)
+ 8.0 Print
+  58.04 438.00 moveto
+(-C17)
+ 8.0 Print
+  86.84 438.00 moveto
+(-C18)
+ 8.0 Print
+ 105.00 438.00 moveto
+ 116.52 438.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 438.00 moveto
+ 146.52 438.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 438.00 moveto
+ 183.04 438.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 438.00 moveto
+(C17)
+ 8.0 Print
+ 236.04 438.00 moveto
+(-C18)
+ 8.0 Print
+ 264.84 438.00 moveto
+(-H29)
+ 8.0 Print
+ 283.00 438.00 moveto
+ 294.52 438.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 438.00 moveto
+ 324.52 438.00 moveto
+(108.64)
+ 8.0 Print
+ 338.00 438.00 moveto
+ 361.04 438.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 438.00 moveto
+(C17)
+ 8.0 Print
+ 409.04 438.00 moveto
+(-C18)
+ 8.0 Print
+ 437.84 438.00 moveto
+(-H30)
+ 8.0 Print
+ 456.00 438.00 moveto
+ 467.52 438.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 438.00 moveto
+ 497.52 438.00 moveto
+(108.64)
+ 8.0 Print
+ 511.00 438.00 moveto
+ 534.04 438.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 428.00 moveto
+(C17)
+ 8.0 Print
+  58.04 428.00 moveto
+(-C18)
+ 8.0 Print
+  86.84 428.00 moveto
+(-C19)
+ 8.0 Print
+ 105.00 428.00 moveto
+ 116.52 428.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 428.00 moveto
+ 146.52 428.00 moveto
+(111.05)
+ 8.0 Print
+ 160.00 428.00 moveto
+ 183.04 428.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 428.00 moveto
+(H29)
+ 8.0 Print
+ 236.04 428.00 moveto
+(-C18)
+ 8.0 Print
+ 264.84 428.00 moveto
+(-H30)
+ 8.0 Print
+ 283.00 428.00 moveto
+ 294.52 428.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 428.00 moveto
+ 324.52 428.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 428.00 moveto
+ 361.04 428.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 428.00 moveto
+(H29)
+ 8.0 Print
+ 409.04 428.00 moveto
+(-C18)
+ 8.0 Print
+ 437.84 428.00 moveto
+(-C19)
+ 8.0 Print
+ 456.00 428.00 moveto
+ 467.52 428.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 428.00 moveto
+ 497.52 428.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 428.00 moveto
+ 534.04 428.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 418.00 moveto
+(H30)
+ 8.0 Print
+  58.04 418.00 moveto
+(-C18)
+ 8.0 Print
+  86.84 418.00 moveto
+(-C19)
+ 8.0 Print
+ 105.00 418.00 moveto
+ 116.52 418.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 418.00 moveto
+ 146.52 418.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 418.00 moveto
+ 183.04 418.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 418.00 moveto
+(C18)
+ 8.0 Print
+ 236.04 418.00 moveto
+(-C19)
+ 8.0 Print
+ 264.84 418.00 moveto
+(-H31)
+ 8.0 Print
+ 283.00 418.00 moveto
+ 294.52 418.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 418.00 moveto
+ 324.52 418.00 moveto
+(108.53)
+ 8.0 Print
+ 338.00 418.00 moveto
+ 361.04 418.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 418.00 moveto
+(C18)
+ 8.0 Print
+ 409.04 418.00 moveto
+(-C19)
+ 8.0 Print
+ 437.84 418.00 moveto
+(-H32)
+ 8.0 Print
+ 456.00 418.00 moveto
+ 467.52 418.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 418.00 moveto
+ 497.52 418.00 moveto
+(108.53)
+ 8.0 Print
+ 511.00 418.00 moveto
+ 534.04 418.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 408.00 moveto
+(C18)
+ 8.0 Print
+  58.04 408.00 moveto
+(-C19)
+ 8.0 Print
+  86.84 408.00 moveto
+(-C20)
+ 8.0 Print
+ 105.00 408.00 moveto
+ 116.52 408.00 moveto
+(111.00)
+ 8.0 Print
+ 135.00 408.00 moveto
+ 146.52 408.00 moveto
+(111.26)
+ 8.0 Print
+ 160.00 408.00 moveto
+ 183.04 408.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 408.00 moveto
+(H31)
+ 8.0 Print
+ 236.04 408.00 moveto
+(-C19)
+ 8.0 Print
+ 264.84 408.00 moveto
+(-H32)
+ 8.0 Print
+ 283.00 408.00 moveto
+ 294.52 408.00 moveto
+(107.90)
+ 8.0 Print
+ 313.00 408.00 moveto
+ 324.52 408.00 moveto
+(109.40)
+ 8.0 Print
+ 338.00 408.00 moveto
+ 361.04 408.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 408.00 moveto
+(H31)
+ 8.0 Print
+ 409.04 408.00 moveto
+(-C19)
+ 8.0 Print
+ 437.84 408.00 moveto
+(-C20)
+ 8.0 Print
+ 456.00 408.00 moveto
+ 467.52 408.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 408.00 moveto
+ 497.52 408.00 moveto
+(109.54)
+ 8.0 Print
+ 511.00 408.00 moveto
+ 534.04 408.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 398.00 moveto
+(H32)
+ 8.0 Print
+  58.04 398.00 moveto
+(-C19)
+ 8.0 Print
+  86.84 398.00 moveto
+(-C20)
+ 8.0 Print
+ 105.00 398.00 moveto
+ 116.52 398.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 398.00 moveto
+ 146.52 398.00 moveto
+(109.54)
+ 8.0 Print
+ 160.00 398.00 moveto
+ 183.04 398.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 398.00 moveto
+(C19)
+ 8.0 Print
+ 236.04 398.00 moveto
+(-C20)
+ 8.0 Print
+ 264.84 398.00 moveto
+(-H35)
+ 8.0 Print
+ 283.00 398.00 moveto
+ 294.52 398.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 398.00 moveto
+ 324.52 398.00 moveto
+(109.50)
+ 8.0 Print
+ 338.00 398.00 moveto
+ 361.04 398.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 398.00 moveto
+(C19)
+ 8.0 Print
+ 409.04 398.00 moveto
+(-C20)
+ 8.0 Print
+ 437.84 398.00 moveto
+(-H34)
+ 8.0 Print
+ 456.00 398.00 moveto
+ 467.52 398.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 398.00 moveto
+ 497.52 398.00 moveto
+(109.50)
+ 8.0 Print
+ 511.00 398.00 moveto
+ 534.04 398.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 388.00 moveto
+(C19)
+ 8.0 Print
+  58.04 388.00 moveto
+(-C20)
+ 8.0 Print
+  86.84 388.00 moveto
+(-H33)
+ 8.0 Print
+ 105.00 388.00 moveto
+ 116.52 388.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 388.00 moveto
+ 146.52 388.00 moveto
+(109.50)
+ 8.0 Print
+ 160.00 388.00 moveto
+ 183.04 388.00 moveto
+(0.00)
+ 8.0 Print
+ 213.00 388.00 moveto
+(H35)
+ 8.0 Print
+ 236.04 388.00 moveto
+(-C20)
+ 8.0 Print
+ 264.84 388.00 moveto
+(-H34)
+ 8.0 Print
+ 283.00 388.00 moveto
+ 294.52 388.00 moveto
+(109.47)
+ 8.0 Print
+ 313.00 388.00 moveto
+ 324.52 388.00 moveto
+(109.44)
+ 8.0 Print
+ 338.00 388.00 moveto
+ 361.04 388.00 moveto
+(0.00)
+ 8.0 Print
+ 386.00 388.00 moveto
+(H35)
+ 8.0 Print
+ 409.04 388.00 moveto
+(-C20)
+ 8.0 Print
+ 437.84 388.00 moveto
+(-H33)
+ 8.0 Print
+ 456.00 388.00 moveto
+ 467.52 388.00 moveto
+(109.47)
+ 8.0 Print
+ 486.00 388.00 moveto
+ 497.52 388.00 moveto
+(109.44)
+ 8.0 Print
+ 511.00 388.00 moveto
+ 534.04 388.00 moveto
+(0.00)
+ 8.0 Print
+  35.00 378.00 moveto
+(H34)
+ 8.0 Print
+  58.04 378.00 moveto
+(-C20)
+ 8.0 Print
+  86.84 378.00 moveto
+(-H33)
+ 8.0 Print
+ 105.00 378.00 moveto
+ 116.52 378.00 moveto
+(109.47)
+ 8.0 Print
+ 135.00 378.00 moveto
+ 146.52 378.00 moveto
+(109.44)
+ 8.0 Print
+ 160.00 378.00 moveto
+ 183.04 378.00 moveto
+(0.00)
+ 8.0 Print
+ 250.00 347.50 moveto
+(TORSION)
+10.0 Print
+ 307.60 347.50 moveto
+(ANGLES)
+10.0 Print
+ 189.00 328.00 moveto
+(lib)
+ 8.0 Print
+ 212.04 328.00 moveto
+(crd)
+ 8.0 Print
+ 235.08 328.00 moveto
+(chem)
+ 8.0 Print
+ 263.88 328.00 moveto
+(period)
+ 8.0 Print
+ 445.00 328.00 moveto
+(lib)
+ 8.0 Print
+ 468.04 328.00 moveto
+(crd)
+ 8.0 Print
+ 491.08 328.00 moveto
+(chem)
+ 8.0 Print
+ 519.88 328.00 moveto
+(period)
+ 8.0 Print
+  32.00 313.00 moveto
+(O6)
+ 8.0 Print
+  55.04 313.00 moveto
+(-P)
+ 8.0 Print
+  83.84 313.00 moveto
+(-O7)
+ 8.0 Print
+ 112.64 313.00 moveto
+(-C22)
+ 8.0 Print
+ 147.20 313.00 moveto
+(var_1)
+ 8.0 Print
+ 177.00 313.00 moveto
+ 188.52 313.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 313.00 moveto
+ 212.76 313.00 moveto
+(-177.72)
+ 8.0 Print
+ 237.00 313.00 moveto
+ 260.04 313.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 313.00 moveto
+ 279.28 313.00 moveto
+(3)
+ 8.0 Print
+ 292.00 313.00 moveto
+(P)
+ 8.0 Print
+ 315.04 313.00 moveto
+(-O7)
+ 8.0 Print
+ 343.84 313.00 moveto
+(-C22)
+ 8.0 Print
+ 372.64 313.00 moveto
+(-C23)
+ 8.0 Print
+ 407.20 313.00 moveto
+(var_2)
+ 8.0 Print
+ 437.00 313.00 moveto
+ 448.52 313.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 313.00 moveto
+ 478.52 313.00 moveto
+(179.60)
+ 8.0 Print
+ 497.00 313.00 moveto
+ 520.04 313.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 313.00 moveto
+ 539.28 313.00 moveto
+(3)
+ 8.0 Print
+  32.00 303.00 moveto
+(O7)
+ 8.0 Print
+  55.04 303.00 moveto
+(-C22)
+ 8.0 Print
+  83.84 303.00 moveto
+(-C23)
+ 8.0 Print
+ 112.64 303.00 moveto
+(-N)
+ 8.0 Print
+ 147.20 303.00 moveto
+(var_3)
+ 8.0 Print
+ 177.00 303.00 moveto
+ 188.52 303.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 303.00 moveto
+ 218.52 303.00 moveto
+(171.18)
+ 8.0 Print
+ 237.00 303.00 moveto
+ 260.04 303.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 303.00 moveto
+ 279.28 303.00 moveto
+(3)
+ 8.0 Print
+ 292.00 303.00 moveto
+(C22)
+ 8.0 Print
+ 315.04 303.00 moveto
+(-C23)
+ 8.0 Print
+ 343.84 303.00 moveto
+(-N)
+ 8.0 Print
+ 372.64 303.00 moveto
+(-C24)
+ 8.0 Print
+ 407.20 303.00 moveto
+(var_4)
+ 8.0 Print
+ 437.00 303.00 moveto
+ 448.52 303.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 303.00 moveto
+ 478.52 303.00 moveto
+(177.84)
+ 8.0 Print
+ 497.00 303.00 moveto
+ 520.04 303.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 303.00 moveto
+ 539.28 303.00 moveto
+(3)
+ 8.0 Print
+  32.00 293.00 moveto
+(C23)
+ 8.0 Print
+  55.04 293.00 moveto
+(-N)
+ 8.0 Print
+  83.84 293.00 moveto
+(-C26)
+ 8.0 Print
+ 112.64 293.00 moveto
+(-H48)
+ 8.0 Print
+ 147.20 293.00 moveto
+(var_5)
+ 8.0 Print
+ 177.00 293.00 moveto
+ 188.52 293.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 293.00 moveto
+ 218.52 293.00 moveto
+(180.00)
+ 8.0 Print
+ 237.00 293.00 moveto
+ 260.04 293.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 293.00 moveto
+ 279.28 293.00 moveto
+(3)
+ 8.0 Print
+ 292.00 293.00 moveto
+(C23)
+ 8.0 Print
+ 315.04 293.00 moveto
+(-N)
+ 8.0 Print
+ 343.84 293.00 moveto
+(-C25)
+ 8.0 Print
+ 372.64 293.00 moveto
+(-H45)
+ 8.0 Print
+ 407.20 293.00 moveto
+(var_6)
+ 8.0 Print
+ 437.00 293.00 moveto
+ 448.52 293.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 293.00 moveto
+ 478.52 293.00 moveto
+(180.00)
+ 8.0 Print
+ 497.00 293.00 moveto
+ 520.04 293.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 293.00 moveto
+ 539.28 293.00 moveto
+(3)
+ 8.0 Print
+  32.00 283.00 moveto
+(C23)
+ 8.0 Print
+  55.04 283.00 moveto
+(-N)
+ 8.0 Print
+  83.84 283.00 moveto
+(-C24)
+ 8.0 Print
+ 112.64 283.00 moveto
+(-H42)
+ 8.0 Print
+ 147.20 283.00 moveto
+(var_7)
+ 8.0 Print
+ 177.00 283.00 moveto
+ 188.52 283.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 283.00 moveto
+ 218.52 283.00 moveto
+(179.98)
+ 8.0 Print
+ 237.00 283.00 moveto
+ 260.04 283.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 283.00 moveto
+ 279.28 283.00 moveto
+(3)
+ 8.0 Print
+ 292.00 283.00 moveto
+(O6)
+ 8.0 Print
+ 315.04 283.00 moveto
+(-P)
+ 8.0 Print
+ 343.84 283.00 moveto
+(-O4)
+ 8.0 Print
+ 372.64 283.00 moveto
+(-C21)
+ 8.0 Print
+ 407.20 283.00 moveto
+(var_8)
+ 8.0 Print
+ 437.00 283.00 moveto
+ 448.52 283.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 283.00 moveto
+ 478.52 283.00 moveto
+(169.93)
+ 8.0 Print
+ 497.00 283.00 moveto
+ 520.04 283.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 283.00 moveto
+ 539.28 283.00 moveto
+(3)
+ 8.0 Print
+  32.00 273.00 moveto
+(P)
+ 8.0 Print
+  55.04 273.00 moveto
+(-O4)
+ 8.0 Print
+  83.84 273.00 moveto
+(-C21)
+ 8.0 Print
+ 112.64 273.00 moveto
+(-C2)
+ 8.0 Print
+ 147.20 273.00 moveto
+(var_9)
+ 8.0 Print
+ 177.00 273.00 moveto
+ 188.52 273.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 273.00 moveto
+ 212.76 273.00 moveto
+(-176.52)
+ 8.0 Print
+ 237.00 273.00 moveto
+ 260.04 273.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 273.00 moveto
+ 279.28 273.00 moveto
+(3)
+ 8.0 Print
+ 292.00 273.00 moveto
+(O4)
+ 8.0 Print
+ 315.04 273.00 moveto
+(-C21)
+ 8.0 Print
+ 343.84 273.00 moveto
+(-C2)
+ 8.0 Print
+ 372.64 273.00 moveto
+(-O2)
+ 8.0 Print
+ 407.20 273.00 moveto
+(var_10)
+ 8.0 Print
+ 437.00 273.00 moveto
+ 448.52 273.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 273.00 moveto
+ 472.76 273.00 moveto
+(-167.14)
+ 8.0 Print
+ 497.00 273.00 moveto
+ 520.04 273.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 273.00 moveto
+ 539.28 273.00 moveto
+(3)
+ 8.0 Print
+  32.00 263.00 moveto
+(C21)
+ 8.0 Print
+  55.04 263.00 moveto
+(-C2)
+ 8.0 Print
+  83.84 263.00 moveto
+(-C1)
+ 8.0 Print
+ 112.64 263.00 moveto
+(-O1)
+ 8.0 Print
+ 147.20 263.00 moveto
+(var_11)
+ 8.0 Print
+ 177.00 263.00 moveto
+ 188.52 263.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 263.00 moveto
+ 218.52 263.00 moveto
+(178.50)
+ 8.0 Print
+ 237.00 263.00 moveto
+ 260.04 263.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 263.00 moveto
+ 279.28 263.00 moveto
+(3)
+ 8.0 Print
+ 292.00 263.00 moveto
+(C2)
+ 8.0 Print
+ 315.04 263.00 moveto
+(-C1)
+ 8.0 Print
+ 343.84 263.00 moveto
+(-O1)
+ 8.0 Print
+ 372.64 263.00 moveto
+(-C)
+ 8.0 Print
+ 407.20 263.00 moveto
+(var_12)
+ 8.0 Print
+ 437.00 263.00 moveto
+ 448.52 263.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 263.00 moveto
+ 472.76 263.00 moveto
+(-177.38)
+ 8.0 Print
+ 497.00 263.00 moveto
+ 520.04 263.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 263.00 moveto
+ 539.28 263.00 moveto
+(3)
+ 8.0 Print
+  32.00 253.00 moveto
+(C1)
+ 8.0 Print
+  55.04 253.00 moveto
+(-O1)
+ 8.0 Print
+  83.84 253.00 moveto
+(-C)
+ 8.0 Print
+ 112.64 253.00 moveto
+(-O)
+ 8.0 Print
+ 147.20 253.00 moveto
+(var_13)
+ 8.0 Print
+ 177.00 253.00 moveto
+ 188.52 253.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 253.00 moveto
+ 218.52 253.00 moveto
+(178.59)
+ 8.0 Print
+ 237.00 253.00 moveto
+ 260.04 253.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 253.00 moveto
+ 279.28 253.00 moveto
+(3)
+ 8.0 Print
+ 292.00 253.00 moveto
+(O1)
+ 8.0 Print
+ 315.04 253.00 moveto
+(-C)
+ 8.0 Print
+ 343.84 253.00 moveto
+(-C27)
+ 8.0 Print
+ 372.64 253.00 moveto
+(-C28)
+ 8.0 Print
+ 407.20 253.00 moveto
+(var_14)
+ 8.0 Print
+ 437.00 253.00 moveto
+ 448.52 253.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 253.00 moveto
+ 472.76 253.00 moveto
+(-178.47)
+ 8.0 Print
+ 497.00 253.00 moveto
+ 520.04 253.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 253.00 moveto
+ 539.28 253.00 moveto
+(3)
+ 8.0 Print
+  32.00 243.00 moveto
+(C)
+ 8.0 Print
+  55.04 243.00 moveto
+(-C27)
+ 8.0 Print
+  83.84 243.00 moveto
+(-C28)
+ 8.0 Print
+ 112.64 243.00 moveto
+(-C29)
+ 8.0 Print
+ 147.20 243.00 moveto
+(var_15)
+ 8.0 Print
+ 177.00 243.00 moveto
+ 188.52 243.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 243.00 moveto
+ 218.52 243.00 moveto
+(180.03)
+ 8.0 Print
+ 237.00 243.00 moveto
+ 260.04 243.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 243.00 moveto
+ 279.28 243.00 moveto
+(3)
+ 8.0 Print
+ 292.00 243.00 moveto
+(C27)
+ 8.0 Print
+ 315.04 243.00 moveto
+(-C28)
+ 8.0 Print
+ 343.84 243.00 moveto
+(-C29)
+ 8.0 Print
+ 372.64 243.00 moveto
+(-C30)
+ 8.0 Print
+ 407.20 243.00 moveto
+(var_16)
+ 8.0 Print
+ 437.00 243.00 moveto
+ 448.52 243.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 243.00 moveto
+ 478.52 243.00 moveto
+(180.03)
+ 8.0 Print
+ 497.00 243.00 moveto
+ 520.04 243.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 243.00 moveto
+ 539.28 243.00 moveto
+(3)
+ 8.0 Print
+  32.00 233.00 moveto
+(C28)
+ 8.0 Print
+  55.04 233.00 moveto
+(-C29)
+ 8.0 Print
+  83.84 233.00 moveto
+(-C30)
+ 8.0 Print
+ 112.64 233.00 moveto
+(-C31)
+ 8.0 Print
+ 147.20 233.00 moveto
+(var_17)
+ 8.0 Print
+ 177.00 233.00 moveto
+ 188.52 233.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 233.00 moveto
+ 218.52 233.00 moveto
+(180.00)
+ 8.0 Print
+ 237.00 233.00 moveto
+ 260.04 233.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 233.00 moveto
+ 279.28 233.00 moveto
+(3)
+ 8.0 Print
+ 292.00 233.00 moveto
+(C29)
+ 8.0 Print
+ 315.04 233.00 moveto
+(-C30)
+ 8.0 Print
+ 343.84 233.00 moveto
+(-C31)
+ 8.0 Print
+ 372.64 233.00 moveto
+(-C32)
+ 8.0 Print
+ 407.20 233.00 moveto
+(var_18)
+ 8.0 Print
+ 437.00 233.00 moveto
+ 448.52 233.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 233.00 moveto
+ 478.52 233.00 moveto
+(180.03)
+ 8.0 Print
+ 497.00 233.00 moveto
+ 520.04 233.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 233.00 moveto
+ 539.28 233.00 moveto
+(3)
+ 8.0 Print
+  32.00 223.00 moveto
+(C30)
+ 8.0 Print
+  55.04 223.00 moveto
+(-C31)
+ 8.0 Print
+  83.84 223.00 moveto
+(-C32)
+ 8.0 Print
+ 112.64 223.00 moveto
+(-C33)
+ 8.0 Print
+ 147.20 223.00 moveto
+(var_19)
+ 8.0 Print
+ 177.00 223.00 moveto
+ 188.52 223.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 223.00 moveto
+ 218.52 223.00 moveto
+(180.03)
+ 8.0 Print
+ 237.00 223.00 moveto
+ 260.04 223.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 223.00 moveto
+ 279.28 223.00 moveto
+(3)
+ 8.0 Print
+ 292.00 223.00 moveto
+(C31)
+ 8.0 Print
+ 315.04 223.00 moveto
+(-C32)
+ 8.0 Print
+ 343.84 223.00 moveto
+(-C33)
+ 8.0 Print
+ 372.64 223.00 moveto
+(-C34)
+ 8.0 Print
+ 407.20 223.00 moveto
+(var_20)
+ 8.0 Print
+ 437.00 223.00 moveto
+ 448.52 223.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 223.00 moveto
+ 478.52 223.00 moveto
+(179.97)
+ 8.0 Print
+ 497.00 223.00 moveto
+ 520.04 223.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 223.00 moveto
+ 539.28 223.00 moveto
+(3)
+ 8.0 Print
+  32.00 213.00 moveto
+(C32)
+ 8.0 Print
+  55.04 213.00 moveto
+(-C33)
+ 8.0 Print
+  83.84 213.00 moveto
+(-C34)
+ 8.0 Print
+ 112.64 213.00 moveto
+(-C35)
+ 8.0 Print
+ 147.20 213.00 moveto
+(var_21)
+ 8.0 Print
+ 177.00 213.00 moveto
+ 188.52 213.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 213.00 moveto
+ 218.52 213.00 moveto
+(180.00)
+ 8.0 Print
+ 237.00 213.00 moveto
+ 260.04 213.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 213.00 moveto
+ 279.28 213.00 moveto
+(3)
+ 8.0 Print
+ 292.00 213.00 moveto
+(C33)
+ 8.0 Print
+ 315.04 213.00 moveto
+(-C34)
+ 8.0 Print
+ 343.84 213.00 moveto
+(-C35)
+ 8.0 Print
+ 372.64 213.00 moveto
+(-C36)
+ 8.0 Print
+ 407.20 213.00 moveto
+(var_22)
+ 8.0 Print
+ 437.00 213.00 moveto
+ 448.52 213.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 213.00 moveto
+ 478.52 213.00 moveto
+(180.00)
+ 8.0 Print
+ 497.00 213.00 moveto
+ 520.04 213.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 213.00 moveto
+ 539.28 213.00 moveto
+(3)
+ 8.0 Print
+  32.00 203.00 moveto
+(C34)
+ 8.0 Print
+  55.04 203.00 moveto
+(-C35)
+ 8.0 Print
+  83.84 203.00 moveto
+(-C36)
+ 8.0 Print
+ 112.64 203.00 moveto
+(-C37)
+ 8.0 Print
+ 147.20 203.00 moveto
+(var_23)
+ 8.0 Print
+ 177.00 203.00 moveto
+ 188.52 203.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 203.00 moveto
+ 218.52 203.00 moveto
+(180.00)
+ 8.0 Print
+ 237.00 203.00 moveto
+ 260.04 203.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 203.00 moveto
+ 279.28 203.00 moveto
+(3)
+ 8.0 Print
+ 292.00 203.00 moveto
+(C35)
+ 8.0 Print
+ 315.04 203.00 moveto
+(-C36)
+ 8.0 Print
+ 343.84 203.00 moveto
+(-C37)
+ 8.0 Print
+ 372.64 203.00 moveto
+(-C38)
+ 8.0 Print
+ 407.20 203.00 moveto
+(var_24)
+ 8.0 Print
+ 437.00 203.00 moveto
+ 448.52 203.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 203.00 moveto
+ 478.52 203.00 moveto
+(180.03)
+ 8.0 Print
+ 497.00 203.00 moveto
+ 520.04 203.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 203.00 moveto
+ 539.28 203.00 moveto
+(3)
+ 8.0 Print
+  32.00 193.00 moveto
+(C36)
+ 8.0 Print
+  55.04 193.00 moveto
+(-C37)
+ 8.0 Print
+  83.84 193.00 moveto
+(-C38)
+ 8.0 Print
+ 112.64 193.00 moveto
+(-C39)
+ 8.0 Print
+ 147.20 193.00 moveto
+(var_25)
+ 8.0 Print
+ 177.00 193.00 moveto
+ 188.52 193.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 193.00 moveto
+ 218.52 193.00 moveto
+(179.97)
+ 8.0 Print
+ 237.00 193.00 moveto
+ 260.04 193.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 193.00 moveto
+ 279.28 193.00 moveto
+(3)
+ 8.0 Print
+ 292.00 193.00 moveto
+(C37)
+ 8.0 Print
+ 315.04 193.00 moveto
+(-C38)
+ 8.0 Print
+ 343.84 193.00 moveto
+(-C39)
+ 8.0 Print
+ 372.64 193.00 moveto
+(-C40)
+ 8.0 Print
+ 407.20 193.00 moveto
+(var_26)
+ 8.0 Print
+ 437.00 193.00 moveto
+ 448.52 193.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 193.00 moveto
+ 478.52 193.00 moveto
+(180.00)
+ 8.0 Print
+ 497.00 193.00 moveto
+ 520.04 193.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 193.00 moveto
+ 539.28 193.00 moveto
+(3)
+ 8.0 Print
+  32.00 183.00 moveto
+(C38)
+ 8.0 Print
+  55.04 183.00 moveto
+(-C39)
+ 8.0 Print
+  83.84 183.00 moveto
+(-C40)
+ 8.0 Print
+ 112.64 183.00 moveto
+(-C41)
+ 8.0 Print
+ 147.20 183.00 moveto
+(var_27)
+ 8.0 Print
+ 177.00 183.00 moveto
+ 188.52 183.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 183.00 moveto
+ 218.52 183.00 moveto
+(180.03)
+ 8.0 Print
+ 237.00 183.00 moveto
+ 260.04 183.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 183.00 moveto
+ 279.28 183.00 moveto
+(3)
+ 8.0 Print
+ 292.00 183.00 moveto
+(C39)
+ 8.0 Print
+ 315.04 183.00 moveto
+(-C40)
+ 8.0 Print
+ 343.84 183.00 moveto
+(-C41)
+ 8.0 Print
+ 372.64 183.00 moveto
+(-H79)
+ 8.0 Print
+ 407.20 183.00 moveto
+(var_28)
+ 8.0 Print
+ 437.00 183.00 moveto
+ 448.52 183.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 183.00 moveto
+ 478.52 183.00 moveto
+(179.97)
+ 8.0 Print
+ 497.00 183.00 moveto
+ 520.04 183.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 183.00 moveto
+ 539.28 183.00 moveto
+(3)
+ 8.0 Print
+  32.00 173.00 moveto
+(C21)
+ 8.0 Print
+  55.04 173.00 moveto
+(-C2)
+ 8.0 Print
+  83.84 173.00 moveto
+(-O2)
+ 8.0 Print
+ 112.64 173.00 moveto
+(-C3)
+ 8.0 Print
+ 147.20 173.00 moveto
+(var_29)
+ 8.0 Print
+ 177.00 173.00 moveto
+ 188.52 173.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 173.00 moveto
+ 218.52 173.00 moveto
+(179.78)
+ 8.0 Print
+ 237.00 173.00 moveto
+ 260.04 173.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 173.00 moveto
+ 279.28 173.00 moveto
+(3)
+ 8.0 Print
+ 292.00 173.00 moveto
+(C2)
+ 8.0 Print
+ 315.04 173.00 moveto
+(-O2)
+ 8.0 Print
+ 343.84 173.00 moveto
+(-C3)
+ 8.0 Print
+ 372.64 173.00 moveto
+(-C4)
+ 8.0 Print
+ 407.20 173.00 moveto
+(var_30)
+ 8.0 Print
+ 437.00 173.00 moveto
+ 448.52 173.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 173.00 moveto
+ 478.52 173.00 moveto
+(174.15)
+ 8.0 Print
+ 497.00 173.00 moveto
+ 520.04 173.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 173.00 moveto
+ 539.28 173.00 moveto
+(3)
+ 8.0 Print
+  32.00 163.00 moveto
+(O2)
+ 8.0 Print
+  55.04 163.00 moveto
+(-C3)
+ 8.0 Print
+  83.84 163.00 moveto
+(-C4)
+ 8.0 Print
+ 112.64 163.00 moveto
+(-C5)
+ 8.0 Print
+ 147.20 163.00 moveto
+(var_31)
+ 8.0 Print
+ 177.00 163.00 moveto
+ 188.52 163.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 163.00 moveto
+ 212.76 163.00 moveto
+(-176.40)
+ 8.0 Print
+ 237.00 163.00 moveto
+ 260.04 163.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 163.00 moveto
+ 279.28 163.00 moveto
+(3)
+ 8.0 Print
+ 292.00 163.00 moveto
+(C3)
+ 8.0 Print
+ 315.04 163.00 moveto
+(-C4)
+ 8.0 Print
+ 343.84 163.00 moveto
+(-C5)
+ 8.0 Print
+ 372.64 163.00 moveto
+(-C6)
+ 8.0 Print
+ 407.20 163.00 moveto
+(var_32)
+ 8.0 Print
+ 437.00 163.00 moveto
+ 448.52 163.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 163.00 moveto
+ 472.76 163.00 moveto
+(-177.95)
+ 8.0 Print
+ 497.00 163.00 moveto
+ 520.04 163.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 163.00 moveto
+ 539.28 163.00 moveto
+(3)
+ 8.0 Print
+  32.00 153.00 moveto
+(C4)
+ 8.0 Print
+  55.04 153.00 moveto
+(-C5)
+ 8.0 Print
+  83.84 153.00 moveto
+(-C6)
+ 8.0 Print
+ 112.64 153.00 moveto
+(-C7)
+ 8.0 Print
+ 147.20 153.00 moveto
+(var_33)
+ 8.0 Print
+ 177.00 153.00 moveto
+ 188.52 153.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 153.00 moveto
+ 218.52 153.00 moveto
+(179.69)
+ 8.0 Print
+ 237.00 153.00 moveto
+ 260.04 153.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 153.00 moveto
+ 279.28 153.00 moveto
+(3)
+ 8.0 Print
+ 292.00 153.00 moveto
+(C5)
+ 8.0 Print
+ 315.04 153.00 moveto
+(-C6)
+ 8.0 Print
+ 343.84 153.00 moveto
+(-C7)
+ 8.0 Print
+ 372.64 153.00 moveto
+(-C8)
+ 8.0 Print
+ 407.20 153.00 moveto
+(var_34)
+ 8.0 Print
+ 437.00 153.00 moveto
+ 448.52 153.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 153.00 moveto
+ 478.52 153.00 moveto
+(179.91)
+ 8.0 Print
+ 497.00 153.00 moveto
+ 520.04 153.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 153.00 moveto
+ 539.28 153.00 moveto
+(3)
+ 8.0 Print
+  32.00 143.00 moveto
+(C6)
+ 8.0 Print
+  55.04 143.00 moveto
+(-C7)
+ 8.0 Print
+  83.84 143.00 moveto
+(-C8)
+ 8.0 Print
+ 112.64 143.00 moveto
+(-C9)
+ 8.0 Print
+ 147.20 143.00 moveto
+(var_35)
+ 8.0 Print
+ 177.00 143.00 moveto
+ 188.52 143.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 143.00 moveto
+ 218.52 143.00 moveto
+(180.08)
+ 8.0 Print
+ 237.00 143.00 moveto
+ 260.04 143.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 143.00 moveto
+ 279.28 143.00 moveto
+(3)
+ 8.0 Print
+ 292.00 143.00 moveto
+(C7)
+ 8.0 Print
+ 315.04 143.00 moveto
+(-C8)
+ 8.0 Print
+ 343.84 143.00 moveto
+(-C9)
+ 8.0 Print
+ 372.64 143.00 moveto
+(-C10)
+ 8.0 Print
+ 407.20 143.00 moveto
+(var_36)
+ 8.0 Print
+ 437.00 143.00 moveto
+ 448.52 143.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 143.00 moveto
+ 478.52 143.00 moveto
+(180.00)
+ 8.0 Print
+ 497.00 143.00 moveto
+ 520.04 143.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 143.00 moveto
+ 539.28 143.00 moveto
+(3)
+ 8.0 Print
+  32.00 133.00 moveto
+(C8)
+ 8.0 Print
+  55.04 133.00 moveto
+(-C9)
+ 8.0 Print
+  83.84 133.00 moveto
+(-C10)
+ 8.0 Print
+ 112.64 133.00 moveto
+(-C11)
+ 8.0 Print
+ 147.20 133.00 moveto
+(var_37)
+ 8.0 Print
+ 177.00 133.00 moveto
+ 188.52 133.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 133.00 moveto
+ 218.52 133.00 moveto
+(180.04)
+ 8.0 Print
+ 237.00 133.00 moveto
+ 260.04 133.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 133.00 moveto
+ 279.28 133.00 moveto
+(3)
+ 8.0 Print
+ 292.00 133.00 moveto
+(C9)
+ 8.0 Print
+ 315.04 133.00 moveto
+(-C10)
+ 8.0 Print
+ 343.84 133.00 moveto
+(-C11)
+ 8.0 Print
+ 372.64 133.00 moveto
+(-C12)
+ 8.0 Print
+ 407.20 133.00 moveto
+(var_38)
+ 8.0 Print
+ 437.00 133.00 moveto
+ 448.52 133.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 133.00 moveto
+ 478.52 133.00 moveto
+(180.03)
+ 8.0 Print
+ 497.00 133.00 moveto
+ 520.04 133.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 133.00 moveto
+ 539.28 133.00 moveto
+(3)
+ 8.0 Print
+  32.00 123.00 moveto
+(C10)
+ 8.0 Print
+  55.04 123.00 moveto
+(-C11)
+ 8.0 Print
+  83.84 123.00 moveto
+(-C12)
+ 8.0 Print
+ 112.64 123.00 moveto
+(-C13)
+ 8.0 Print
+ 147.20 123.00 moveto
+(CONST_1)
+ 8.0 Print
+ 177.00 123.00 moveto
+ 188.52 123.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 123.00 moveto
+ 218.52 123.00 moveto
+(180.03)
+ 8.0 Print
+ 237.00 123.00 moveto
+ 260.04 123.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 123.00 moveto
+ 279.28 123.00 moveto
+(0)
+ 8.0 Print
+ 292.00 123.00 moveto
+(C11)
+ 8.0 Print
+ 315.04 123.00 moveto
+(-C12)
+ 8.0 Print
+ 343.84 123.00 moveto
+(-C13)
+ 8.0 Print
+ 372.64 123.00 moveto
+(-C14)
+ 8.0 Print
+ 407.20 123.00 moveto
+(var_39)
+ 8.0 Print
+ 437.00 123.00 moveto
+ 448.52 123.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 123.00 moveto
+ 478.52 123.00 moveto
+(180.00)
+ 8.0 Print
+ 497.00 123.00 moveto
+ 520.04 123.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 123.00 moveto
+ 539.28 123.00 moveto
+(3)
+ 8.0 Print
+  32.00 113.00 moveto
+(C12)
+ 8.0 Print
+  55.04 113.00 moveto
+(-C13)
+ 8.0 Print
+  83.84 113.00 moveto
+(-C14)
+ 8.0 Print
+ 112.64 113.00 moveto
+(-C15)
+ 8.0 Print
+ 147.20 113.00 moveto
+(var_40)
+ 8.0 Print
+ 177.00 113.00 moveto
+ 188.52 113.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 113.00 moveto
+ 218.52 113.00 moveto
+(180.03)
+ 8.0 Print
+ 237.00 113.00 moveto
+ 260.04 113.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 113.00 moveto
+ 279.28 113.00 moveto
+(3)
+ 8.0 Print
+ 292.00 113.00 moveto
+(C13)
+ 8.0 Print
+ 315.04 113.00 moveto
+(-C14)
+ 8.0 Print
+ 343.84 113.00 moveto
+(-C15)
+ 8.0 Print
+ 372.64 113.00 moveto
+(-C16)
+ 8.0 Print
+ 407.20 113.00 moveto
+(var_41)
+ 8.0 Print
+ 437.00 113.00 moveto
+ 448.52 113.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 113.00 moveto
+ 478.52 113.00 moveto
+(180.00)
+ 8.0 Print
+ 497.00 113.00 moveto
+ 520.04 113.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 113.00 moveto
+ 539.28 113.00 moveto
+(3)
+ 8.0 Print
+grestore stroke
+ProcheckSave restore
+showpage
+%%Page:  4  5
+/ProcheckSave save def
+ 30.00 50.00 moveto 550.00  50.00 lineto 550.00 780.00 lineto
+  30.00 780.00 lineto closepath gsave
+gsave 1.0000 setgray fill grestore
+clip newpath
+ 260.00 750.00 moveto
+(DUM)
+20.0 Print
+  32.00 728.00 moveto
+(C14)
+ 8.0 Print
+  55.04 728.00 moveto
+(-C15)
+ 8.0 Print
+  83.84 728.00 moveto
+(-C16)
+ 8.0 Print
+ 112.64 728.00 moveto
+(-C17)
+ 8.0 Print
+ 147.20 728.00 moveto
+(var_42)
+ 8.0 Print
+ 177.00 728.00 moveto
+ 188.52 728.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 728.00 moveto
+ 218.52 728.00 moveto
+(180.03)
+ 8.0 Print
+ 237.00 728.00 moveto
+ 260.04 728.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 728.00 moveto
+ 279.28 728.00 moveto
+(3)
+ 8.0 Print
+ 292.00 728.00 moveto
+(C15)
+ 8.0 Print
+ 315.04 728.00 moveto
+(-C16)
+ 8.0 Print
+ 343.84 728.00 moveto
+(-C17)
+ 8.0 Print
+ 372.64 728.00 moveto
+(-C18)
+ 8.0 Print
+ 407.20 728.00 moveto
+(var_43)
+ 8.0 Print
+ 437.00 728.00 moveto
+ 448.52 728.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 728.00 moveto
+ 478.52 728.00 moveto
+(180.03)
+ 8.0 Print
+ 497.00 728.00 moveto
+ 520.04 728.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 728.00 moveto
+ 539.28 728.00 moveto
+(3)
+ 8.0 Print
+  32.00 718.00 moveto
+(C16)
+ 8.0 Print
+  55.04 718.00 moveto
+(-C17)
+ 8.0 Print
+  83.84 718.00 moveto
+(-C18)
+ 8.0 Print
+ 112.64 718.00 moveto
+(-C19)
+ 8.0 Print
+ 147.20 718.00 moveto
+(var_44)
+ 8.0 Print
+ 177.00 718.00 moveto
+ 188.52 718.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 718.00 moveto
+ 218.52 718.00 moveto
+(180.03)
+ 8.0 Print
+ 237.00 718.00 moveto
+ 260.04 718.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 718.00 moveto
+ 279.28 718.00 moveto
+(3)
+ 8.0 Print
+ 292.00 718.00 moveto
+(C17)
+ 8.0 Print
+ 315.04 718.00 moveto
+(-C18)
+ 8.0 Print
+ 343.84 718.00 moveto
+(-C19)
+ 8.0 Print
+ 372.64 718.00 moveto
+(-C20)
+ 8.0 Print
+ 407.20 718.00 moveto
+(var_45)
+ 8.0 Print
+ 437.00 718.00 moveto
+ 448.52 718.00 moveto
+(180.00)
+ 8.0 Print
+ 467.00 718.00 moveto
+ 478.52 718.00 moveto
+(180.00)
+ 8.0 Print
+ 497.00 718.00 moveto
+ 520.04 718.00 moveto
+(0.00)
+ 8.0 Print
+ 522.00 718.00 moveto
+ 539.28 718.00 moveto
+(3)
+ 8.0 Print
+  32.00 708.00 moveto
+(C18)
+ 8.0 Print
+  55.04 708.00 moveto
+(-C19)
+ 8.0 Print
+  83.84 708.00 moveto
+(-C20)
+ 8.0 Print
+ 112.64 708.00 moveto
+(-H33)
+ 8.0 Print
+ 147.20 708.00 moveto
+(var_46)
+ 8.0 Print
+ 177.00 708.00 moveto
+ 188.52 708.00 moveto
+(180.00)
+ 8.0 Print
+ 207.00 708.00 moveto
+ 218.52 708.00 moveto
+(180.00)
+ 8.0 Print
+ 237.00 708.00 moveto
+ 260.04 708.00 moveto
+(0.00)
+ 8.0 Print
+ 262.00 708.00 moveto
+ 279.28 708.00 moveto
+(3)
+ 8.0 Print
+ 255.00 677.50 moveto
+(CHIRALITY)
+10.0 Print
+ 148.00 658.00 moveto
+(ideal)
+ 8.0 Print
+ 182.56 658.00 moveto
+(crd)
+ 8.0 Print
+ 323.00 658.00 moveto
+(ideal)
+ 8.0 Print
+ 357.56 658.00 moveto
+(crd)
+ 8.0 Print
+ 488.00 658.00 moveto
+(ideal)
+ 8.0 Print
+ 522.56 658.00 moveto
+(crd)
+ 8.0 Print
+  35.00 643.00 moveto
+(C2)
+ 8.0 Print
+  58.04 643.00 moveto
+(->C1)
+ 8.0 Print
+  92.60 643.00 moveto
+(-O2)
+ 8.0 Print
+ 121.40 643.00 moveto
+(-C21)
+ 8.0 Print
+ 130.00 643.00 moveto
+ 147.28 643.00 moveto
+(-2.55)
+ 8.0 Print
+ 155.00 643.00 moveto
+ 172.28 643.00 moveto
+(-2.54)
+ 8.0 Print
+ 210.00 643.00 moveto
+(N)
+ 8.0 Print
+ 233.04 643.00 moveto
+(->C23)
+ 8.0 Print
+ 267.60 643.00 moveto
+(-C24)
+ 8.0 Print
+ 296.40 643.00 moveto
+(-C25)
+ 8.0 Print
+ 305.00 643.00 moveto
+ 328.04 643.00 moveto
+(2.44)
+ 8.0 Print
+ 330.00 643.00 moveto
+ 353.04 643.00 moveto
+(2.56)
+ 8.0 Print
+ 260.00 612.50 moveto
+(PLANES)
+10.0 Print
+ 115.00 593.00 moveto
+(Disp_crd)
+ 8.0 Print
+ 166.84 593.00 moveto
+(esd)
+ 8.0 Print
+ 298.00 593.00 moveto
+(Disp_crd)
+ 8.0 Print
+ 349.84 593.00 moveto
+(esd)
+ 8.0 Print
+ 461.00 593.00 moveto
+(Disp_crd)
+ 8.0 Print
+ 512.84 593.00 moveto
+(esd)
+ 8.0 Print
+  45.00 578.00 moveto
+(plan-1)
+ 8.0 Print
+  96.84 578.00 moveto
+(C)
+ 8.0 Print
+ 110.00 578.00 moveto
+ 121.52 578.00 moveto
+(0.007)
+ 8.0 Print
+ 161.84 578.00 moveto
+(0.020)
+ 8.0 Print
+ 228.00 578.00 moveto
+(plan-1)
+ 8.0 Print
+ 279.84 578.00 moveto
+(O)
+ 8.0 Print
+ 293.00 578.00 moveto
+ 298.76 578.00 moveto
+(-0.003)
+ 8.0 Print
+ 344.84 578.00 moveto
+(0.020)
+ 8.0 Print
+ 391.00 578.00 moveto
+(plan-1)
+ 8.0 Print
+ 442.84 578.00 moveto
+(O1)
+ 8.0 Print
+ 456.00 578.00 moveto
+ 461.76 578.00 moveto
+(-0.002)
+ 8.0 Print
+ 507.84 578.00 moveto
+(0.020)
+ 8.0 Print
+  45.00 568.00 moveto
+(plan-1)
+ 8.0 Print
+  96.84 568.00 moveto
+(C27)
+ 8.0 Print
+ 110.00 568.00 moveto
+ 115.76 568.00 moveto
+(-0.002)
+ 8.0 Print
+ 161.84 568.00 moveto
+(0.020)
+ 8.0 Print
+ 228.00 568.00 moveto
+(plan-2)
+ 8.0 Print
+ 279.84 568.00 moveto
+(C3)
+ 8.0 Print
+ 293.00 568.00 moveto
+ 298.76 568.00 moveto
+(-0.057)
+ 8.0 Print
+ 344.84 568.00 moveto
+(0.020)
+ 8.0 Print
+ 391.00 568.00 moveto
+(plan-2)
+ 8.0 Print
+ 442.84 568.00 moveto
+(O2)
+ 8.0 Print
+ 456.00 568.00 moveto
+ 467.52 568.00 moveto
+(0.018)
+ 8.0 Print
+ 507.84 568.00 moveto
+(0.020)
+ 8.0 Print
+  45.00 558.00 moveto
+(plan-2)
+ 8.0 Print
+  96.84 558.00 moveto
+(O3)
+ 8.0 Print
+ 110.00 558.00 moveto
+ 121.52 558.00 moveto
+(0.021)
+ 8.0 Print
+ 161.84 558.00 moveto
+(0.020)
+ 8.0 Print
+ 228.00 558.00 moveto
+(plan-2)
+ 8.0 Print
+ 279.84 558.00 moveto
+(C4)
+ 8.0 Print
+ 293.00 558.00 moveto
+ 304.52 558.00 moveto
+(0.018)
+ 8.0 Print
+ 344.84 558.00 moveto
+(0.020)
+ 8.0 Print
+ 391.00 558.00 moveto
+(plan-3)
+ 8.0 Print
+ 442.84 558.00 moveto
+(C11)
+ 8.0 Print
+ 456.00 558.00 moveto
+ 467.52 558.00 moveto
+(0.000)
+ 8.0 Print
+ 507.84 558.00 moveto
+(0.020)
+ 8.0 Print
+  45.00 548.00 moveto
+(plan-3)
+ 8.0 Print
+  96.84 548.00 moveto
+(C10)
+ 8.0 Print
+ 110.00 548.00 moveto
+ 121.52 548.00 moveto
+(0.000)
+ 8.0 Print
+ 161.84 548.00 moveto
+(0.020)
+ 8.0 Print
+ 228.00 548.00 moveto
+(plan-3)
+ 8.0 Print
+ 279.84 548.00 moveto
+(C12)
+ 8.0 Print
+ 293.00 548.00 moveto
+ 304.52 548.00 moveto
+(0.000)
+ 8.0 Print
+ 344.84 548.00 moveto
+(0.020)
+ 8.0 Print
+ 391.00 548.00 moveto
+(plan-3)
+ 8.0 Print
+ 442.84 548.00 moveto
+(H17)
+ 8.0 Print
+ 456.00 548.00 moveto
+ 467.52 548.00 moveto
+(0.000)
+ 8.0 Print
+ 507.84 548.00 moveto
+(0.020)
+ 8.0 Print
+  45.00 538.00 moveto
+(plan-3)
+ 8.0 Print
+  96.84 538.00 moveto
+(C13)
+ 8.0 Print
+ 110.00 538.00 moveto
+ 121.52 538.00 moveto
+(0.000)
+ 8.0 Print
+ 161.84 538.00 moveto
+(0.020)
+ 8.0 Print
+ 228.00 538.00 moveto
+(plan-3)
+ 8.0 Print
+ 279.84 538.00 moveto
+(H18)
+ 8.0 Print
+ 293.00 538.00 moveto
+ 304.52 538.00 moveto
+(0.000)
+ 8.0 Print
+ 344.84 538.00 moveto
+(0.020)
+ 8.0 Print
+grestore stroke
+ProcheckSave restore
+showpage
+%%Trailer
+%%BoundingBox:  29  49 551 781
+%%EOF

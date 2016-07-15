@@ -1,0 +1,3078 @@
+MODEL        1
+ATOM      1  CB  GLU J  58     -16.307   6.651  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -15.585  -6.816  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -5.623 -15.807  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       7.194 -15.344  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.566  -6.147  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      15.332   7.711  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       6.137  16.635  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -7.553  15.865  36.105  1.00125.53           C
+ENDMDL
+MODEL        2
+ATOM      1  CB  GLU J  58     -16.529   6.078  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -15.338  -7.356  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -5.068 -15.994  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       7.725 -15.084  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.770  -5.565  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      15.054   8.241  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       5.553  16.839  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -8.102  15.592  36.105  1.00125.53           C
+ENDMDL
+MODEL        3
+ATOM      1  CB  GLU J  58     -16.731   5.497  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -15.072  -7.887  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -4.507 -16.161  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       8.247 -14.805  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.954  -4.976  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      14.757   8.762  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       4.962  17.023  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -8.641  15.299  36.105  1.00125.53           C
+ENDMDL
+MODEL        4
+ATOM      1  CB  GLU J  58     -16.913   4.910  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -14.787  -8.408  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -3.940 -16.308  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       8.758 -14.508  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.118  -4.382  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      14.442   9.271  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       4.365  17.185  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -9.170  14.989  36.105  1.00125.53           C
+ENDMDL
+MODEL        5
+ATOM      1  CB  GLU J  58     -17.074   4.317  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -14.485  -8.919  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -3.368 -16.436  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       9.259 -14.193  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.260  -3.782  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      14.110   9.770  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       3.762  17.327  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -9.688  14.659  36.105  1.00125.53           C
+ENDMDL
+MODEL        6
+ATOM      1  CB  GLU J  58     -17.214   3.718  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -14.165  -9.419  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -2.793 -16.543  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       9.749 -13.862  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.382  -3.177  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      13.760  10.256  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       3.155  17.448  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -10.193  14.312  36.105  1.00125.53           C
+ENDMDL
+MODEL        7
+ATOM      1  CB  GLU J  58     -17.334   3.115  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -13.827  -9.907  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -2.214 -16.631  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      10.227 -13.513  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.482  -2.568  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      13.394  10.730  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       2.544  17.547  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -10.687  13.948  36.105  1.00125.53           C
+ENDMDL
+MODEL        8
+ATOM      1  CB  GLU J  58     -17.432   2.508  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -13.473 -10.384  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -1.632 -16.698  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      10.692 -13.148  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.561  -1.957  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      13.011  11.191  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       1.930  17.626  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -11.167  13.566  36.105  1.00125.53           C
+ENDMDL
+MODEL        9
+ATOM      1  CB  GLU J  58     -17.509   1.898  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -13.103 -10.848  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -1.048 -16.745  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      11.145 -12.767  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.619  -1.343  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      12.613  11.638  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       1.314  17.682  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -11.633  13.169  36.105  1.00125.53           C
+ENDMDL
+MODEL       10
+ATOM      1  CB  GLU J  58     -17.564   1.286  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -12.716 -11.298  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -0.463 -16.771  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      11.583 -12.370  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.655  -0.727  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      12.199  12.071  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       0.696  17.717  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -12.086  12.754  36.105  1.00125.53           C
+ENDMDL
+MODEL       11
+ATOM      1  CB  GLU J  58     -17.598   0.672  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -12.314 -11.735  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       0.122 -16.777  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      12.008 -11.958  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.669  -0.110  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      11.770  12.490  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       0.077  17.731  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -12.524  12.325  36.105  1.00125.53           C
+ENDMDL
+MODEL       12
+ATOM      1  CB  GLU J  58     -17.611   0.058  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -11.897 -12.158  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       0.708 -16.762  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      12.418 -11.532  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.662   0.506  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      11.327  12.893  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -0.542  17.723  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -12.946  11.880  36.105  1.00125.53           C
+ENDMDL
+MODEL       13
+ATOM      1  CB  GLU J  58     -17.602  -0.557  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -11.465 -12.566  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       1.292 -16.728  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      12.813 -11.091  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.634   1.122  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      10.870  13.280  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -1.160  17.693  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -13.353  11.421  36.105  1.00125.53           C
+ENDMDL
+MODEL       14
+ATOM      1  CB  GLU J  58     -17.572  -1.171  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -11.020 -12.958  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       1.875 -16.672  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      13.192 -10.637  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.584   1.737  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      10.400  13.652  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -1.776  17.642  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -13.743  10.948  36.105  1.00125.53           C
+ENDMDL
+MODEL       15
+ATOM      1  CB  GLU J  58     -17.521  -1.783  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -10.561 -13.335  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       2.456 -16.597  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      13.555 -10.171  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.513   2.350  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       9.917  14.006  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -2.391  17.569  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -14.117  10.462  36.105  1.00125.53           C
+ENDMDL
+MODEL       16
+ATOM      1  CB  GLU J  58     -17.448  -2.394  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -10.089 -13.695  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       3.034 -16.501  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      13.902  -9.691  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.420   2.960  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       9.422  14.344  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -3.003  17.475  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -14.474   9.963  36.105  1.00125.53           C
+ENDMDL
+MODEL       17
+ATOM      1  CB  GLU J  58     -17.354  -3.001  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -9.605 -14.039  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       3.608 -16.385  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      14.232  -9.200  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.306   3.566  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       8.916  14.664  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -3.611  17.359  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -14.813   9.452  36.105  1.00125.53           C
+ENDMDL
+MODEL       18
+ATOM      1  CB  GLU J  58     -17.238  -3.605  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -9.109 -14.366  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       4.178 -16.249  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      14.544  -8.698  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.171   4.168  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       8.399  14.966  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -4.214  17.223  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -15.133   8.929  36.105  1.00125.53           C
+ENDMDL
+MODEL       19
+ATOM      1  CB  GLU J  58     -17.102  -4.204  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -8.602 -14.675  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       4.742 -16.093  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      14.839  -8.185  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      17.015   4.764  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       7.871  15.250  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -4.813  17.065  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -15.436   8.395  36.105  1.00125.53           C
+ENDMDL
+MODEL       20
+ATOM      1  CB  GLU J  58     -16.945  -4.799  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -8.085 -14.966  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       5.301 -15.918  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      15.116  -7.662  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.839   5.355  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       7.334  15.516  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -5.406  16.887  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -15.719   7.852  36.105  1.00125.53           C
+ENDMDL
+MODEL       21
+ATOM      1  CB  GLU J  58     -16.767  -5.387  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -7.558 -15.239  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       5.853 -15.723  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      15.374  -7.130  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.641   5.940  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       6.788  15.762  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -5.992  16.688  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -15.984   7.298  36.105  1.00125.53           C
+ENDMDL
+MODEL       22
+ATOM      1  CB  GLU J  58     -16.569  -5.969  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -7.021 -15.494  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       6.398 -15.510  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      15.613  -6.589  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.424   6.517  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       6.234  15.989  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -6.570  16.469  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -16.229   6.736  36.105  1.00125.53           C
+ENDMDL
+MODEL       23
+ATOM      1  CB  GLU J  58     -16.350  -6.544  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -6.476 -15.729  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       6.936 -15.277  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      15.834  -6.040  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.187   7.086  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       5.672  16.197  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -7.141  16.229  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -16.454   6.165  36.105  1.00125.53           C
+ENDMDL
+MODEL       24
+ATOM      1  CB  GLU J  58     -16.112  -7.110  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -5.923 -15.946  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       7.465 -15.025  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.035  -5.484  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      15.929   7.647  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       5.104  16.385  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -7.703  15.970  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -16.659   5.587  36.105  1.00125.53           C
+ENDMDL
+MODEL       25
+ATOM      1  CB  GLU J  58     -15.854  -7.668  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -5.363 -16.143  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       7.984 -14.756  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.216  -4.921  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      15.653   8.198  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       4.529  16.553  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -8.256  15.692  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -16.844   5.003  36.105  1.00125.53           C
+ENDMDL
+MODEL       26
+ATOM      1  CB  GLU J  58     -15.577  -8.217  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -4.797 -16.320  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       8.495 -14.468  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.378  -4.352  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      15.357   8.739  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       3.948  16.701  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -8.799  15.394  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.008   4.412  36.105  1.00125.53           C
+ENDMDL
+MODEL       27
+ATOM      1  CB  GLU J  58     -15.281  -8.756  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -4.224 -16.477  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       8.994 -14.163  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.520  -3.778  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      15.043   9.270  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       3.363  16.829  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -9.330  15.078  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.152   3.816  36.105  1.00125.53           C
+ENDMDL
+MODEL       28
+ATOM      1  CB  GLU J  58     -14.966  -9.284  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -3.646 -16.615  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       9.483 -13.840  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.642  -3.199  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      14.710   9.789  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       2.773  16.936  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -9.851  14.743  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.275   3.215  36.105  1.00125.53           C
+ENDMDL
+MODEL       29
+ATOM      1  CB  GLU J  58     -14.633  -9.800  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -3.064 -16.732  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       9.960 -13.501  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.743  -2.616  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      14.360  10.297  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       2.181  17.023  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -10.359  14.390  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.376   2.610  36.105  1.00125.53           C
+ENDMDL
+MODEL       30
+ATOM      1  CB  GLU J  58     -14.282 -10.305  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -2.479 -16.829  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      10.425 -13.145  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.825  -2.030  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      13.991  10.791  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       1.585  17.088  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -10.855  14.020  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.457   2.002  36.105  1.00125.53           C
+ENDMDL
+MODEL       31
+ATOM      1  CB  GLU J  58     -13.913 -10.797  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -1.890 -16.905  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      10.878 -12.773  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.885  -1.442  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      13.606  11.273  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       0.988  17.133  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -11.338  13.632  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.516   1.391  36.105  1.00125.53           C
+ENDMDL
+MODEL       32
+ATOM      1  CB  GLU J  58     -13.528 -11.276  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -1.299 -16.961  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      11.317 -12.386  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.925  -0.852  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      13.205  11.741  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       0.389  17.157  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -11.807  13.228  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.554   0.779  36.105  1.00125.53           C
+ENDMDL
+MODEL       33
+ATOM      1  CB  GLU J  58     -13.126 -11.741  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -0.706 -16.996  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      11.742 -11.983  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.945  -0.260  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      12.787  12.195  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -0.210  17.160  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -12.261  12.808  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.571   0.166  36.105  1.00125.53           C
+ENDMDL
+MODEL       34
+ATOM      1  CB  GLU J  58     -12.709 -12.192  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -0.112 -17.010  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      12.153 -11.566  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.943   0.331  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      12.353  12.634  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -0.808  17.143  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -12.701  12.372  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.566  -0.447  36.105  1.00125.53           C
+ENDMDL
+MODEL       35
+ATOM      1  CB  GLU J  58     -12.275 -12.628  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       0.481 -17.003  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      12.550 -11.135  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.921   0.922  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      11.905  13.057  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -1.406  17.104  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -13.125  11.922  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.539  -1.060  36.105  1.00125.53           C
+ENDMDL
+MODEL       36
+ATOM      1  CB  GLU J  58     -11.827 -13.049  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       1.074 -16.976  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      12.931 -10.690  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.879   1.512  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      11.442  13.465  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -2.002  17.045  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -13.533  11.456  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.492  -1.672  36.105  1.00125.53           C
+ENDMDL
+MODEL       37
+ATOM      1  CB  GLU J  58     -11.365 -13.454  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       1.666 -16.928  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      13.296 -10.233  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.816   2.100  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      10.965  13.856  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -2.596  16.964  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -13.925  10.977  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.423  -2.281  36.105  1.00125.53           C
+ENDMDL
+MODEL       38
+ATOM      1  CB  GLU J  58     -10.888 -13.842  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       2.256 -16.860  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      13.645  -9.762  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.732   2.686  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      10.475  14.230  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -3.186  16.863  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -14.299  10.484  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.332  -2.888  36.105  1.00125.53           C
+ENDMDL
+MODEL       39
+ATOM      1  CB  GLU J  58     -10.398 -14.214  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       2.843 -16.771  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      13.977  -9.280  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.628   3.268  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       9.972  14.587  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -3.773  16.742  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -14.656   9.979  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.221  -3.491  36.105  1.00125.53           C
+ENDMDL
+MODEL       40
+ATOM      1  CB  GLU J  58      -9.896 -14.568  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       3.427 -16.661  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      14.293  -8.787  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.504   3.847  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       9.457  14.926  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -4.355  16.600  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -14.996   9.461  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -17.089  -4.090  36.105  1.00125.53           C
+ENDMDL
+MODEL       41
+ATOM      1  CB  GLU J  58      -9.381 -14.905  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       4.006 -16.532  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      14.591  -8.282  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.360   4.420  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       8.930  15.247  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -4.932  16.438  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -15.317   8.932  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -16.936  -4.684  36.105  1.00125.53           C
+ENDMDL
+MODEL       42
+ATOM      1  CB  GLU J  58      -8.856 -15.223  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       4.580 -16.382  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      14.871  -7.768  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.196   4.988  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       8.392  15.549  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -5.502  16.256  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -15.619   8.392  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -16.762  -5.272  36.105  1.00125.53           C
+ENDMDL
+MODEL       43
+ATOM      1  CB  GLU J  58      -8.319 -15.523  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       5.149 -16.212  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.133  -7.245  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      16.012   5.551  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       7.845  15.833  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -6.066  16.054  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -15.903   7.842  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -16.568  -5.854  36.105  1.00125.53           C
+ENDMDL
+MODEL       44
+ATOM      1  CB  GLU J  58      -7.772 -15.804  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       5.712 -16.022  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.376  -6.712  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      15.808   6.106  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       7.287  16.097  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -6.623  15.832  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -16.167   7.282  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -16.353  -6.428  36.105  1.00125.53           C
+ENDMDL
+MODEL       45
+ATOM      1  CB  GLU J  58      -7.216 -16.065  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       6.268 -15.813  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.601  -6.171  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      15.585   6.654  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       6.721  16.341  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -7.171  15.592  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -16.411   6.714  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -16.119  -6.995  36.105  1.00125.53           C
+ENDMDL
+MODEL       46
+ATOM      1  CB  GLU J  58      -6.651 -16.307  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       6.816 -15.585  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.807  -5.623  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      15.344   7.194  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       6.147  16.566  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -7.711  15.332  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -16.635   6.137  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -15.865  -7.553  36.105  1.00125.53           C
+ENDMDL
+MODEL       47
+ATOM      1  CB  GLU J  58      -6.078 -16.530  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       7.356 -15.338  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.994  -5.068  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      15.083   7.725  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       5.565  16.771  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -8.242  15.053  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -16.839   5.553  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -15.592  -8.102  36.105  1.00125.53           C
+ENDMDL
+MODEL       48
+ATOM      1  CB  GLU J  58      -5.497 -16.732  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       7.886 -15.071  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.161  -4.507  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      14.805   8.247  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       4.976  16.955  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -8.762  14.756  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.023   4.961  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -15.300  -8.642  36.105  1.00125.53           C
+ENDMDL
+MODEL       49
+ATOM      1  CB  GLU J  58      -4.910 -16.913  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       8.408 -14.787  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.308  -3.940  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      14.508   8.758  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       4.381  17.118  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -9.272  14.442  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.186   4.364  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -14.989  -9.170  36.105  1.00125.53           C
+ENDMDL
+MODEL       50
+ATOM      1  CB  GLU J  58      -4.317 -17.074  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       8.918 -14.485  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.436  -3.368  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      14.193   9.259  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       3.781  17.260  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -9.770  14.109  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.327   3.762  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -14.660  -9.688  36.105  1.00125.53           C
+ENDMDL
+MODEL       51
+ATOM      1  CB  GLU J  58      -3.718 -17.215  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       9.419 -14.165  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.544  -2.793  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      13.861   9.749  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       3.177  17.382  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -10.256  13.760  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.448   3.155  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -14.313 -10.194  36.105  1.00125.53           C
+ENDMDL
+MODEL       52
+ATOM      1  CB  GLU J  58      -3.115 -17.334  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       9.907 -13.827  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.631  -2.214  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      13.513  10.227  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       2.568  17.482  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -10.730  13.393  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.548   2.544  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -13.948 -10.687  36.105  1.00125.53           C
+ENDMDL
+MODEL       53
+ATOM      1  CB  GLU J  58      -2.508 -17.432  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      10.384 -13.473  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.698  -1.632  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      13.148  10.692  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       1.956  17.561  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -11.191  13.011  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.626   1.930  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -13.567 -11.167  36.105  1.00125.53           C
+ENDMDL
+MODEL       54
+ATOM      1  CB  GLU J  58      -1.898 -17.509  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      10.847 -13.102  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.745  -1.048  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      12.766  11.145  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       1.342  17.619  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -11.639  12.612  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.682   1.314  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -13.169 -11.634  36.105  1.00125.53           C
+ENDMDL
+MODEL       55
+ATOM      1  CB  GLU J  58      -1.286 -17.564  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      11.298 -12.716  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.771  -0.463  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      12.370  11.583  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       0.727  17.655  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -12.072  12.198  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.717   0.696  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -12.755 -12.086  36.105  1.00125.53           C
+ENDMDL
+MODEL       56
+ATOM      1  CB  GLU J  58      -0.672 -17.599  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      11.735 -12.314  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.777   0.123  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      11.958  12.008  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       0.110  17.669  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -12.490  11.770  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.731   0.077  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -12.325 -12.524  36.105  1.00125.53           C
+ENDMDL
+MODEL       57
+ATOM      1  CB  GLU J  58      -0.058 -17.611  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      12.158 -11.897  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.763   0.708  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      11.532  12.418  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -0.507  17.662  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -12.893  11.327  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.723  -0.542  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -11.880 -12.947  36.105  1.00125.53           C
+ENDMDL
+MODEL       58
+ATOM      1  CB  GLU J  58       0.557 -17.603  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      12.565 -11.465  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.728   1.293  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      11.091  12.813  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -1.123  17.634  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -13.281  10.870  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.693  -1.160  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -11.421 -13.353  36.105  1.00125.53           C
+ENDMDL
+MODEL       59
+ATOM      1  CB  GLU J  58       1.171 -17.572  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      12.958 -11.020  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.672   1.876  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      10.637  13.192  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -1.738  17.584  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -13.652  10.400  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.642  -1.777  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -10.948 -13.744  36.105  1.00125.53           C
+ENDMDL
+MODEL       60
+ATOM      1  CB  GLU J  58       1.784 -17.521  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      13.335 -10.561  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.597   2.456  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      10.170  13.555  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -2.350  17.513  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -14.006   9.917  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.569  -2.391  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58     -10.462 -14.117  36.105  1.00125.53           C
+ENDMDL
+MODEL       61
+ATOM      1  CB  GLU J  58       2.394 -17.448  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      13.695 -10.089  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.501   3.034  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       9.691  13.902  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -2.960  17.420  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -14.344   9.422  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.475  -3.003  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -9.963 -14.474  36.105  1.00125.53           C
+ENDMDL
+MODEL       62
+ATOM      1  CB  GLU J  58       3.001 -17.354  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      14.039  -9.605  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.385   3.608  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       9.200  14.232  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -3.566  17.306  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -14.664   8.916  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.360  -3.611  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -9.452 -14.813  36.105  1.00125.53           C
+ENDMDL
+MODEL       63
+ATOM      1  CB  GLU J  58       3.605 -17.238  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      14.365  -9.109  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.249   4.178  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       8.698  14.544  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -4.168  17.171  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -14.966   8.398  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.223  -4.215  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -8.929 -15.134  36.105  1.00125.53           C
+ENDMDL
+MODEL       64
+ATOM      1  CB  GLU J  58       4.205 -17.102  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      14.675  -8.602  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      16.093   4.742  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       8.185  14.839  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -4.765  17.015  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -15.250   7.871  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -17.065  -4.813  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -8.395 -15.436  36.105  1.00125.53           C
+ENDMDL
+MODEL       65
+ATOM      1  CB  GLU J  58       4.799 -16.945  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      14.966  -8.085  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.918   5.301  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       7.662  15.115  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -5.356  16.839  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -15.516   7.334  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -16.887  -5.406  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -7.852 -15.720  36.105  1.00125.53           C
+ENDMDL
+MODEL       66
+ATOM      1  CB  GLU J  58       5.387 -16.767  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      15.239  -7.558  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.723   5.853  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       7.130  15.374  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -5.940  16.641  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -15.762   6.788  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -16.688  -5.992  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -7.298 -15.984  36.105  1.00125.53           C
+ENDMDL
+MODEL       67
+ATOM      1  CB  GLU J  58       5.969 -16.569  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      15.493  -7.021  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.510   6.398  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       6.589  15.613  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -6.517  16.424  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -15.989   6.234  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -16.469  -6.571  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -6.736 -16.229  36.105  1.00125.53           C
+ENDMDL
+MODEL       68
+ATOM      1  CB  GLU J  58       6.544 -16.350  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      15.729  -6.476  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.277   6.936  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       6.040  15.834  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -7.086  16.186  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.197   5.672  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -16.229  -7.141  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -6.165 -16.454  36.105  1.00125.53           C
+ENDMDL
+MODEL       69
+ATOM      1  CB  GLU J  58       7.111 -16.112  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      15.945  -5.923  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      15.025   7.465  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       5.484  16.035  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -7.647  15.929  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.385   5.103  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -15.970  -7.703  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -5.587 -16.659  36.105  1.00125.53           C
+ENDMDL
+MODEL       70
+ATOM      1  CB  GLU J  58       7.669 -15.854  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.142  -5.363  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      14.756   7.985  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       4.921  16.216  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -8.198  15.653  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.553   4.528  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -15.692  -8.256  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -5.003 -16.844  36.105  1.00125.53           C
+ENDMDL
+MODEL       71
+ATOM      1  CB  GLU J  58       8.217 -15.577  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.320  -4.797  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      14.468   8.495  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       4.352  16.378  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -8.739  15.357  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.701   3.948  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -15.394  -8.799  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -4.412 -17.009  36.105  1.00125.53           C
+ENDMDL
+MODEL       72
+ATOM      1  CB  GLU J  58       8.756 -15.281  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.477  -4.224  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      14.163   8.994  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       3.778  16.520  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -9.270  15.043  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.829   3.363  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -15.078  -9.331  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -3.815 -17.152  36.105  1.00125.53           C
+ENDMDL
+MODEL       73
+ATOM      1  CB  GLU J  58       9.284 -14.966  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.615  -3.647  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      13.840   9.483  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       3.199  16.642  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -9.789  14.710  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.936   2.773  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -14.743  -9.851  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -3.215 -17.275  36.105  1.00125.53           C
+ENDMDL
+MODEL       74
+ATOM      1  CB  GLU J  58       9.800 -14.633  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.732  -3.064  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      13.501   9.961  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       2.616  16.743  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -10.297  14.359  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -17.023   2.181  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -14.390 -10.360  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -2.610 -17.377  36.105  1.00125.53           C
+ENDMDL
+MODEL       75
+ATOM      1  CB  GLU J  58      10.305 -14.282  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.829  -2.479  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      13.145  10.426  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       2.030  16.824  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -10.792  13.991  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -17.088   1.585  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -14.020 -10.855  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -2.002 -17.457  36.105  1.00125.53           C
+ENDMDL
+MODEL       76
+ATOM      1  CB  GLU J  58      10.797 -13.913  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.905  -1.890  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      12.773  10.878  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       1.442  16.885  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -11.273  13.606  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -17.133   0.988  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -13.632 -11.338  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -1.391 -17.516  36.105  1.00125.53           C
+ENDMDL
+MODEL       77
+ATOM      1  CB  GLU J  58      11.276 -13.528  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.960  -1.299  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      12.386  11.317  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       0.852  16.925  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -11.741  13.204  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -17.157   0.389  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -13.228 -11.807  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -0.779 -17.554  36.105  1.00125.53           C
+ENDMDL
+MODEL       78
+ATOM      1  CB  GLU J  58      11.741 -13.126  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.995  -0.706  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      11.983  11.743  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       0.260  16.944  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -12.195  12.787  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -17.160  -0.210  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -12.808 -12.261  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -0.166 -17.571  36.105  1.00125.53           C
+ENDMDL
+MODEL       79
+ATOM      1  CB  GLU J  58      12.192 -12.708  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      17.010  -0.112  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      11.566  12.154  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -0.331  16.943  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -12.634  12.353  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -17.143  -0.809  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -12.372 -12.701  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       0.447 -17.566  36.105  1.00125.53           C
+ENDMDL
+MODEL       80
+ATOM      1  CB  GLU J  58      12.628 -12.275  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      17.003   0.481  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      11.135  12.550  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -0.922  16.921  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -13.057  11.905  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -17.104  -1.406  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -11.922 -13.125  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       1.060 -17.539  36.105  1.00125.53           C
+ENDMDL
+MODEL       81
+ATOM      1  CB  GLU J  58      13.049 -11.827  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.976   1.074  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      10.690  12.931  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -1.512  16.879  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -13.465  11.442  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -17.044  -2.002  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -11.456 -13.533  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       1.672 -17.492  36.105  1.00125.53           C
+ENDMDL
+MODEL       82
+ATOM      1  CB  GLU J  58      13.454 -11.364  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.928   1.666  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      10.232  13.296  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -2.100  16.816  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -13.856  10.965  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.964  -2.596  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -10.977 -13.925  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       2.281 -17.423  36.105  1.00125.53           C
+ENDMDL
+MODEL       83
+ATOM      1  CB  GLU J  58      13.842 -10.888  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.860   2.256  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       9.762  13.645  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -2.686  16.732  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -14.230  10.475  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.863  -3.186  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58     -10.484 -14.299  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       2.888 -17.332  36.105  1.00125.53           C
+ENDMDL
+MODEL       84
+ATOM      1  CB  GLU J  58      14.214 -10.398  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.771   2.843  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       9.280  13.977  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -3.268  16.628  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -14.587   9.972  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.742  -3.773  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -9.979 -14.656  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       3.491 -17.221  36.105  1.00125.53           C
+ENDMDL
+MODEL       85
+ATOM      1  CB  GLU J  58      14.568  -9.896  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.661   3.427  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       8.786  14.293  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -3.847  16.504  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -14.926   9.457  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.600  -4.355  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -9.461 -14.996  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       4.090 -17.089  36.105  1.00125.53           C
+ENDMDL
+MODEL       86
+ATOM      1  CB  GLU J  58      14.905  -9.381  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.532   4.006  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       8.282  14.591  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -4.420  16.360  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -15.247   8.930  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.438  -4.932  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -8.932 -15.317  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       4.684 -16.936  36.105  1.00125.53           C
+ENDMDL
+MODEL       87
+ATOM      1  CB  GLU J  58      15.223  -8.855  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.382   4.580  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       7.768  14.871  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -4.988  16.196  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -15.549   8.392  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.256  -5.502  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -8.392 -15.619  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       5.272 -16.762  36.105  1.00125.53           C
+ENDMDL
+MODEL       88
+ATOM      1  CB  GLU J  58      15.523  -8.319  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.212   5.149  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       7.244  15.133  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -5.551  16.012  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -15.833   7.845  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -16.054  -6.066  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -7.842 -15.903  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       5.854 -16.568  36.105  1.00125.53           C
+ENDMDL
+MODEL       89
+ATOM      1  CB  GLU J  58      15.804  -7.772  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      16.022   5.712  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       6.712  15.376  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -6.106  15.808  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -16.097   7.287  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -15.832  -6.623  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -7.282 -16.167  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       6.428 -16.353  36.105  1.00125.53           C
+ENDMDL
+MODEL       90
+ATOM      1  CB  GLU J  58      16.065  -7.216  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      15.813   6.268  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       6.171  15.601  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -6.654  15.585  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -16.341   6.721  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -15.591  -7.171  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -6.714 -16.411  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       6.995 -16.119  36.105  1.00125.53           C
+ENDMDL
+MODEL       91
+ATOM      1  CB  GLU J  58      16.307  -6.651  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      15.585   6.816  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       5.623  15.807  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -7.194  15.344  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -16.566   6.147  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -15.332  -7.711  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -6.137 -16.635  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       7.553 -15.865  36.105  1.00125.53           C
+ENDMDL
+MODEL       92
+ATOM      1  CB  GLU J  58      16.529  -6.077  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      15.338   7.355  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       5.068  15.994  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -7.725  15.083  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -16.770   5.565  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -15.053  -8.241  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -5.552 -16.839  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       8.102 -15.592  36.105  1.00125.53           C
+ENDMDL
+MODEL       93
+ATOM      1  CB  GLU J  58      16.731  -5.497  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      15.072   7.886  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       4.506  16.161  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -8.247  14.805  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -16.954   4.976  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -14.756  -8.762  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -4.961 -17.023  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       8.642 -15.299  36.105  1.00125.53           C
+ENDMDL
+MODEL       94
+ATOM      1  CB  GLU J  58      16.913  -4.910  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      14.787   8.407  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       3.940  16.308  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -8.758  14.508  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.118   4.381  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -14.442  -9.271  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -4.364 -17.185  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       9.170 -14.989  36.105  1.00125.53           C
+ENDMDL
+MODEL       95
+ATOM      1  CB  GLU J  58      17.074  -4.316  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      14.485   8.918  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       3.368  16.436  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -9.259  14.193  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.260   3.781  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -14.109  -9.770  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -3.762 -17.327  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       9.688 -14.659  36.105  1.00125.53           C
+ENDMDL
+MODEL       96
+ATOM      1  CB  GLU J  58      17.214  -3.718  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      14.165   9.418  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       2.792  16.543  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -9.749  13.861  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.382   3.177  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -13.760 -10.256  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -3.155 -17.448  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      10.193 -14.312  36.105  1.00125.53           C
+ENDMDL
+MODEL       97
+ATOM      1  CB  GLU J  58      17.333  -3.115  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      13.827   9.907  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       2.213  16.631  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -10.227  13.513  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.482   2.568  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -13.393 -10.730  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -2.544 -17.547  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      10.687 -13.948  36.105  1.00125.53           C
+ENDMDL
+MODEL       98
+ATOM      1  CB  GLU J  58      17.432  -2.508  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      13.473  10.384  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       1.632  16.698  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -10.692  13.148  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.561   1.956  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -13.011 -11.191  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -1.930 -17.626  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      11.167 -13.566  36.105  1.00125.53           C
+ENDMDL
+MODEL       99
+ATOM      1  CB  GLU J  58      17.509  -1.898  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      13.103  10.848  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       1.048  16.745  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -11.144  12.767  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.618   1.342  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -12.612 -11.638  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -1.314 -17.682  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      11.634 -13.168  36.105  1.00125.53           C
+ENDMDL
+MODEL      100
+ATOM      1  CB  GLU J  58      17.564  -1.286  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      12.716  11.298  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58       0.463  16.771  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -11.583  12.370  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.655   0.727  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -12.198 -12.071  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -0.696 -17.717  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      12.086 -12.754  36.105  1.00125.53           C
+ENDMDL
+MODEL      101
+ATOM      1  CB  GLU J  58      17.598  -0.672  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      12.314  11.735  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -0.123  16.777  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -12.008  11.958  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.669   0.110  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -11.770 -12.490  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      -0.077 -17.731  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      12.524 -12.325  36.105  1.00125.53           C
+ENDMDL
+MODEL      102
+ATOM      1  CB  GLU J  58      17.611  -0.058  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      11.897  12.158  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -0.708  16.763  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -12.418  11.532  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.662  -0.507  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -11.327 -12.893  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       0.542 -17.723  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      12.946 -11.880  36.105  1.00125.53           C
+ENDMDL
+MODEL      103
+ATOM      1  CB  GLU J  58      17.602   0.557  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      11.465  12.565  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -1.293  16.728  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -12.813  11.091  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.634  -1.123  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -10.870 -13.280  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       1.160 -17.693  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      13.353 -11.421  36.105  1.00125.53           C
+ENDMDL
+MODEL      104
+ATOM      1  CB  GLU J  58      17.572   1.171  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      11.020  12.958  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -1.876  16.672  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -13.192  10.637  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.584  -1.737  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58     -10.400 -13.652  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       1.777 -17.642  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      13.744 -10.948  36.105  1.00125.53           C
+ENDMDL
+MODEL      105
+ATOM      1  CB  GLU J  58      17.521   1.784  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      10.561  13.335  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -2.456  16.597  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -13.555  10.170  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.512  -2.350  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -9.917 -14.006  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       2.391 -17.569  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      14.117 -10.462  36.105  1.00125.53           C
+ENDMDL
+MODEL      106
+ATOM      1  CB  GLU J  58      17.448   2.394  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      10.089  13.695  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -3.034  16.501  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -13.902   9.691  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.420  -2.960  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -9.422 -14.344  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       3.003 -17.475  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      14.474  -9.963  36.105  1.00125.53           C
+ENDMDL
+MODEL      107
+ATOM      1  CB  GLU J  58      17.353   3.001  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       9.605  14.039  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -3.608  16.385  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -14.232   9.200  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.306  -3.566  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -8.916 -14.664  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       3.611 -17.359  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      14.813  -9.452  36.105  1.00125.53           C
+ENDMDL
+MODEL      108
+ATOM      1  CB  GLU J  58      17.238   3.605  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       9.109  14.366  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -4.178  16.249  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -14.544   8.698  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.171  -4.168  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -8.399 -14.966  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       4.215 -17.223  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      15.134  -8.929  36.105  1.00125.53           C
+ENDMDL
+MODEL      109
+ATOM      1  CB  GLU J  58      17.102   4.205  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       8.602  14.675  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -4.742  16.093  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -14.839   8.185  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -17.015  -4.764  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -7.871 -15.250  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       4.813 -17.065  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      15.436  -8.395  36.105  1.00125.53           C
+ENDMDL
+MODEL      110
+ATOM      1  CB  GLU J  58      16.945   4.799  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       8.085  14.966  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -5.301  15.918  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -15.115   7.662  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -16.838  -5.355  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -7.334 -15.515  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       5.406 -16.887  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      15.719  -7.851  36.105  1.00125.53           C
+ENDMDL
+MODEL      111
+ATOM      1  CB  GLU J  58      16.767   5.387  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       7.558  15.239  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -5.853  15.723  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -15.374   7.130  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -16.641  -5.940  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -6.788 -15.762  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       5.992 -16.688  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      15.984  -7.298  36.105  1.00125.53           C
+ENDMDL
+MODEL      112
+ATOM      1  CB  GLU J  58      16.569   5.969  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       7.021  15.494  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -6.399  15.509  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -15.613   6.589  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -16.424  -6.517  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -6.234 -15.989  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       6.571 -16.468  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      16.229  -6.736  36.105  1.00125.53           C
+ENDMDL
+MODEL      113
+ATOM      1  CB  GLU J  58      16.350   6.544  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       6.476  15.729  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -6.936  15.277  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -15.833   6.040  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -16.186  -7.086  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -5.672 -16.197  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       7.141 -16.229  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      16.454  -6.165  36.105  1.00125.53           C
+ENDMDL
+MODEL      114
+ATOM      1  CB  GLU J  58      16.112   7.110  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       5.923  15.946  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -7.465  15.025  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.035   5.484  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -15.929  -7.647  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -5.103 -16.385  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       7.703 -15.970  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      16.659  -5.587  36.105  1.00125.53           C
+ENDMDL
+MODEL      115
+ATOM      1  CB  GLU J  58      15.854   7.668  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       5.363  16.143  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -7.985  14.756  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.216   4.921  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -15.653  -8.198  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -4.529 -16.553  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       8.256 -15.691  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      16.844  -5.002  36.105  1.00125.53           C
+ENDMDL
+MODEL      116
+ATOM      1  CB  GLU J  58      15.577   8.217  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       4.797  16.320  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -8.495  14.468  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.378   4.352  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -15.357  -8.739  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -3.948 -16.701  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       8.799 -15.394  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.008  -4.412  36.105  1.00125.53           C
+ENDMDL
+MODEL      117
+ATOM      1  CB  GLU J  58      15.280   8.756  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       4.224  16.477  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -8.994  14.163  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.520   3.778  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -15.043  -9.270  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -3.363 -16.829  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       9.330 -15.077  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.152  -3.815  36.105  1.00125.53           C
+ENDMDL
+MODEL      118
+ATOM      1  CB  GLU J  58      14.965   9.284  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       3.647  16.615  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -9.483  13.840  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.642   3.199  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -14.710  -9.789  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -2.773 -16.936  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       9.851 -14.742  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.275  -3.214  36.105  1.00125.53           C
+ENDMDL
+MODEL      119
+ATOM      1  CB  GLU J  58      14.632   9.800  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       3.065  16.732  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -9.961  13.501  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.743   2.616  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -14.359 -10.296  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -2.181 -17.022  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      10.359 -14.390  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.376  -2.609  36.105  1.00125.53           C
+ENDMDL
+MODEL      120
+ATOM      1  CB  GLU J  58      14.281  10.305  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       2.479  16.829  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -10.426  13.145  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.824   2.030  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -13.991 -10.791  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -1.585 -17.088  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      10.855 -14.019  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.457  -2.001  36.105  1.00125.53           C
+ENDMDL
+MODEL      121
+ATOM      1  CB  GLU J  58      13.913  10.797  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       1.890  16.905  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -10.878  12.773  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.885   1.442  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -13.606 -11.273  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -0.988 -17.133  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      11.338 -13.632  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.516  -1.391  36.105  1.00125.53           C
+ENDMDL
+MODEL      122
+ATOM      1  CB  GLU J  58      13.528  11.276  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       1.299  16.961  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -11.317  12.386  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.925   0.852  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -13.204 -11.741  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      -0.389 -17.157  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      11.807 -13.228  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.554  -0.779  36.105  1.00125.53           C
+ENDMDL
+MODEL      123
+ATOM      1  CB  GLU J  58      13.126  11.741  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       0.706  16.996  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -11.742  11.983  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.944   0.261  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -12.786 -12.195  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       0.210 -17.160  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      12.261 -12.808  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.570  -0.166  36.105  1.00125.53           C
+ENDMDL
+MODEL      124
+ATOM      1  CB  GLU J  58      12.708  12.192  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58       0.113  17.010  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -12.154  11.566  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.943  -0.331  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -12.353 -12.633  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       0.808 -17.142  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      12.701 -12.372  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.565   0.448  36.105  1.00125.53           C
+ENDMDL
+MODEL      125
+ATOM      1  CB  GLU J  58      12.275  12.628  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -0.481  17.004  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -12.550  11.135  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.921  -0.922  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -11.905 -13.057  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       1.406 -17.104  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      13.125 -11.921  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.539   1.060  36.105  1.00125.53           C
+ENDMDL
+MODEL      126
+ATOM      1  CB  GLU J  58      11.827  13.049  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -1.074  16.976  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -12.931  10.690  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.879  -1.512  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -11.442 -13.464  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       2.002 -17.044  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      13.533 -11.456  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.491   1.672  36.105  1.00125.53           C
+ENDMDL
+MODEL      127
+ATOM      1  CB  GLU J  58      11.364  13.454  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -1.666  16.929  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -13.296  10.232  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.816  -2.100  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -10.965 -13.856  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       2.596 -16.964  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      13.924 -10.977  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.422   2.281  36.105  1.00125.53           C
+ENDMDL
+MODEL      128
+ATOM      1  CB  GLU J  58      10.888  13.842  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -2.256  16.860  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -13.645   9.762  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.732  -2.686  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58     -10.475 -14.230  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       3.186 -16.863  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      14.299 -10.484  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.332   2.888  36.105  1.00125.53           C
+ENDMDL
+MODEL      129
+ATOM      1  CB  GLU J  58      10.398  14.214  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -2.843  16.771  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -13.977   9.280  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.628  -3.268  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -9.972 -14.587  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       3.773 -16.742  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      14.656  -9.979  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.221   3.491  36.105  1.00125.53           C
+ENDMDL
+MODEL      130
+ATOM      1  CB  GLU J  58       9.896  14.568  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -3.426  16.662  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -14.293   8.786  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.504  -3.846  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -9.457 -14.926  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       4.355 -16.600  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      14.996  -9.461  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      17.089   4.090  36.105  1.00125.53           C
+ENDMDL
+MODEL      131
+ATOM      1  CB  GLU J  58       9.381  14.904  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -4.006  16.532  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -14.591   8.282  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.360  -4.420  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -8.930 -15.247  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       4.931 -16.438  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      15.317  -8.932  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      16.935   4.684  36.105  1.00125.53           C
+ENDMDL
+MODEL      132
+ATOM      1  CB  GLU J  58       8.855  15.223  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -4.580  16.382  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -14.871   7.768  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.196  -4.988  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -8.392 -15.549  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       5.502 -16.256  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      15.619  -8.392  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      16.762   5.272  36.105  1.00125.53           C
+ENDMDL
+MODEL      133
+ATOM      1  CB  GLU J  58       8.319  15.522  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -5.149  16.212  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.133   7.244  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -16.012  -5.550  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -7.845 -15.833  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       6.066 -16.054  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      15.902  -7.842  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      16.567   5.854  36.105  1.00125.53           C
+ENDMDL
+MODEL      134
+ATOM      1  CB  GLU J  58       7.772  15.803  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -5.712  16.023  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.376   6.712  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -15.808  -6.106  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -7.287 -16.097  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       6.623 -15.832  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      16.166  -7.282  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      16.353   6.428  36.105  1.00125.53           C
+ENDMDL
+MODEL      135
+ATOM      1  CB  GLU J  58       7.216  16.065  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -6.268  15.814  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.601   6.171  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -15.586  -6.654  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -6.721 -16.341  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       7.171 -15.591  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      16.411  -6.714  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      16.119   6.995  36.105  1.00125.53           C
+ENDMDL
+MODEL      136
+ATOM      1  CB  GLU J  58       6.651  16.307  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -6.816  15.585  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.807   5.623  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -15.344  -7.194  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -6.147 -16.566  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       7.711 -15.332  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      16.635  -6.137  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      15.865   7.553  36.105  1.00125.53           C
+ENDMDL
+MODEL      137
+ATOM      1  CB  GLU J  58       6.078  16.529  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -7.356  15.338  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.994   5.068  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -15.083  -7.725  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -5.565 -16.770  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       8.241 -15.053  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      16.839  -5.552  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      15.592   8.102  36.105  1.00125.53           C
+ENDMDL
+MODEL      138
+ATOM      1  CB  GLU J  58       5.497  16.731  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -7.886  15.072  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.161   4.506  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -14.805  -8.247  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -4.976 -16.954  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       8.762 -14.756  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.023  -4.961  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      15.299   8.642  36.105  1.00125.53           C
+ENDMDL
+MODEL      139
+ATOM      1  CB  GLU J  58       4.910  16.913  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -8.408  14.787  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.308   3.940  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -14.508  -8.758  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -4.381 -17.118  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       9.271 -14.442  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.185  -4.364  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      14.988   9.170  36.105  1.00125.53           C
+ENDMDL
+MODEL      140
+ATOM      1  CB  GLU J  58       4.316  17.074  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -8.918  14.485  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.436   3.368  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -14.193  -9.259  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -3.781 -17.260  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58       9.770 -14.109  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.327  -3.762  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      14.659   9.688  36.105  1.00125.53           C
+ENDMDL
+MODEL      141
+ATOM      1  CB  GLU J  58       3.718  17.214  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -9.419  14.165  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.543   2.793  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -13.862  -9.749  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -3.177 -17.381  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      10.256 -13.760  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.448  -3.155  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      14.312  10.193  36.105  1.00125.53           C
+ENDMDL
+MODEL      142
+ATOM      1  CB  GLU J  58       3.115  17.333  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58      -9.907  13.827  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.631   2.214  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -13.513 -10.227  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -2.568 -17.482  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      10.730 -13.394  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.547  -2.544  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      13.948  10.687  36.105  1.00125.53           C
+ENDMDL
+MODEL      143
+ATOM      1  CB  GLU J  58       2.508  17.432  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -10.384  13.473  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.698   1.632  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -13.148 -10.692  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -1.957 -17.561  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      11.191 -13.011  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.626  -1.930  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      13.566  11.167  36.105  1.00125.53           C
+ENDMDL
+MODEL      144
+ATOM      1  CB  GLU J  58       1.898  17.508  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -10.848  13.103  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.745   1.048  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -12.767 -11.144  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -1.342 -17.618  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      11.638 -12.612  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.682  -1.314  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      13.168  11.634  36.105  1.00125.53           C
+ENDMDL
+MODEL      145
+ATOM      1  CB  GLU J  58       1.286  17.564  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -11.298  12.716  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.771   0.463  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -12.370 -11.583  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -0.727 -17.654  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      12.071 -12.199  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.717  -0.696  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      12.754  12.086  36.105  1.00125.53           C
+ENDMDL
+MODEL      146
+ATOM      1  CB  GLU J  58       0.672  17.598  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -11.735  12.314  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.777  -0.123  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -11.958 -12.008  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      -0.110 -17.669  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      12.490 -11.770  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.731  -0.077  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      12.325  12.524  36.105  1.00125.53           C
+ENDMDL
+MODEL      147
+ATOM      1  CB  GLU J  58       0.058  17.611  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -12.158  11.897  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.762  -0.708  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -11.532 -12.418  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       0.507 -17.662  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      12.893 -11.327  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.723   0.542  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      11.880  12.946  36.105  1.00125.53           C
+ENDMDL
+MODEL      148
+ATOM      1  CB  GLU J  58      -0.557  17.602  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -12.566  11.465  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.727  -1.293  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -11.091 -12.813  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       1.123 -17.634  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      13.280 -10.870  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.693   1.160  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      11.421  13.353  36.105  1.00125.53           C
+ENDMDL
+MODEL      149
+ATOM      1  CB  GLU J  58      -1.171  17.572  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -12.958  11.020  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.672  -1.876  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -10.637 -13.192  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       1.737 -17.584  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      13.652 -10.400  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.642   1.777  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      10.948  13.744  36.105  1.00125.53           C
+ENDMDL
+MODEL      150
+ATOM      1  CB  GLU J  58      -1.783  17.521  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -13.335  10.561  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.597  -2.456  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58     -10.171 -13.555  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       2.350 -17.512  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      14.006  -9.917  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.569   2.391  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      10.462  14.117  36.105  1.00125.53           C
+ENDMDL
+MODEL      151
+ATOM      1  CB  GLU J  58      -2.394  17.448  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -13.695  10.089  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.501  -3.034  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -9.691 -13.902  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       2.960 -17.420  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      14.344  -9.422  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.475   3.003  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       9.963  14.474  36.105  1.00125.53           C
+ENDMDL
+MODEL      152
+ATOM      1  CB  GLU J  58      -3.001  17.354  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -14.039   9.605  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.385  -3.608  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -9.200 -14.232  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       3.566 -17.306  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      14.664  -8.916  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.359   3.611  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       9.452  14.813  36.105  1.00125.53           C
+ENDMDL
+MODEL      153
+ATOM      1  CB  GLU J  58      -3.605  17.238  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -14.366   9.109  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.249  -4.178  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -8.698 -14.544  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       4.168 -17.171  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      14.966  -8.399  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.223   4.215  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       8.929  15.133  36.105  1.00125.53           C
+ENDMDL
+MODEL      154
+ATOM      1  CB  GLU J  58      -4.204  17.102  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -14.675   8.602  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -16.093  -4.742  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -8.185 -14.839  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       4.764 -17.015  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      15.250  -7.871  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      17.065   4.813  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       8.395  15.436  36.105  1.00125.53           C
+ENDMDL
+MODEL      155
+ATOM      1  CB  GLU J  58      -4.799  16.945  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -14.966   8.085  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.918  -5.301  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -7.662 -15.115  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       5.355 -16.838  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      15.516  -7.334  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      16.887   5.406  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       7.852  15.719  36.105  1.00125.53           C
+ENDMDL
+MODEL      156
+ATOM      1  CB  GLU J  58      -5.387  16.767  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -15.239   7.558  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.723  -5.853  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -7.130 -15.374  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       5.940 -16.641  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      15.762  -6.788  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      16.688   5.992  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       7.298  15.984  36.105  1.00125.53           C
+ENDMDL
+MODEL      157
+ATOM      1  CB  GLU J  58      -5.969  16.569  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -15.494   7.021  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.509  -6.398  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -6.589 -15.613  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       6.517 -16.424  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      15.989  -6.234  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      16.469   6.570  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       6.736  16.229  36.105  1.00125.53           C
+ENDMDL
+MODEL      158
+ATOM      1  CB  GLU J  58      -6.544  16.350  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -15.729   6.476  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.277  -6.936  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -6.040 -15.834  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       7.086 -16.186  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.197  -5.672  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      16.229   7.141  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       6.165  16.454  36.105  1.00125.53           C
+ENDMDL
+MODEL      159
+ATOM      1  CB  GLU J  58      -7.110  16.112  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -15.946   5.923  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -15.025  -7.465  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -5.484 -16.035  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       7.647 -15.929  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.385  -5.104  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      15.970   7.703  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       5.587  16.659  36.105  1.00125.53           C
+ENDMDL
+MODEL      160
+ATOM      1  CB  GLU J  58      -7.668  15.854  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.143   5.363  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -14.756  -7.984  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -4.921 -16.216  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       8.198 -15.653  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.553  -4.529  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      15.692   8.256  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       5.003  16.844  36.105  1.00125.53           C
+ENDMDL
+MODEL      161
+ATOM      1  CB  GLU J  58      -8.217  15.577  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.320   4.797  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -14.468  -8.495  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -4.352 -16.378  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       8.739 -15.357  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.701  -3.948  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      15.394   8.798  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       4.412  17.008  36.105  1.00125.53           C
+ENDMDL
+MODEL      162
+ATOM      1  CB  GLU J  58      -8.755  15.281  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.477   4.224  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -14.163  -8.994  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -3.778 -16.520  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       9.270 -15.043  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.829  -3.363  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      15.077   9.330  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       3.816  17.152  36.105  1.00125.53           C
+ENDMDL
+MODEL      163
+ATOM      1  CB  GLU J  58      -9.283  14.966  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.615   3.647  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -13.840  -9.483  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -3.199 -16.642  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58       9.789 -14.710  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.936  -2.774  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      14.743   9.851  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       3.215  17.275  36.105  1.00125.53           C
+ENDMDL
+MODEL      164
+ATOM      1  CB  GLU J  58      -9.800  14.633  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.732   3.064  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -13.501  -9.960  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -2.616 -16.743  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      10.296 -14.360  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      17.023  -2.181  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      14.390  10.359  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       2.610  17.376  36.105  1.00125.53           C
+ENDMDL
+MODEL      165
+ATOM      1  CB  GLU J  58     -10.305  14.282  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.829   2.479  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -13.145 -10.425  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -2.030 -16.825  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      10.791 -13.991  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      17.088  -1.585  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      14.020  10.855  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       2.002  17.457  36.105  1.00125.53           C
+ENDMDL
+MODEL      166
+ATOM      1  CB  GLU J  58     -10.797  13.913  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.905   1.890  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -12.773 -10.878  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -1.442 -16.885  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      11.273 -13.606  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      17.133  -0.988  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      13.632  11.338  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       1.391  17.516  36.105  1.00125.53           C
+ENDMDL
+MODEL      167
+ATOM      1  CB  GLU J  58     -11.276  13.528  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.961   1.299  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -12.386 -11.317  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -0.852 -16.925  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      11.741 -13.205  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      17.157  -0.389  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      13.228  11.807  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       0.779  17.554  36.105  1.00125.53           C
+ENDMDL
+MODEL      168
+ATOM      1  CB  GLU J  58     -11.741  13.126  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.996   0.706  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -11.983 -11.742  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58      -0.260 -16.945  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      12.195 -12.787  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      17.161   0.210  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      12.808  12.261  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58       0.166  17.570  36.105  1.00125.53           C
+ENDMDL
+MODEL      169
+ATOM      1  CB  GLU J  58     -12.192  12.709  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -17.010   0.112  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -11.566 -12.153  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       0.331 -16.943  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      12.634 -12.353  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      17.143   0.808  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      12.372  12.701  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -0.447  17.566  36.105  1.00125.53           C
+ENDMDL
+MODEL      170
+ATOM      1  CB  GLU J  58     -12.628  12.275  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -17.003  -0.481  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -11.135 -12.550  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       0.922 -16.922  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      13.057 -11.905  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      17.104   1.406  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      11.922  13.125  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -1.060  17.539  36.105  1.00125.53           C
+ENDMDL
+MODEL      171
+ATOM      1  CB  GLU J  58     -13.049  11.827  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.976  -1.074  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -10.690 -12.931  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       1.512 -16.879  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      13.465 -11.442  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      17.045   2.002  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      11.456  13.533  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -1.671  17.492  36.105  1.00125.53           C
+ENDMDL
+MODEL      172
+ATOM      1  CB  GLU J  58     -13.454  11.365  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.928  -1.666  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58     -10.232 -13.296  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       2.100 -16.816  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      13.856 -10.965  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.964   2.596  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      10.977  13.924  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -2.281  17.423  36.105  1.00125.53           C
+ENDMDL
+MODEL      173
+ATOM      1  CB  GLU J  58     -13.842  10.888  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.860  -2.256  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -9.762 -13.645  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       2.686 -16.732  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      14.230 -10.475  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.863   3.186  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58      10.484  14.299  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -2.887  17.332  36.105  1.00125.53           C
+ENDMDL
+MODEL      174
+ATOM      1  CB  GLU J  58     -14.214  10.398  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.771  -2.843  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -9.280 -13.977  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       3.268 -16.629  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      14.587  -9.972  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.742   3.773  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       9.979  14.656  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -3.491  17.221  36.105  1.00125.53           C
+ENDMDL
+MODEL      175
+ATOM      1  CB  GLU J  58     -14.568   9.896  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.662  -3.427  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -8.787 -14.292  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       3.847 -16.504  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      14.926  -9.457  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.600   4.355  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       9.461  14.996  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -4.089  17.089  36.105  1.00125.53           C
+ENDMDL
+MODEL      176
+ATOM      1  CB  GLU J  58     -14.904   9.382  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.532  -4.006  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -8.282 -14.590  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       4.420 -16.360  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      15.247  -8.930  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.438   4.931  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       8.932  15.317  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -4.683  16.936  36.105  1.00125.53           C
+ENDMDL
+MODEL      177
+ATOM      1  CB  GLU J  58     -15.223   8.856  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.382  -4.581  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -7.768 -14.871  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       4.989 -16.196  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      15.549  -8.393  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.256   5.502  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       8.392  15.619  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -5.272  16.762  36.105  1.00125.53           C
+ENDMDL
+MODEL      178
+ATOM      1  CB  GLU J  58     -15.522   8.319  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.212  -5.150  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -7.244 -15.133  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       5.551 -16.012  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      15.833  -7.845  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      16.054   6.066  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       7.842  15.902  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -5.853  16.568  36.105  1.00125.53           C
+ENDMDL
+MODEL      179
+ATOM      1  CB  GLU J  58     -15.803   7.772  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -16.022  -5.712  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -6.712 -15.376  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       6.106 -15.808  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.097  -7.288  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      15.833   6.623  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       7.282  16.166  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -6.428  16.353  36.105  1.00125.53           C
+ENDMDL
+MODEL      180
+ATOM      1  CB  GLU J  58     -16.065   7.216  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -15.813  -6.268  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -6.171 -15.601  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       6.654 -15.586  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.341  -6.721  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      15.592   7.171  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       6.714  16.411  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -6.995  16.119  36.105  1.00125.53           C
+ENDMDL
+MODEL      181
+ATOM      1  CB  GLU J  58     -16.307   6.651  36.017  1.00129.47           C
+TER       2      GLU J  58
+ATOM      3  CB  GLU K  58     -15.585  -6.816  36.108  1.00133.92           C
+TER       4      GLU K  58
+ATOM      5  CB  GLU L  58      -5.623 -15.807  35.344  1.00129.91           C
+TER       6      GLU L  58
+ATOM      7  CB  GLU M  58       7.194 -15.344  35.622  1.00128.41           C
+TER       8      GLU M  58
+ATOM      9  CB  GLU N  58      16.566  -6.147  35.637  1.00124.73           C
+TER      10      GLU N  58
+ATOM     11  CB  GLU O  58      15.332   7.711  35.491  1.00125.94           C
+TER      12      GLU O  58
+ATOM     13  CB  GLU P  58       6.137  16.635  35.506  1.00129.39           C
+TER      14      GLU P  58
+ATOM     15  CB  GLU Q  58      -7.553  15.865  36.105  1.00125.53           C
+ENDMDL
+END

@@ -1,0 +1,79 @@
+ 
+  --- LIBCHECK --- /Vers 5.2.00  ; 12.12.2011/
+ 
+ 
+  Do you want to have FILE-DOCUMENT /libcheck.doc/ ? /<N>/Y/A :
+    N - means without DOC-file
+    Y - with new contents
+    A - means to keep old contents and add new information
+        with DOC-file program creates batch file: libcheck.bat
+ _DOC: 
+ 
+ #
+ #      Keywords:
+ #
+ #FILE_L:   < >  - additional library, " " means without this file
+ #MON:      < >  - give info about this monomer
+ #                 if = * , give list all monomers in the library
+ #FILE_PDB: < >  - input PDB_file  ," " means without this file
+ #FILE_SMILE: < >  - input SMILE_file  ," " means without this file
+ #FILE_SDF:   < > - input SDF file, " " means without this file
+ #FILE_MOL:   < > - input MOL (sybil), SDF, ODB (O) files
+ #                   use keyword MON as compound_id
+ #FILE_CIF: < >  - input CIFile    ," " means without this file
+ #FILE_CSD: < >  - input CSD CIFile," " means without this file
+ #HFLAG: <Y>/A/N - Y - hydrogen atoms where they are
+ #                 A - with all hydrogen atoms
+ #                 N - without hydrogen atoms
+ #IND:    <N>/Y  - Y - create index of mon_lib.cif
+ #                     output file: "new_mon_lib_ind.cif"
+ #FILE_O: <libcheck > - output files /library,coords,ps/, name without
+ #                      extention
+ #FILE_L2:  < >  - additional library (FILE_L) will be added to this library
+ #                 in this case program performs only adding
+ #ANGLE:   <0.0> - rotation angle for picture ( around X )
+ #LIST: <M>/S/L  - S short output, L - long, M - medium
+ #REF:  <Y>/S,N,0 - 0 no refinement of new monomer
+ #                  N only crd->ang and ang->crd
+ #                  S plus torsion ref, Y plus restr.ref
+ #
+ #TEST:   <0>    - for program testing only
+ #COOR: <N>/Y    - use Vobs from coords instead Videal
+ #LCOOR: <Y>/N   - Y use coords from lib description
+ #NODIST: <N>/Y  - Y not read the distributed library
+ #                 (only with FILE_L)
+ #SRCH: <N>/Y/0  - Y - global search, 0 - for MON from PDB_file
+ #                 (only with NODIST = N)
+ 
+ #---  type "keyword   parameters" and/or ---
+ #---  press key "CR" to run program      ---
+ --> --> --> MON   : DUM
+ -------------
+ Input SMILE file:coot-DUM.smi
+ -------------
+ Keywords:
+ HFLAG : Y
+ COOR  : N
+ LCOOR : Y
+ SRCH  : 0
+ REF   : Y
+ NODIST: Y
+ smile <O=C(OC[C@@H](OC(=O)CCCCCCCC=C/CCCCCCCC)COP([O-])(=O)OCC[N+](C)(C)C)CC...
+  NUMBER OF MONOMERS IN THE LIBRARY          :     1
+                with complete description    :     0
+  NUMBER OF MODIFICATIONS                    :     0
+  NUMBER OF LINKS                            :     0
+  I am reading libraries. Please wait.
+      - energy parameters
+      - monomer"s description (links & mod )
+  I am reading library. Please wait.
+      - monomer"s description
+  WARNING : monomer:DUM              - has a minimal description.
+  now monomer:DUM              - has complete description.
+  I will check it.
+ * CIFile  : libcheck_DUM.cif
+ * PDBfile : libcheck_DUM.pdb
+ * Plotfile: libcheck_DUM.ps
+ Output dictionary 
+    mmcif : libcheck.lib
+    odb   : libcheck.odb
