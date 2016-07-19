@@ -16,6 +16,7 @@
 
 - (void)setupMP4VideoWithPath:(NSString *)fileName withSize:(NSSize)size;
 - (void)setupProResVideoWithPath:(NSString *)fileName withSize:(NSSize)size;
+- (void)setupVideoWithPath:(NSString *)fileName withSize:(NSSize)size;
 - (void)addFrameToMovieFromBuffer:(unsigned char *)pixels;
 - (void)addFrameToMovieFromImage:(NSImage *)image;
 - (void)finishMovie;

@@ -44,7 +44,7 @@
     frameSize = s;
     m = [[movie alloc] init];
     NSString *outputBase = @kRenderOutputRoot;
-    [m setupProResVideoWithPath:[outputBase stringByAppendingString:@"output.mov"] withSize:frameSize];
+    [m setupVideoWithPath:[outputBase stringByAppendingString:@kMovieOutputName] withSize:frameSize];
     
     r = [[renderManager alloc] initWithImageSize:frameSize];
     r.camera = sc.camera;

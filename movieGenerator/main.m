@@ -37,19 +37,21 @@ int main(int argc, const char * argv[])
         frameSize.width = kImageWidth;
         frameSize.height = kImageHeight;
         movie *m = [[movie alloc] init];
-        [m setupProResVideoWithPath:@"/Users/stocklab/Documents/Callum/rt1NG/output.mov" withSize:frameSize];
+        NSString *outputBase = @kRenderOutputRoot;
+        [m setupVideoWithPath:[outputBase stringByAppendingString:@kMovieOutputName] withSize:frameSize];
         
         NSFileManager *fileManager = [NSFileManager defaultManager];
         int pixelsOutSize = sizeof(char) * 4 * frameSize.width * frameSize.height;
         unsigned char *pixelsOut = (unsigned char *)malloc(pixelsOutSize);
-        bool useGPU = YES;
+        bool useGPU = kMovieGeneratorUseGPU;
         int gpuMisses = 0;
         int cpuRenders = 0;
         for (int animFrame = 0; animFrame < kNumFramesToRender; animFrame++) {
             @autoreleasepool {
                 printf("Rendering Frame: %d/%d (%.1f%%) ", animFrame, kNumFramesToRender, 100.0 * (float)animFrame/(float)kNumFramesToRender);
-                NSString *frameName = [NSString stringWithFormat:@"/Users/stocklab/Documents/Callum/rt1NG/animationData/frameData_%06d.dat", animFrame];
-                NSString *launchPath = @"/Users/stocklab/Library/Developer/Xcode/DerivedData/rt1-bxwhpobjjzcitoanhzvfhdrhnyjs/Build/Products/Debug/renderFrame";
+                NSString *frameName = [NSString stringWithFormat:[outputBase stringByAppendingString:@"animationData/frameData_%06d.dat"], animFrame];
+                NSString *appParentDirectory = [[NSBundle mainBundle] bundlePath];
+                NSString *launchPath = [appParentDirectory stringByAppendingString:@"/renderFrame"];
                 if ([fileManager fileExistsAtPath:frameName]) {
                     if (useGPU) {
                         printf("- trying GPU... ");
@@ -76,12 +78,12 @@ int main(int argc, const char * argv[])
                         }
                         cpuRenders--;
                         if (cpuRenders == 0) {
-                            useGPU = YES;
+                            useGPU = kMovieGeneratorUseGPU;
                             gpuMisses = 0;
                         }
                     }
                     
-                    NSString *frameImageName = [NSString stringWithFormat:@"/Users/stocklab/Documents/Callum/rt1NG/output.dat"];
+                    NSString *frameImageName = [outputBase stringByAppendingString:@"output.dat"];
                     NSData *imageData = [NSData dataWithContentsOfFile:frameImageName];
                     [imageData getBytes:pixelsOut length:pixelsOutSize];
                     [m addFrameToMovieFromBuffer:pixelsOut];

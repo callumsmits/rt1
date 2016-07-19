@@ -14,6 +14,9 @@
 
 #define kNoAvailableRenderer -1
 
+#define kMonolithicUseGPU 1
+
+
 @interface renderManager () {
     NSMutableArray *_renderers;
     NSMutableArray *_imageData;

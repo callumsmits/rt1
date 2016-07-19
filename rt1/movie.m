@@ -9,6 +9,7 @@
 #import "movie.h"
 #import <AVFoundation/AVFoundation.h>
 #include <AppKit/AppKit.h>
+#import "globalSettings.h"
 
 #define kMovieRetryDelay 0.1
 
@@ -35,16 +36,23 @@
 
 - (void)setupMP4VideoWithPath:(NSString *)fileName withSize:(NSSize)size {
     frameSize = size;
-    frameRate = 240;
+    frameRate = kMovieFrameRate;
     f = 0;
     [self setupMovieWithName:fileName ofType:AVVideoCodecH264 withSize:size];
 }
 
 - (void)setupProResVideoWithPath:(NSString *)fileName withSize:(NSSize)size {
     frameSize = size;
-    frameRate = 240;
+    frameRate = kMovieFrameRate;
     f = 0;
     [self setupMovieWithName:fileName ofType:AVVideoCodecAppleProRes4444 withSize:size];
+}
+
+- (void)setupVideoWithPath:(NSString *)fileName withSize:(NSSize)size {
+    frameSize = size;
+    frameRate = kMovieFrameRate;
+    f = 0;
+    [self setupMovieWithName:fileName ofType:kMovieOutputCodec withSize:size];
 }
 
 - (void)setupMovieWithName:(NSString *)path ofType:(NSString *)type withSize:(NSSize)size {

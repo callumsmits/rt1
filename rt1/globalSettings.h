@@ -18,12 +18,16 @@
 //#define kImageHeight 0.1*1080
 #define kMaxNumLights 8
 #define kaaQuality 4
-#define kNumFramesToRender 50
+#define kNumFramesToRender 100
+#define kMovieFrameRate 30
+#define kMovieOutputName "output.mov"
+//#define kMovieOutputCodec AVVideoCodecAppleProRes4444
+#define kMovieOutputCodec AVVideoCodecH264
 #define kRenderCorrectIntrinsicLighting 1
 #define kTakeARest 0
 #define kMonolithic 1
 #define kMonolithicMultithreadedRender 1
-#define kMonolithicUseGPU 0
+#define kMovieGeneratorUseGPU 0
 #define kRenderCLKernelsPath "/Users/calsmi/Documents/Development/rt1/rt1/"
 #define kRenderOutputRoot "/Users/calsmi/Documents/Development/rt1Output/"
 

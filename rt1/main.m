@@ -28,6 +28,7 @@ int main(int argc, const char * argv[])
             }
         } else {
             modelObject *world = sc.world;
+            NSString *outputBase = @kRenderOutputRoot;
             int animFrame;
             while (animFrame < kNumFramesToRender) {
                 @autoreleasepool {
@@ -42,7 +43,7 @@ int main(int argc, const char * argv[])
                     if (([sc.camera calculateCameraAnimationWithFrame:animFrame] || worldMoved || (animFrame == 0))) {// && [self shouldRenderFrame]) {
                         printf("%d atoms, %d scene lights...", [world numModelData], [world numIntrinsicLights]);
                         modelObjectCache *newCache = [[modelObjectCache alloc] initNoOctreeWithModelObject:world camera:sc.camera sceneController:sc];
-                        NSString *fileName = [NSString stringWithFormat:@"/Users/stocklab/Documents/Callum/rt1NG/animationData/frameData_%06d.dat", animFrame];
+                        NSString *fileName = [NSString stringWithFormat:[outputBase stringByAppendingString:@"animationData/frameData_%06d.dat"], animFrame];
                         [newCache writeToFile:fileName];
                         printf("saved\n");
                     }
