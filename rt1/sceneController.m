@@ -105,7 +105,7 @@
         axis.y = 1;
         axis.z = 0;
         modelObject *protein = [world getChildWithName:@"protein"];
-        [protein animateRotationAroundAxis:axis byAnglePerFrame:1 * radiansPerDegree];
+        [protein animateRotationAroundAxis:axis byAnglePerFrame:0.5 * radiansPerDegree];
     }
     
 }
