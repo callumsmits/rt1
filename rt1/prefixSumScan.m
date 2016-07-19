@@ -15,6 +15,7 @@
 #include <stdlib.h>
 #include <mach/mach_time.h>
 #include <math.h>
+#include "globalSettings.h"
 
 #include <OpenCL/opencl.h>
 
@@ -449,8 +450,8 @@ int floorPow2(int n)
 - (bool)initPreScan:(cl_device_id)device queue:(cl_command_queue)queue context:(cl_context)context wgs:(int)wgs {
 //bool initPreScan(cl_device_id device, cl_command_queue queue, cl_context context, int wgs) {
     
-    const char* filename = "/Users/stocklab/Documents/Callum/rt1NG/rt1/scan_kernel.cl";
-    char *source = LoadProgramSourceFromFile(filename);
+    NSString *clRootPath = @kRenderCLKernelsPath;
+    char *source = LoadProgramSourceFromFile([[clRootPath stringByAppendingString:@"scan_kernel.cl"] cStringUsingEncoding:NSUTF8StringEncoding]);
     if(!source)
     {
         printf("Error: Failed to load compute program from file!\n");

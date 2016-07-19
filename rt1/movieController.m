@@ -43,7 +43,8 @@
     totalFrames = nf;
     frameSize = s;
     m = [[movie alloc] init];
-    [m setupProResVideoWithPath:@"/Users/stocklab/Documents/Callum/rt1NG/output.mov" withSize:frameSize];
+    NSString *outputBase = @kRenderOutputRoot;
+    [m setupProResVideoWithPath:[outputBase stringByAppendingString:@"output.mov"] withSize:frameSize];
     
     r = [[renderManager alloc] initWithImageSize:frameSize];
     r.camera = sc.camera;
@@ -66,7 +67,7 @@
             }
             if (([sc.camera calculateCameraAnimationWithFrame:animFrame] || worldMoved || (animFrame == 0)) && [self shouldRenderFrame]) {
                 printf("Rendering Frame: %d/%d (%.1f%%), %d atoms, %d scene lights...", animFrame, totalFrames, (float)animFrame / (float)totalFrames * 100, [world numModelData], [world numIntrinsicLights]);
-                [world logModelData];
+//                [world logModelData];
                 [r loadModelDataFromWorld:world];
                 [r renderImage];
             }

@@ -181,12 +181,14 @@ load_program_source(const char *filename)
     // Load the compute program from disk into a cstring buffer
     //
     char *source;
-    if (runningOnGPU) {
-        source = load_program_source("/Users/stocklab/Documents/Callum/rt1NG/rt1/rt_splitKernel.cl");
-    } else {
+//    if (runningOnGPU) {
+//        source = load_program_source("/Users/stocklab/Documents/Callum/rt1NG/rt1/rt_splitKernel.cl");
+    NSString *clRootPath = @kRenderCLKernelsPath;
+    source = load_program_source([[clRootPath stringByAppendingString:@"rt_splitKernel.cl"] cStringUsingEncoding:NSUTF8StringEncoding]);
+//    } else {
 //        source = load_program_source("/Users/stocklab/Documents/Callum/rt1NG/rt1/rt_kernel.cl");
-        source = load_program_source("/Users/stocklab/Documents/Callum/rt1NG/rt1/rt_splitKernel.cl");
-    }
+//        source = load_program_source("/Users/stocklab/Documents/Callum/rt1NG/rt1/rt_splitKernel.cl");
+//    }
     
     if(!source)
     {

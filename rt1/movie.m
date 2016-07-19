@@ -345,7 +345,9 @@
     
     //Finish the session:
     [videoWriterInput markAsFinished];
-    [videoWriter finishWriting];
+    [videoWriter finishWritingWithCompletionHandler:^{
+        
+    }];
     NSLog(@"Movie Ended");
     
 }

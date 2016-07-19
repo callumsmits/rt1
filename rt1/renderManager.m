@@ -115,7 +115,15 @@
         cl_uint numDevices;
         cl_device_id device_id[kMaxNumDevices];
         
-        err = clGetDeviceIDs(NULL, CL_DEVICE_TYPE_GPU, kMaxNumDevices, device_id, &numDevices);
+        cl_int computeDeviceType;
+        
+        if (kMonolithicUseGPU == 1) {
+            computeDeviceType = CL_DEVICE_TYPE_GPU;
+        } else {
+            computeDeviceType = CL_DEVICE_TYPE_CPU;
+        }
+        
+        err = clGetDeviceIDs(NULL, computeDeviceType, kMaxNumDevices, device_id, &numDevices);
         if (err != CL_SUCCESS)
         {
             printf("Error: Failed to get a device list!\n");
@@ -676,8 +684,9 @@
 }
 
 - (void)saveImage {
+    NSString *outputBase = @kRenderOutputRoot;
     NSData *imageData = [NSData dataWithBytes:pixelsOut length:renderSize.width * renderSize.height * 4];
-    [imageData writeToFile:@"/Users/stocklab/Documents/Callum/rt1NG/output.dat" atomically:YES];
+    [imageData writeToFile:[outputBase stringByAppendingString:@"output.dat"] atomically:YES];
     static int imageNum = 0;
     NSBitmapImageRep *repGen = [[NSBitmapImageRep alloc]
                              initWithBitmapDataPlanes: nil  // allocate the pixel buffer for us
@@ -708,8 +717,8 @@
     
     NSDictionary *options = [NSDictionary dictionaryWithObject:[NSNumber numberWithBool:NO] forKey:NSImageInterlaced];
     NSData *pngRep = [rep representationUsingType:NSPNGFileType properties:options];
-    [pngRep writeToFile:@"/Users/stocklab/Documents/Callum/rt1NG/output.png" atomically:YES];
-    NSString *imageSeqName = [NSString stringWithFormat:@"/Users/stocklab/Documents/Callum/rt1NG/images/output_%06d.png", imageNum];
+    [pngRep writeToFile:[outputBase stringByAppendingString:@"output.png"] atomically:YES];
+    NSString *imageSeqName = [NSString stringWithFormat:[outputBase stringByAppendingString:@"images/output_%06d.png"], imageNum];
     [pngRep writeToFile:imageSeqName atomically:YES];
     imageNum++;
 }
