@@ -75,7 +75,7 @@
                             forKey:AVVideoYCbCrMatrixKey];
     
     self.videoWriter = [[AVAssetWriter alloc] initWithURL:
-                        [NSURL fileURLWithPath:path] fileType:AVFileTypeQuickTimeMovie
+                        [NSURL fileURLWithPath:path] fileType:kMovieOutputFileType
                                                     error:&error];
     NSParameterAssert(videoWriter);
     
@@ -353,9 +353,7 @@
     
     //Finish the session:
     [videoWriterInput markAsFinished];
-    [videoWriter finishWritingWithCompletionHandler:^{
-        
-    }];
+    [videoWriter finishWriting];
     NSLog(@"Movie Ended");
     
 }

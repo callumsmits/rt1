@@ -55,7 +55,7 @@
     [newWorld addChildModel:protein];
     [newWorld setName:@"protein" forChild:protein];
     
-    [newWorld enableWobbleWithMaxRadius:1.0 changeVectorSize:0.5];
+    [newWorld enableWobbleWithMaxRadius:0.6 changeVectorSize:0.2];
     
     NSLog(@"Finished");
     
