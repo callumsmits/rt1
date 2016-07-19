@@ -1,5 +1,13 @@
 #rt1 - software to make and render molecular movie animations
-rt1 is designed to make and render molecular movie animations. The software provides a framework allowing you to load and manipulate pdb files to easily generate movies. The software scales to generating and rendering scenes containing millions of atoms using GPUs to accelerate the rendering.
+rt1 is designed to make and render molecular movie animations. The software provides a framework allowing you to load pdb files and easily generate atomic simulations rendered directly to movies. The software scales to generating and rendering scenes containing millions of atoms. It is multi-threaded and uses OpenCL on either GPUs or CPUs to accelerate the rendering. It will also automatically use multiple GPUs to further accelerate rendering.
+
+#Features
+- Generate and animate complex atomic simulations
+- Morph between states of a multi-state PDB file
+- Multi-threaded and uses OpenCL on multiple GPUs to accelerate rendering
+- Built-in ray tracer that can directly render movies
+- Can output to Apple Pro-res including alpha-channel for easy compositing
+- Ability to have atoms with intrisic (ie internal) lights, scaling to thousands of light sources
 
 #Examples
 - [ATPase top view with selective clip plane](https://youtu.be/b2W7l0rWg0w)
