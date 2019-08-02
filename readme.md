@@ -21,3 +21,6 @@ rt1 is designed to make and render molecular movie animations. The software prov
 - A Mac with a reasonable GPU (high-end iMac or Mac Pro) running macOS 10.9 or later
 
 Just clone this repository and load the project in XCode. The initial configuration is an empty scene, but please look at the code in the examples directory to get started.
+
+##Review
+- Best movies made for science ever!!! Ana, 02/08/2019
